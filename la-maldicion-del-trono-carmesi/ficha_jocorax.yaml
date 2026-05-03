@@ -1,0 +1,209 @@
+personaje:
+  identidad:
+    nombre: Jocorax
+    raza: Cuervo
+    tipo: Bestia mágica
+    tamano: Tiny
+    alineamiento: Neutral
+
+  familiar:
+    categoria: Familiar arcano estándar
+    amo:
+      nombre: Netheros
+      clase: Mago
+      nivel_efectivo: 9
+      puntos_de_golpe_totales: 66
+    reglas_base:
+      hd_efectivos_para_efectos: 9
+      puntos_de_golpe: "La mitad de los PG totales del amo, redondeando hacia abajo."
+      ataque_base: "Usa el BBA del amo."
+      salvaciones: "Usa la mejor base entre el familiar y el amo."
+      habilidades: "Usa los rangos del amo o del animal base, los que sean mejores."
+      armadura_natural_ajustada: 5
+      inteligencia_actual: 10
+      idioma_elegido_de_cuervo: Aurano
+    beneficios_para_el_amo:
+      - nombre: Alerta
+        descripcion: "Mientras Jocorax esté al alcance del brazo, Netheros gana Alerta."
+      - nombre: Cuervo familiar
+        descripcion: "Netheros obtiene un bonificador +3 a Tasación."
+
+  atributos:
+    fuerza:
+      valor: 2
+      modificador: -4
+    destreza:
+      valor: 15
+      modificador: 2
+    constitucion:
+      valor: 8
+      modificador: -1
+    inteligencia:
+      valor: 10
+      modificador: 0
+    sabiduria:
+      valor: 15
+      modificador: 2
+    carisma:
+      valor: 7
+      modificador: -2
+
+  combate:
+    puntos_de_golpe:
+      total: 33
+      fuente: "1/2 de los 66 PG totales de Netheros."
+    iniciativa:
+      total: 2
+    ataque_base: 4
+    clase_de_armadura:
+      base: 10
+      bonificadores:
+        destreza: 2
+        tamano: 2
+        natural: 5
+      total: 19
+      toque: 14
+      desprevenido: 17
+    ataques_naturales:
+      - nombre: Mordisco
+        bonificador_ataque: 8
+        dano: "1d3-4"
+        bonificadores:
+          destreza: 2
+          tamano: 2
+    movimiento:
+      terrestre: "10 pies"
+      vuelo:
+        velocidad: "40 pies"
+        maniobrabilidad: regular
+    espacio_y_alcance:
+      espacio: "2,5 pies"
+      alcance: "0 pies"
+    maniobras:
+      bmc: 4
+      dmc: 10
+
+  salvaciones:
+    fortaleza:
+      base: 3
+      atributo:
+        nombre: constitucion
+        modificador: -1
+      bonificadores: {}
+      total: 2
+    reflejos:
+      base: 3
+      atributo:
+        nombre: destreza
+        modificador: 2
+      bonificadores: {}
+      total: 5
+    voluntad:
+      base: 6
+      atributo:
+        nombre: sabiduria
+        modificador: 2
+      bonificadores: {}
+      total: 8
+
+  dotes_y_capacidades_de_familiar:
+    - nombre: Soltura con habilidad (Percepción)
+      tipo: dote base del cuervo
+      descripcion: "+3 a Percepción."
+    - nombre: Sutileza con las armas
+      tipo: dote base del cuervo
+      descripcion: "Puede usar Destreza en tiradas de ataque con su mordisco."
+    - nombre: Alerta
+      tipo: beneficio al amo
+      descripcion: "Netheros gana Alerta mientras Jocorax esté al alcance del brazo."
+    - nombre: Evasión mejorada
+      tipo: capacidad de familiar
+      descripcion: "No recibe daño con una salvación de Reflejos exitosa y solo la mitad con un fallo."
+    - nombre: Compartir conjuros
+      tipo: capacidad de familiar
+      descripcion: "Netheros puede lanzar sobre Jocorax conjuros cuyo objetivo sea 'tú'."
+    - nombre: Vínculo de empatía
+      tipo: capacidad de familiar
+      descripcion: "Vínculo empático con Netheros hasta 1 milla."
+    - nombre: Transmitir conjuros de toque
+      tipo: capacidad de familiar
+      descripcion: "Puede entregar conjuros de toque de Netheros."
+    - nombre: Hablar con el amo
+      tipo: capacidad de familiar
+      descripcion: "Puede comunicarse verbalmente con Netheros."
+    - nombre: Hablar con aves
+      tipo: capacidad de familiar
+      descripcion: "Puede comunicarse con aves y criaturas similares."
+
+  aptitudes:
+    vision_en_la_penumbra:
+      tipo: sentido especial
+      descripcion: "Puede ver en condiciones de luz tenue con más claridad que un humano."
+    hablar_aurano:
+      tipo: capacidad sobrenatural de cuervo familiar
+      descripcion: "Puede hablar Aurano, el idioma elegido por Netheros."
+    cuervo_consejero:
+      tipo: beneficio al amo
+      descripcion: "Netheros obtiene un bonificador +3 a Tasación gracias a Jocorax."
+
+  equipo: []
+
+  habilidades:
+    acrobacias:
+      atributo: destreza
+      rangos: 0
+      subtotal: 0
+      bonificadores: {}
+      modificador_atributo: 2
+      total: 2
+
+    nadar:
+      atributo: destreza
+      rangos: 0
+      subtotal: 0
+      bonificadores: {}
+      modificador_atributo: 2
+      total: 2
+      notas:
+        - "Los animales pequeños de esta lista usan Destreza en lugar de Fuerza para Nadar."
+
+    percepcion:
+      atributo: sabiduria
+      rangos: 1
+      subtotal: 4
+      bonificadores:
+        soltura_con_habilidad: 3
+      modificador_atributo: 2
+      total: 9
+
+    sigilo:
+      atributo: destreza
+      rangos: 0
+      subtotal: 0
+      bonificadores:
+        tamano: 8
+      modificador_atributo: 2
+      total: 10
+
+    trepar:
+      atributo: destreza
+      rangos: 0
+      subtotal: 0
+      bonificadores: {}
+      modificador_atributo: 2
+      total: 2
+      notas:
+        - "Los animales pequeños de esta lista usan Destreza en lugar de Fuerza para Trepar."
+
+    volar:
+      atributo: destreza
+      rangos: 3
+      subtotal: 6
+      bonificadores:
+        tamano: 4
+        maniobrabilidad: 0
+      modificador_atributo: 2
+      total: 12
+
+  idiomas:
+    - Aurano
