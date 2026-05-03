@@ -3,7 +3,7 @@ personaje:
     nombre: Jocorax
     raza: Cuervo
     tipo: Bestia mágica
-    tamano: Tiny
+    tamano: Menudo
     alineamiento: Neutral
 
   familiar:
@@ -141,7 +141,7 @@ personaje:
       descripcion: "Puede ver en condiciones de luz tenue con más claridad que un humano."
     hablar_aurano:
       tipo: capacidad sobrenatural de cuervo familiar
-      descripcion: "Puede hablar Aurano, el idioma elegido por Netheros."
+      descripcion: "Puede hablar Aurano, el idioma elegido por Netheros. No habla Común por defecto."
     cuervo_consejero:
       tipo: beneficio al amo
       descripcion: "Netheros obtiene un bonificador +3 a Tasación gracias a Jocorax."
