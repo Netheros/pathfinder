@@ -1,318 +1,379 @@
 personaje:
-  nombre: Netheros
-  raza: Humano
-  clase: Mago
-  nivel: 9
-  alineamiento: Neutral Maligno
+  identidad:
+    nombre: Netheros
+    raza: Humano
+    alineamiento: Neutral Maligno
 
-mago:
-  nivel_lanzador: 9
-  escuela: Conjuración
-  subescuela: Teletransporte
-  escuelas_opuestas:
-    - Adivinación
-    - Encantamiento
+  clase:
+    nombre: Mago
+    nivel: 9
+    nivel_lanzador: 9
+    especializacion:
+      escuela: Conjuración
+      subescuela: Teletransporte
+      escuelas_opuestas:
+        - Adivinación
+        - Encantamiento
 
-atributos:
-  fuerza: {valor: 7, mod: -2}
-  destreza: {valor: 14, mod: 2}
-  constitucion: {valor: 14, mod: 2}
-  inteligencia: {valor: 24, mod: 7}
-  sabiduria: {valor: 10, mod: 0}
-  carisma: {valor: 7, mod: -2}
+  atributos:
+    fuerza:
+      valor: 7
+      modificador: -2
+    destreza:
+      valor: 14
+      modificador: 2
+    constitucion:
+      valor: 14
+      modificador: 2
+    inteligencia:
+      valor: 24
+      modificador: 7
+    sabiduria:
+      valor: 10
+      modificador: 0
+    carisma:
+      valor: 7
+      modificador: -2
 
-combate:
-  pg: 66
-  iniciativa: 6
-  ataque_base: 4
-  ca:
-    base: 10
-    desglose:
-      destreza: 2
-      natural: 1
-      desvio: 1
-    normal: 14
-    toque: 13
-    desprevenido: 12
+  combate:
+    puntos_de_golpe:
+      total: 66
+    iniciativa:
+      total: 6
+    ataque_base: 4
+    clase_de_armadura:
+      base: 10
+      bonificadores:
+        destreza: 2
+        natural: 1
+        desvio: 1
+      total: 14
+      toque: 13
+      desprevenido: 12
+    maniobras:
+      bmc: 2
+      dmc: 14
 
-salvaciones:
-  fortaleza:
-    base: 3
-    atributo: 2
-    objetos: 2
-    total: 7
-  reflejos:
-    base: 3
-    atributo: 2
-    objetos: 2
-    total: 7
-  voluntad:
-    base: 6
-    atributo: 0
-    objetos: 2
-    total: 8
-  fuente_objetos:
-    - Capa de resistencia +2
+  salvaciones:
+    bonificadores_comunes:
+      objetos:
+        total: 2
+        fuentes:
+          - Capa de resistencia +2
+    fortaleza:
+      base: 3
+      atributo:
+        nombre: constitucion
+        modificador: 2
+      bonificadores:
+        objetos: 2
+      total: 7
+    reflejos:
+      base: 3
+      atributo:
+        nombre: destreza
+        modificador: 2
+      bonificadores:
+        objetos: 2
+      total: 7
+    voluntad:
+      base: 6
+      atributo:
+        nombre: sabiduria
+        modificador: 0
+      bonificadores:
+        objetos: 2
+      total: 8
 
-lanzamiento_conjuros:
-  atributo_clave: inteligencia
-  modificador: 7
-  CDs_base:
-    nivel_0: 17
-    nivel_1: 18
-    nivel_2: 19
-    nivel_3: 20
-    nivel_4: 21
-    nivel_5: 22
-  CDs_conjuracion:
-    nivel_0: 18
-    nivel_1: 19
-    nivel_2: 20
-    nivel_3: 21
-    nivel_4: 22
-    nivel_5: 23
+  lanzamiento_de_conjuros:
+    atributo_clave:
+      nombre: inteligencia
+      modificador: 7
+    dificultad_salvacion:
+      base_por_nivel:
+        nivel_0: 17
+        nivel_1: 18
+        nivel_2: 19
+        nivel_3: 20
+        nivel_4: 21
+        nivel_5: 22
+      conjuracion_por_nivel:
+        nivel_0: 18
+        nivel_1: 19
+        nivel_2: 20
+        nivel_3: 21
+        nivel_4: 22
+        nivel_5: 23
+    espacios_por_nivel:
+      nivel_0: 4
+      nivel_1: 7
+      nivel_2: 7
+      nivel_3: 6
+      nivel_4: 4
+      nivel_5: 3
 
-espacios_conjuros:
-  nivel_0: 4
-  nivel_1: 7
-  nivel_2: 7
-  nivel_3: 6
-  nivel_4: 4
-  nivel_5: 3
+  dotes_y_capacidades_de_clase:
+    - nombre: Escuela de magia (Conjuración)
+      descripcion: "Conjuro adicional preparado por nivel de conjuro de conjuración."
+    - nombre: Escuelas opuestas
+      descripcion: "Adivinación y Encantamiento cuestan 2 espacios."
+    - nombre: Inscribir pergamino
+      descripcion: "Crear pergaminos de conjuros conocidos."
+    - nombre: Dureza
+      descripcion: "+3 PG +1 PG por nivel."
+    - nombre: Iniciativa mejorada
+      descripcion: "+4 iniciativa."
+    - nombre: Escuela especialista (Teletransporte)
+      descripcion: "Otorga poderes de desplazamiento."
+    - nombre: Alerta
+      descripcion: "+2 Percepción y Averiguar Intenciones (familiar cuervo)."
+    - nombre: Estudiante veloz
+      descripcion: "Reduce tiempo de copia de conjuros."
+    - nombre: Conjuros penetrantes
+      descripcion: "+2 vs resistencia a conjuros."
+    - nombre: Conjuros penetrantes mayores
+      descripcion: "+4 total vs resistencia a conjuros."
+    - nombre: Conjurar en combate
+      descripcion: "+4 concentración defensiva."
+    - nombre: Soltura con escuela (Conjuración)
+      descripcion: "+1 CD conjuros de conjuración."
 
-maniobras:
-  BMC: 2
-  DMC: 14
+  aptitudes:
+    encantamiento_del_convocador:
+      tipo: capacidad de clase (Conjuración)
+      descripcion: >
+        Los conjuros de convocación (subescuela de conjuración) que lanzas tienen
+        una duración aumentada. Añades 1/2 de tu nivel de mago en asaltos
+        adicionales a la duración base del conjuro.
+      valores_actuales:
+        duracion_adicional: "+4 asaltos"
 
-dotes_y_clase:
-  - nombre: Escuela de magia (Conjuración)
-    descripcion: "Conjuro adicional preparado por nivel de conjuro de conjuración."
-  - nombre: Escuelas opuestas
-    descripcion: "Adivinación y Encantamiento cuestan 2 espacios."
-  - nombre: Inscribir pergamino
-    descripcion: "Crear pergaminos de conjuros conocidos."
-  - nombre: Dureza
-    descripcion: "+3 PG +1 PG por nivel."
-  - nombre: Iniciativa mejorada
-    descripcion: "+4 iniciativa."
-  - nombre: Escuela especialista (Teletransporte)
-    descripcion: "Otorga poderes de desplazamiento."
-  - nombre: Alerta
-    descripcion: "+2 Percepción y Averiguar Intenciones (familiar cuervo)."
-  - nombre: Estudiante veloz
-    descripcion: "Reduce tiempo de copia de conjuros."
-  - nombre: Conjuros penetrantes
-    descripcion: "+2 vs resistencia a conjuros."
-  - nombre: Conjuros penetrantes mayores
-    descripcion: "+4 total vs resistencia a conjuros."
-  - nombre: Conjurar en combate
-    descripcion: "+4 concentración defensiva."
-  - nombre: Soltura con escuela (Conjuración)
-    descripcion: "+1 CD conjuros de conjuración."
+    desplazamiento:
+      tipo: poder de escuela (Teletransporte)
+      uso:
+        accion: rápida
+        usos_por_dia: 10
+      alcance:
+        formula: "5 pies por cada 2 niveles"
+        actual: "20 pies"
+      descripcion: >
+        Puedes teletransportarte instantáneamente a un punto visible dentro del
+        alcance. Este movimiento no provoca ataques de oportunidad. Debes tener
+        línea de visión y línea de efecto hacia el destino.
 
-aptitudes:
-  encantamiento_del_convocador:
-    tipo: capacidad de clase (Conjuración)
-    descripcion: >
-      Los conjuros de convocación (subescuela de conjuración) que lanzas tienen una duración aumentada.
-      Añades 1/2 de tu nivel de mago en asaltos adicionales a la duración base del conjuro.
-    nivel_actual: "+4 asaltos"
+    paso_dimensional:
+      tipo: poder de escuela (Teletransporte)
+      uso:
+        accion: rápida
+        usos_por_dia: 1
+      alcance:
+        formula: "30 pies por nivel"
+        actual: "270 pies"
+      descripcion: >
+        Puedes teletransportarte como si lanzaras dimension door. Este
+        desplazamiento no provoca ataques de oportunidad. Tras usar esta
+        habilidad, no puedes realizar más acciones hasta tu siguiente turno,
+        igual que con el conjuro dimension door.
 
-  desplazamiento:
-    tipo: poder de escuela (Teletransporte)
-    accion: rápida
-    alcance: "5 pies por cada 2 niveles"
-    distancia_actual: "20 pies"
-    usos_dia: 10
-    descripcion: >
-      Puedes teletransportarte instantáneamente a un punto visible dentro del alcance.
-      Este movimiento no provoca ataques de oportunidad.
-      Debes tener línea de visión y línea de efecto hacia el destino.
+    heroe_de_korvosa:
+      tipo: rasgo de campaña
+      descripcion: >
+        Obtienes un bonificador +2 a las pruebas de Intimidar, Engañar y
+        Diplomacia.
 
-  paso_dimensional:
-    tipo: poder de escuela (Teletransporte)
-    accion: rápida
-    alcance: "30 pies por nivel"
-    distancia_actual: "270 pies"
-    usos_dia: 1
-    descripcion: >
-      Puedes teletransportarte como si lanzaras dimension door.
-      Este desplazamiento no provoca ataques de oportunidad.
-      Tras usar esta habilidad, no puedes realizar más acciones hasta tu siguiente turno,
-      igual que con el conjuro dimension door.
+  equipo:
+    - nombre: Capa de resistencia +2
+      efecto: "+2 a todas las salvaciones"
+    - nombre: Amuleto de armadura natural +1
+      efecto: "+1 CA natural"
+    - nombre: Anillo de protección +1
+      efecto: "+1 CA desvío"
+    - nombre: Anillo de sustento
+      efecto: "No necesita comer/beber y descansa en 2h"
+    - nombre: Máscara de la peste
+      efecto: >
+        +2 a salvaciones contra enfermedad y mareo. Inmunidad al virus de la
+        sangre. Alineamiento indetectable.
+    - nombre: Diadema de vasto intelecto +2
+      efecto: "+2 INT"
+    - nombre: Cetro de las maravillas
+      efecto: "Efecto aleatorio"
+    - nombre: Tomo de pensamiento claro +1
+      efecto: "+1 INT permanente"
 
-  heroe_de_korvosa:
-    tipo: rasgo de campaña
-    descripcion: >
-      Obtienes un bonificador +2 a las pruebas de Intimidar, Engañar y Diplomacia.
+  habilidades:
+    artesania_escultura:
+      atributo: inteligencia
+      rangos: 5
+      subtotal: 8
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 15
 
-equipo:
-  - nombre: Capa de resistencia +2
-    efecto: "+2 a todas las salvaciones"
-  - nombre: Amuleto de armadura natural +1
-    efecto: "+1 CA natural"
-  - nombre: Anillo de protección +1
-    efecto: "+1 CA desvío"
-  - nombre: Anillo de sustento
-    efecto: "No necesita comer/beber y descansa en 2h"
-  - nombre: Máscara de la peste
-    efecto: >
-      +2 a salvaciones contra enfermedad y mareo.
-      Inmunidad al virus de la sangre.
-      Alineamiento indetectable.
-  - nombre: Diadema de vasto intelecto +2
-    efecto: "+2 INT"
-  - nombre: Cetro de las maravillas
-    efecto: "Efecto aleatorio"
-  - nombre: Tomo de pensamiento claro +1
-    efecto: "+1 INT permanente"
+    averiguar_intenciones:
+      atributo: sabiduria
+      subtotal: 2
+      bonificadores:
+        dote_alerta: 2
+      modificador_atributo: 0
+      total: 2
 
-habilidades:
-  artesania_escultura:
-    atributo: inteligencia
-    rangos: 8
-    modificador_atributo: 7
-    modificador_total: 15
+    conocimiento_de_conjuros:
+      atributo: inteligencia
+      rangos: 9
+      subtotal: 12
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 19
 
-  averiguar_intenciones:
-    atributo: sabiduria
-    bonus_dote_alerta: 2
-    modificador_atributo: 0
-    modificador_total: 2
+    linguistica:
+      atributo: inteligencia
+      rangos: 7
+      subtotal: 10
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 17
 
-  conocimiento_de_conjuros:
-    atributo: inteligencia
-    rangos: 9
-    clase: 3
-    subtotal_sin_atributo: 12
-    modificador_atributo: 7
-    modificador_total: 19
+    montar:
+      atributo: destreza
+      rangos: 2
+      subtotal: 2
+      bonificadores: {}
+      modificador_atributo: 2
+      total: 4
 
-  linguistica:
-    atributo: inteligencia
-    rangos: 7
-    clase: 3
-    subtotal_sin_atributo: 10
-    modificador_atributo: 7
-    modificador_total: 17
+    percepcion:
+      atributo: sabiduria
+      subtotal: 2
+      bonificadores:
+        dote_alerta: 2
+      modificador_atributo: 0
+      total: 2
 
-  montar:
-    atributo: destreza
-    rangos: 2
-    modificador_atributo: 2
-    modificador_total: 4
+    saber_arcano:
+      atributo: inteligencia
+      rangos: 9
+      subtotal: 12
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 19
 
-  percepcion:
-    atributo: sabiduria
-    bonus_dote_alerta: 2
-    modificador_atributo: 0
-    modificador_total: 2
+    saber_dungeons:
+      atributo: inteligencia
+      rangos: 2
+      subtotal: 5
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 12
 
-  saber_arcano:
-    atributo: inteligencia
-    rangos: 9
-    clase: 3
-    subtotal_sin_atributo: 12
-    modificador_atributo: 7
-    modificador_total: 19
+    saber_geografia:
+      atributo: inteligencia
+      rangos: 2
+      subtotal: 5
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 12
 
-  saber_dungeons:
-    atributo: inteligencia
-    rangos: 2
-    clase: 3
-    subtotal_sin_atributo: 5
-    modificador_atributo: 7
-    modificador_total: 12
+    saber_historia:
+      atributo: inteligencia
+      rangos: 6
+      subtotal: 9
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 16
 
-  saber_geografia:
-    atributo: inteligencia
-    rangos: 2
-    clase: 3
-    subtotal_sin_atributo: 5
-    modificador_atributo: 7
-    modificador_total: 12
+    saber_ingenieria:
+      atributo: inteligencia
+      subtotal: 8
+      bonificadores:
+        circunstancial: 8
+      modificador_atributo: 7
+      total: 15
+      notas:
+        - El bonificador circunstancial de +8 procede del YAML previo.
+        - El usuario indicó que su origen no está apuntado en la ficha física.
 
-  saber_historia:
-    atributo: inteligencia
-    rangos: 6
-    clase: 3
-    subtotal_sin_atributo: 9
-    modificador_atributo: 7
-    modificador_total: 16
+    saber_local:
+      atributo: inteligencia
+      rangos: 1
+      subtotal: 4
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 11
 
-  saber_ingenieria:
-    atributo: inteligencia
-    bonus_circunstancial: 8
-    modificador_atributo: 7
-    modificador_total: 15
+    saber_los_planos:
+      atributo: inteligencia
+      rangos: 8
+      subtotal: 11
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 18
 
-  saber_local:
-    atributo: inteligencia
-    rangos: 1
-    clase: 3
-    subtotal_sin_atributo: 4
-    modificador_atributo: 7
-    modificador_total: 11
+    saber_naturaleza:
+      atributo: inteligencia
+      rangos: 8
+      subtotal: 11
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 18
 
-  saber_los_planos:
-    atributo: inteligencia
-    rangos: 8
-    clase: 3
-    subtotal_sin_atributo: 11
-    modificador_atributo: 7
-    modificador_total: 18
+    saber_nobleza:
+      atributo: inteligencia
+      rangos: 8
+      subtotal: 11
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 18
 
-  saber_naturaleza:
-    atributo: inteligencia
-    rangos: 8
-    clase: 3
-    subtotal_sin_atributo: 11
-    modificador_atributo: 7
-    modificador_total: 18
+    saber_religion:
+      atributo: inteligencia
+      rangos: 8
+      subtotal: 11
+      bonificadores:
+        clase: 3
+      modificador_atributo: 7
+      total: 18
 
-  saber_nobleza:
-    atributo: inteligencia
-    rangos: 8
-    clase: 3
-    subtotal_sin_atributo: 11
-    modificador_atributo: 7
-    modificador_total: 18
+    tasacion:
+      atributo: inteligencia
+      rangos: 3
+      subtotal: 9
+      bonificadores:
+        clase: 3
+        familiar_cuervo: 3
+      modificador_atributo: 7
+      total: 16
 
-  saber_religion:
-    atributo: inteligencia
-    rangos: 8
-    clase: 3
-    subtotal_sin_atributo: 11
-    modificador_atributo: 7
-    modificador_total: 18
+    volar:
+      atributo: destreza
+      rangos: 3
+      subtotal: 6
+      bonificadores:
+        clase: 3
+      modificador_atributo: 2
+      total: 8
 
-  tasacion:
-    atributo: inteligencia
-    rangos: 3
-    clase: 3
-    bonus_familiar_cuervo: 3
-    subtotal_sin_atributo: 9
-    modificador_atributo: 7
-    modificador_total: 16
-
-  volar:
-    atributo: destreza
-    rangos: 3
-    clase: 3
-    subtotal_sin_atributo: 6
-    modificador_atributo: 2
-    modificador_total: 8
-
-idiomas:
-  - Celestial
-  - Infernal
-  - Abisal
-  - Diacrónico
-  - Aurano
-  - Gnomo
-  - Elfo
-  - Orco
-  - Aklo
-  - Enano
-  - Infracomún
-  - Silvano
+  idiomas:
+    - Celestial
+    - Infernal
+    - Abisal
+    - Diacrónico
+    - Aurano
+    - Gnomo
+    - Elfo
+    - Orco
+    - Aklo
+    - Enano
+    - Infracomún
+    - Silvano
