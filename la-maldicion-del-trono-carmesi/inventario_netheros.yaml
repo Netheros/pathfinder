@@ -1,0 +1,138 @@
+inventario:
+  riqueza:
+    pp: 0
+    po: 8900
+    pa: 0
+    pc: 0
+
+  consumibles:
+    - nombre: Tintero
+      cantidad: 1
+      ubicacion: mochila
+
+    - nombre: Pergamino
+      cantidad: 10
+      ubicacion: mochila
+
+    - nombre: Pergamino de causar miedo
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 1."
+
+    - nombre: Pergamino de dormir
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 1."
+
+    - nombre: Bolsa de componentes
+      cantidad: 1
+      ubicacion: tunica
+
+    - nombre: Varita de proyectil magico
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+        - "Cargas 16/50."
+
+    - nombre: Dosis de escalofrio
+      cantidad: 6
+      ubicacion: mochila
+      notas:
+        - "El escalofrio es una droga con la que se trafica en Korvosa."
+
+    - nombre: Pocion de curar heridas leves
+      cantidad: 3
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+
+    - nombre: Pocion de curar heridas moderadas
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 5."
+
+    - nombre: Pocion de curar heridas graves
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 8."
+
+    - nombre: Pergamino de comandar muertos vivientes
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+
+    - nombre: Varita de lentificar
+      cantidad: 1
+      ubicacion: mochila
+      notas:
+        - "Nivel de lanzador 5."
+        - "Cargas 13/50."
+
+    - nombre: Varita de toque de gul
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+        - "Cargas 22/59."
+
+    - nombre: Pergamino de falsa vida
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+
+    - nombre: Varita de atontar monstruo
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+        - "Cargas 49/50."
+
+    - nombre: Varita de hechizar persona
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 2."
+        - "Cargas 14/50."
+
+    - nombre: Varita de gracia felina
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+        - "Cargas 11/50."
+
+    - nombre: Pergamino de reanimar muertos
+      cantidad: 4
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 9."
+
+    - nombre: Pergamino de teletransporte
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 9."
+
+    - nombre: Pocion de invisibilidad
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+
+    - nombre: Pocion de restablecimiento menor
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 3."
+
+  objetos_varios:
+    - nombre: Libro de conjuros de Rolth
+      cantidad: 1
+      ubicacion: casa
