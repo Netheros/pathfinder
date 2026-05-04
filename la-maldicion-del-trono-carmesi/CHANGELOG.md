@@ -40,9 +40,19 @@ Decisiones de esquema y proceso:
 - Los conjuros del `Reglamento básico` se correlacionaron contra el PDF local y se normalizaron al castellano oficial cuando fue posible.
 - Los conjuros de `Guía del jugador avanzada` y `Combate definitivo` se correlacionaron con ayuda de `RolRoyce` solo para título y normalización provisional, sin tratar esa web como fuente de verdad.
 - La pasada final de normalización dejó el grimorio sin descripciones en inglés y con los campos mecánicos principales unificados en castellano cuando fue posible.
+- Después se hizo un saneado estructural adicional para corregir errores de importación que seguían afectando al grimorio canónico y al índice derivado.
 
-Estado actual del grimorio tras la normalización:
+Correcciones relevantes del saneado estructural:
+- Se eliminaron cabeceras de conjuros adyacentes incrustadas dentro de `descripcion` en múltiples entradas importadas desde PDF.
+- Se corrigieron niveles y entradas mal importadas, en especial `Invisibilidad mayor`, `Convocar monstruo III` y `Convocar monstruo IV`.
+- Se completaron campos básicos que habían quedado vacíos o mal parseados en conjuros como `Imagen menor`, `Hechizar monstruo`, `Localizar criatura`, `Leer magia` y otros equivalentes.
+- Se recuperó la descripción faltante de `Perturbar muertos vivientes`.
+- Se normalizaron etiquetas de escuela, tiradas de salvación, resistencia a conjuros, alcances y otros campos objetivos que habían heredado fragmentos de cabeceras del libro.
+- Se creó `grimorio_netheros_indice.yaml` como índice compacto, derivado del grimorio canónico, para mejorar la recuperación de conjuros dentro de ChatGPT Projects.
+
+Estado actual del grimorio tras la normalización y el saneado estructural:
 - `127` conjuros totales.
+- Reparto por nivel: `22` de nivel `0`, `31` de nivel `1`, `34` de nivel `2`, `21` de nivel `3`, `16` de nivel `4` y `3` de nivel `5`.
 - `116` con `verificado_pdf_local`.
 - `7` con `correlacionado_rolroyce`.
 - `4` con `pendiente`.
@@ -57,9 +67,11 @@ Pendientes de validación oficial adicional:
 
 Se amplió `AGENTS.md` para reflejar:
 - la separación entre fichas, inventario y grimorio;
+- la existencia de un índice derivado del grimorio para ChatGPT Projects;
 - la lista cerrada de libros permitidos como fuente de verdad;
 - el uso de `RolRoyce` solo como ayuda auxiliar de correlación;
-- la política de no commitear PDFs locales, hojas de cálculo de migración ni artefactos temporales de trabajo.
+- la política de no commitear PDFs locales, hojas de cálculo de migración ni artefactos temporales de trabajo;
+- y la obligación de actualizar `CHANGELOG.md` y `AGENTS.md` cuando un cambio relevante lo requiera.
 
 ## 2026-05-03
 

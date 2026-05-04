@@ -15,6 +15,7 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - `ficha_netheros.yaml` y `ficha_jocorax.yaml` son las fichas operativas actuales.
 - `inventario_netheros.yaml` es el inventario operativo de Netheros para riqueza y objetos transportados.
 - `grimorio_netheros.yaml` es el grimorio operativo y canónico de Netheros.
+- `grimorio_netheros_indice.yaml` es un índice derivado y compacto del grimorio, pensado para recuperación rápida en ChatGPT Projects.
 - `CHANGELOG.md` recoge el historial significativo de correcciones, migraciones y decisiones sobre fichas, inventario y grimorio.
 - `AGENTS.md` fija las reglas de trabajo específicas de esta campaña.
 
@@ -84,6 +85,8 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - Los estados de verificación actualmente usados en esta campaña son `verificado_pdf_local`, `correlacionado_rolroyce` y `pendiente`.
 - `nombre` debe quedar en castellano cuando exista verificación oficial o correlación fiable; si no hay correlación segura, puede mantenerse temporalmente en inglés.
 - Cuando Netheros aprenda un conjuro nuevo, debe añadirse directamente al grimorio desde una fuente oficial permitida.
+- `grimorio_netheros_indice.yaml` es derivado, no canónico: debe regenerarse o actualizarse cada vez que cambie materialmente el grimorio.
+- El índice derivado debe permanecer alineado con el grimorio en cantidad total de conjuros y reparto por nivel.
 
 ## Pathfinder 1.ª edición
 
@@ -120,6 +123,7 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - `ficha_jocorax.yaml` usa el mismo enfoque, adaptado a un familiar.
 - `inventario_netheros.yaml` usa raíz `inventario`, separa `riqueza`, `consumibles` y `objetos_varios`, y deja el equipo equipado en `ficha_netheros.yaml`.
 - `grimorio_netheros.yaml` es el grimorio canónico de Netheros. Usa solo conjuros conocidos y conserva `alias_en_ingles`, `fuente` y `verificacion`.
+- `grimorio_netheros_indice.yaml` existe para facilitar consultas en ChatGPT Projects y no sustituye al grimorio canónico.
 - En familiares:
   - usar una sección `familiar` para la relación con el amo y las reglas base aplicadas;
   - separar beneficios para el amo de capacidades propias del familiar cuando aporte claridad;
@@ -132,6 +136,12 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - No commitear hojas de cálculo temporales de migración una vez volcada su información al YAML canónico.
 - No commitear documentos de especificación o plan generados para trabajo puntual, ni scripts o tests ad hoc de migración, salvo petición explícita del usuario.
 - Los ficheros canónicos de campaña deben ser los YAML y Markdown operativos de la propia campaña.
+
+## Mantenimiento documental
+
+- Cuando un cambio modifique de forma relevante una ficha, un inventario, un grimorio o un índice derivado operativo, debe actualizarse `CHANGELOG.md`.
+- Cuando un cambio establezca o altere una convención duradera de la campaña, una política de fuentes, una regla de verificación o el papel de un fichero, debe actualizarse también `AGENTS.md`.
+- Si el grimorio cambia materialmente, el índice derivado `grimorio_netheros_indice.yaml` debe revisarse o regenerarse en el mismo cambio.
 
 ## Flujo recomendado al editar
 
@@ -146,6 +156,7 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 5. Si hay una discrepancia entre papel y reglas, corregir el YAML a la versión reglada y documentar el ajuste en el changelog.
 6. Si el cambio afecta a inventario o grimorio, mantener separados el estado operativo actual y el historial de migración o revisión.
 7. Si se importa información desde una fuente auxiliar no canónica, dejar claro el estado de verificación en el YAML y en el `CHANGELOG.md` cuando el cambio sea significativo.
+8. Si el cambio altera reglas de trabajo duraderas de la campaña, actualizar `AGENTS.md` en la misma intervención.
 
 ## Verificación mínima tras cambios
 
@@ -155,6 +166,7 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - Comprobar que los totales calculados siguen siendo coherentes con sus desgloses.
 - Si se han tocado reglas de Pathfinder, revisar que la corrección esté alineada con la regla oficial aplicable.
 - En grimorios, comprobar además que `fuente.libro`, `verificacion.estado` y `alias_en_ingles` siguen siendo coherentes.
+- En grimorios con índice derivado, comprobar además que `grimorio_netheros_indice.yaml` sigue alineado con el grimorio canónico.
 - En inventarios, comprobar que el equipo equipado no se haya duplicado dentro del inventario transportado.
 
 ## Qué evitar

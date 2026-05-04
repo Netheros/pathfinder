@@ -1,0 +1,529 @@
+---
+indice_grimorio:
+  propietario: Netheros
+  fuente_canonica: grimorio_netheros.yaml
+  uso: Indice compacto para recuperacion rapida en ChatGPT Projects.
+  resumen:
+    total_conjuros: 127
+    conjuros_por_nivel:
+      nivel_0: 22
+      nivel_1: 31
+      nivel_2: 34
+      nivel_3: 21
+      nivel_4: 16
+      nivel_5: 3
+  niveles:
+    nivel_0:
+    - nombre: Abrir/cerrar
+      alias_en_ingles: Open/Close
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Atontar
+      alias_en_ingles: Daze
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Chispa
+      alias_en_ingles: Spark
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Cuchichear mensaje
+      alias_en_ingles: Message
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Detectar magia
+      alias_en_ingles: Detect Magic
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Detectar veneno
+      alias_en_ingles: Detect Poison
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Haunted Fey Aspect
+      alias_en_ingles: Haunted Fey Aspect
+      fuente: Combate definitivo
+      verificacion: pendiente
+    - nombre: Leer magia
+      alias_en_ingles: Read Magic
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Llamarada
+      alias_en_ingles: Flare
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Luces danzantes
+      alias_en_ingles: Dancing Lights
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Luz
+      alias_en_ingles: Light
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Mano del mago
+      alias_en_ingles: Mage Hand
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Marca arcana
+      alias_en_ingles: Arcane Mark
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Perturbar muertos vivientes
+      alias_en_ingles: Disrupt Undead
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Prestidigitación
+      alias_en_ingles: Prestidigitation
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Rayo de escarcha
+      alias_en_ingles: Ray of Frost
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Remendar
+      alias_en_ingles: Mending
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Resistencia
+      alias_en_ingles: Resistance
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Salpicadura de ácido
+      alias_en_ingles: Acid Splash
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Sangrar
+      alias_en_ingles: Bleed
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Sonido fantasma
+      alias_en_ingles: Ghost Sound
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Toque de fatiga
+      alias_en_ingles: Touch of Fatigue
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    nivel_1:
+    - nombre: Agrandar persona
+      alias_en_ingles: Enlarge Person
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Alarma
+      alias_en_ingles: Alarm
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Arma mágica
+      alias_en_ingles: Magic Weapon
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Armadura de mago
+      alias_en_ingles: Mage Armor
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Caída de pluma
+      alias_en_ingles: Feather Fall
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Contacto electrizante
+      alias_en_ingles: Shocking Grasp
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Detectar puertas secretas
+      alias_en_ingles: Detect Secret Doors
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Disco flotante
+      alias_en_ingles: Floating Disk
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Disfrazarse
+      alias_en_ingles: Disguise Self
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Dormir
+      alias_en_ingles: Sleep
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Escudo
+      alias_en_ingles: Shield
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Grasa
+      alias_en_ingles: Grease
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Hechizar persona
+      alias_en_ingles: Charm Person
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Hipnotismo
+      alias_en_ingles: Hypnotism
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Identificar
+      alias_en_ingles: Identify
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Ilusión de calma
+      alias_en_ingles: Illusion of Calm
+      fuente: Combate definitivo
+      verificacion: correlacionado_rolroyce
+    - nombre: Imagen silenciosa
+      alias_en_ingles: Silent Image
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Lapsus de memoria
+      alias_en_ingles: Memory Lapse
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Manos ardientes
+      alias_en_ingles: Burning Hands
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Montura
+      alias_en_ingles: Mount
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Niebla de obscurecimiento
+      alias_en_ingles: Obscuring Mist
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Protección contra el bien
+      alias_en_ingles: Protection From Good
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Protección contra el caos
+      alias_en_ingles: Protection From Chaos
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Protección contra el mal
+      alias_en_ingles: Protection From Evil
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Protección contra la ley
+      alias_en_ingles: Protection From Law
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Proyectil mágico
+      alias_en_ingles: Magic Missile
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Reacción negativa
+      alias_en_ingles: Negative Reaction
+      fuente: Combate definitivo
+      verificacion: pendiente
+    - nombre: Rociada de color
+      alias_en_ingles: Color Spray
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Sirviente invisible
+      alias_en_ingles: Unseen Servant
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Suerte del artesano
+      alias_en_ingles: Crafter's Fortune
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Ventriloquía
+      alias_en_ingles: Ventriloquism
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    nivel_2:
+    - nombre: Apertura
+      alias_en_ingles: Knock
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Aspecto animal
+      alias_en_ingles: Animal Aspect
+      fuente: Combate definitivo
+      verificacion: pendiente
+    - nombre: Ceguera/sordera
+      alias_en_ingles: Blindness/Deafness
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Cerradura arcana
+      alias_en_ingles: Arcane Lock
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Comandar muertos vivientes
+      alias_en_ingles: Command Undead
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Contorno borroso
+      alias_en_ingles: Blur
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Crear mapa del tesoro
+      alias_en_ingles: Create Treasure Map
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Detectar pensamientos
+      alias_en_ingles: Detect Thoughts
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Escalada de araña
+      alias_en_ingles: Spider Climb
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Esfera flamígera
+      alias_en_ingles: Flaming Sphere
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Espantar
+      alias_en_ingles: Scare
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Esplendor de águila
+      alias_en_ingles: Eagle's Splendor
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Falsa vida
+      alias_en_ingles: False Life
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Flecha ácida
+      alias_en_ingles: Acid Arrow
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Fuerza de toro
+      alias_en_ingles: Bull's Strength
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Gracia felina
+      alias_en_ingles: Cat's Grace
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Imagen menor
+      alias_en_ingles: Minor Image
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Imagen múltiple
+      alias_en_ingles: Mirror Image
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Inmolación espontánea
+      alias_en_ingles: Spontaneous Immolation
+      fuente: Combate definitivo
+      verificacion: pendiente
+    - nombre: Invisibilidad
+      alias_en_ingles: Invisibility
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Levitar
+      alias_en_ingles: Levitate
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Llamar a la piedra
+      alias_en_ingles: Stone Call
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Localizar objeto
+      alias_en_ingles: Locate Object
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Nube brumosa
+      alias_en_ingles: Fog Cloud
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Oscuridad
+      alias_en_ingles: Darkness
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Partículas rutilantes
+      alias_en_ingles: Glitterdust
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Rayo abrasador
+      alias_en_ingles: Scorching Ray
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Resistir energía
+      alias_en_ingles: Resist Energy
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Ráfaga de viento
+      alias_en_ingles: Gust Of Wind
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Telaraña
+      alias_en_ingles: Web
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Terribles carcajadas
+      alias_en_ingles: Hideous Laughter
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Truco de la cuerda
+      alias_en_ingles: Rope Trick
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Ver lo invisible
+      alias_en_ingles: See Invisibility
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Visión en la oscuridad
+      alias_en_ingles: Darkvision
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    nivel_3:
+    - nombre: Acelerar
+      alias_en_ingles: Haste
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Bola de fuego
+      alias_en_ingles: Fireball
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Convocar monstruo III
+      alias_en_ingles: Summon Monster III
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Corcel fantasmal
+      alias_en_ingles: Phantom Steed
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Círculo mágico contra el bien
+      alias_en_ingles: Magic Circle against Good
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Círculo mágico contra el caos
+      alias_en_ingles: Magic Circle against Chaos
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Círculo mágico contra el mal
+      alias_en_ingles: Magic Circle against Evil
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Círculo mágico contra la ley
+      alias_en_ingles: Magic Circle against Law
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Desplazamiento
+      alias_en_ingles: Displacement
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Disipar magia
+      alias_en_ingles: Dispel Magic
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Don de lenguas
+      alias_en_ingles: Tongues
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Encoger objeto
+      alias_en_ingles: Shrink Item
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Heroísmo
+      alias_en_ingles: Heroism
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Lentificar
+      alias_en_ingles: Slow
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Nube apestosa
+      alias_en_ingles: Stinking Cloud
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Protección contra la energía
+      alias_en_ingles: Protection from Energy
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Rayo relampagueante
+      alias_en_ingles: Lightning Bolt
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Respiración acuática
+      alias_en_ingles: Water Breathing
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Sondear pensamientos
+      alias_en_ingles: Seek Thoughts
+      fuente: Guía del jugador avanzada
+      verificacion: correlacionado_rolroyce
+    - nombre: Tormenta de aguanieve
+      alias_en_ingles: Sleet Storm
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Volar
+      alias_en_ingles: Fly
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    nivel_4:
+    - nombre: Ancla dimensional
+      alias_en_ingles: Dimensional Anchor
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Asesino fantasmal
+      alias_en_ingles: Phantasmal Killer
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Confusión
+      alias_en_ingles: Confusion
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Convocar monstruo IV
+      alias_en_ingles: Summon Monster IV
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Enervación
+      alias_en_ingles: Enervation
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Escudriñamiento
+      alias_en_ingles: Scrying
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Esfera elástica
+      alias_en_ingles: Resilient Sphere
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Hechizar monstruo
+      alias_en_ingles: Charm Monster
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Invisibilidad mayor
+      alias_en_ingles: Invisibility, Greater
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Localizar criatura
+      alias_en_ingles: Locate Creature
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Miedo
+      alias_en_ingles: Fear
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Muro de fuego
+      alias_en_ingles: Wall Of Fire
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Muro de hielo
+      alias_en_ingles: Wall Of Ice
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Ojo arcano
+      alias_en_ingles: Arcane Eye
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Puerta dimensional
+      alias_en_ingles: Dimension Door
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Tentáculos negros
+      alias_en_ingles: Black Tentacles
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    nivel_5:
+    - nombre: Nube aniquiladora
+      alias_en_ingles: Cloudkill
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Teletransportar
+      alias_en_ingles: Teleport
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Transmigración
+      alias_en_ingles: Magic Jar
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
