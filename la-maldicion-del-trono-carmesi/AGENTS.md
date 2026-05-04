@@ -10,6 +10,14 @@ No deben asumirse como reglas globales del repositorio completo. Otras campañas
 
 Un agente de IA que trabaje en este directorio debe mantener fichas, notas y documentación de campaña de forma consistente, verificable y alineada con Pathfinder 1.ª edición cuando proceda.
 
+## Artefactos canónicos de campaña
+
+- `ficha_netheros.yaml` y `ficha_jocorax.yaml` son las fichas operativas actuales.
+- `inventario_netheros.yaml` es el inventario operativo de Netheros para riqueza y objetos transportados.
+- `grimorio_netheros.yaml` es el grimorio operativo y canónico de Netheros.
+- `CHANGELOG.md` recoge el historial significativo de correcciones, migraciones y decisiones sobre fichas, inventario y grimorio.
+- `AGENTS.md` fija las reglas de trabajo específicas de esta campaña.
+
 ## Principios de trabajo
 
 - La ficha operativa actual debe vivir en YAML.
@@ -28,7 +36,7 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 
 ## Convenciones para fichas YAML
 
-- La raíz del fichero debe ser `personaje`.
+- En fichas de personaje y familiar, la raíz del fichero debe ser `personaje`.
 - Usar una estructura homogénea y estable entre fichas comparables.
 - No perder información al normalizar un fichero. Si una reestructuración mueve contenido, debe conservarse en el nuevo esquema o trasladarse explícitamente al `CHANGELOG.md`.
 - Preferir nombres de bloques como:
@@ -55,6 +63,28 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - Las listas de dotes y capacidades deben distinguir, cuando sea relevante, entre dotes base, capacidades de clase, capacidades de familiar y beneficios al amo.
 - Las unidades deben expresarse de forma legible y consistente, por ejemplo `10 pies`, `40 pies`, `20 pies`.
 
+## Convenciones para inventarios YAML
+
+- La raíz del fichero debe ser `inventario`.
+- El inventario solo recoge riqueza y objetos transportados; el equipo equipado sigue en la ficha del personaje.
+- Usar `riqueza` con totales por moneda: `pp`, `po`, `pa`, `pc`.
+- Usar listas separadas para `consumibles` y `objetos_varios`.
+- Cada objeto debe incluir `nombre`, `cantidad` y `ubicacion`.
+- `notas` debe usarse solo cuando aporte información mecánica o logística útil, y preferiblemente como lista de cadenas.
+- Las ubicaciones deben escribirse en castellano y de forma simple, por ejemplo `tunica`, `mochila` o `casa`.
+- No añadir peso, carga, valor detallado ni contenedores anidados salvo petición explícita del usuario.
+
+## Convenciones para grimorios YAML
+
+- La raíz del fichero debe ser `grimorio`.
+- El grimorio solo contiene conjuros conocidos; no guarda preparaciones diarias ni presets.
+- La lista `conjuros` debe mantenerse ordenada por `nivel` y `nombre`.
+- Cada conjuro debe conservar `alias_en_ingles` para trazabilidad con fuentes de importación o correlación.
+- Cada conjuro debe registrar datos objetivos de reglas, `fuente.libro`, `fuente.pagina` cuando pueda verificarse, y `verificacion.estado`.
+- Los estados de verificación actualmente usados en esta campaña son `verificado_pdf_local`, `correlacionado_rolroyce` y `pendiente`.
+- `nombre` debe quedar en castellano cuando exista verificación oficial o correlación fiable; si no hay correlación segura, puede mantenerse temporalmente en inglés.
+- Cuando Netheros aprenda un conjuro nuevo, debe añadirse directamente al grimorio desde una fuente oficial permitida.
+
 ## Pathfinder 1.ª edición
 
 - Cuando una ficha dependa de reglas de Pathfinder 1.ª edición, usar fuentes oficiales de esa edición para corregir o completar valores.
@@ -78,15 +108,30 @@ Solo puede usarse contenido que esté en alguno de estos libros:
 
 Todo lo que no esté en esos libros queda fuera del canon utilizable para esta campaña y no debe emplearse para completar, corregir o justificar fichas, reglas, objetos, dotes, conjuros, criaturas, capacidades o trasfondo.
 
+### Fuentes auxiliares no canónicas permitidas solo como apoyo
+
+- `RolRoyce` puede usarse únicamente como ayuda de correlación o traducción provisional de nombres de conjuros cuando el libro oficial permitido no esté disponible localmente.
+- `RolRoyce` no puede usarse como fuente de verdad de texto reglado. Si se utiliza como apoyo, el conjuro debe quedar marcado como `correlacionado_rolroyce` o `pendiente` hasta validación oficial.
+- Los PDF locales de libros permitidos pueden usarse para verificación, pero no deben añadirse al repositorio salvo petición explícita del usuario.
+
 ## Convenciones específicas ya fijadas en esta campaña
 
 - `ficha_netheros.yaml` usa un esquema normalizado y sirve como referencia principal de estilo para personajes.
 - `ficha_jocorax.yaml` usa el mismo enfoque, adaptado a un familiar.
+- `inventario_netheros.yaml` usa raíz `inventario`, separa `riqueza`, `consumibles` y `objetos_varios`, y deja el equipo equipado en `ficha_netheros.yaml`.
+- `grimorio_netheros.yaml` es el grimorio canónico de Netheros. Usa solo conjuros conocidos y conserva `alias_en_ingles`, `fuente` y `verificacion`.
 - En familiares:
   - usar una sección `familiar` para la relación con el amo y las reglas base aplicadas;
   - separar beneficios para el amo de capacidades propias del familiar cuando aporte claridad;
   - aplicar reglas oficiales aunque la ficha física original discrepe.
-- `CHANGELOG.md` de esta campaña recoge el historial de cambios significativos sobre las fichas.
+- `CHANGELOG.md` de esta campaña recoge el historial de cambios significativos sobre fichas, inventario y grimorio.
+
+## Higiene de repositorio
+
+- No commitear PDFs locales de consulta.
+- No commitear hojas de cálculo temporales de migración una vez volcada su información al YAML canónico.
+- No commitear documentos de especificación o plan generados para trabajo puntual, ni scripts o tests ad hoc de migración, salvo petición explícita del usuario.
+- Los ficheros canónicos de campaña deben ser los YAML y Markdown operativos de la propia campaña.
 
 ## Flujo recomendado al editar
 
@@ -99,13 +144,18 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 3. Mantener la ficha YAML limpia como estado actual.
 4. Mover explicaciones históricas, discrepancias y correcciones largas a `CHANGELOG.md`.
 5. Si hay una discrepancia entre papel y reglas, corregir el YAML a la versión reglada y documentar el ajuste en el changelog.
+6. Si el cambio afecta a inventario o grimorio, mantener separados el estado operativo actual y el historial de migración o revisión.
+7. Si se importa información desde una fuente auxiliar no canónica, dejar claro el estado de verificación en el YAML y en el `CHANGELOG.md` cuando el cambio sea significativo.
 
 ## Verificación mínima tras cambios
 
 - Validar que el YAML parsea correctamente.
+- Ejecutar `git diff --check` para evitar espacios sobrantes y otros problemas de formato.
 - Revisar que no se haya perdido información relevante durante la normalización.
 - Comprobar que los totales calculados siguen siendo coherentes con sus desgloses.
 - Si se han tocado reglas de Pathfinder, revisar que la corrección esté alineada con la regla oficial aplicable.
+- En grimorios, comprobar además que `fuente.libro`, `verificacion.estado` y `alias_en_ingles` siguen siendo coherentes.
+- En inventarios, comprobar que el equipo equipado no se haya duplicado dentro del inventario transportado.
 
 ## Qué evitar
 
@@ -114,3 +164,4 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - No conservar valores erróneos solo por fidelidad a la ficha física si contradicen reglas oficiales.
 - No cambiar el esquema de una ficha de forma arbitraria si rompe la consistencia con el resto de fichas de la campaña.
 - No borrar información sin reubicarla cuando una normalización requiera moverla.
+- No elevar una fuente auxiliar no canónica a fuente de verdad.

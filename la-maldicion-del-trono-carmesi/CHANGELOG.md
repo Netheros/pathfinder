@@ -1,5 +1,66 @@
 # Registro de cambios
 
+## 2026-05-04
+
+### Netheros
+
+Se normalizó `ficha_netheros.yaml` a un esquema YAML estable bajo `personaje`, que desde entonces sirve como referencia de estilo para personajes de la campaña.
+
+Detalles relevantes fijados en la normalización:
+- `Artesanía (escultura)` quedó expresada como `5` rangos + `3` por habilidad de clase.
+- `Saber (ingeniería)` conservó el `+8` heredado del YAML previo, pero quedó marcado con notas porque el usuario indicó que ese origen no aparece en la ficha física.
+
+### Inventario de Netheros
+
+Se creó `inventario_netheros.yaml` como fichero separado para riqueza y objetos transportados de Netheros.
+
+Decisiones de esquema y proceso:
+- La raíz canónica es `inventario`.
+- El fichero separa `riqueza`, `consumibles` y `objetos_varios`.
+- `ficha_netheros.yaml` conserva el equipo equipado; el inventario refleja solo mochila, túnica y otras ubicaciones explícitas.
+- La riqueza se guarda por totales de moneda (`pp`, `po`, `pa`, `pc`), no como monedas individuales por bolsa o contenedor.
+
+### Jocorax
+
+Se completó la localización al castellano de `ficha_jocorax.yaml` y de la documentación asociada.
+
+Aclaraciones dejadas ya asentadas:
+- Jocorax habla `Aurano` como idioma elegido del cuervo familiar.
+- El cuervo familiar no habla `Común` por defecto.
+- El historial de revisión reglada permanece en `CHANGELOG.md`, no dentro del YAML operativo.
+
+### Grimorio de Netheros
+
+Se generó `grimorio_netheros.yaml` como grimorio canónico de Netheros a partir de los conjuros marcados como conocidos en `SPELLBOOK.xlsx`.
+
+Decisiones de esquema y proceso:
+- `SPELLBOOK.xlsx` se usó solo como fuente de migración inicial y dejó de ser necesario después de la conversión.
+- El grimorio contiene únicamente conjuros conocidos.
+- Cada conjuro conserva `alias_en_ingles`, datos objetivos, `fuente.libro`, `fuente.pagina` cuando pudo verificarse y `verificacion.estado`.
+- Los conjuros del `Reglamento básico` se correlacionaron contra el PDF local y se normalizaron al castellano oficial cuando fue posible.
+- Los conjuros de `Guía del jugador avanzada` y `Combate definitivo` se correlacionaron con ayuda de `RolRoyce` solo para título y normalización provisional, sin tratar esa web como fuente de verdad.
+- La pasada final de normalización dejó el grimorio sin descripciones en inglés y con los campos mecánicos principales unificados en castellano cuando fue posible.
+
+Estado actual del grimorio tras la normalización:
+- `127` conjuros totales.
+- `116` con `verificado_pdf_local`.
+- `7` con `correlacionado_rolroyce`.
+- `4` con `pendiente`.
+
+Pendientes de validación oficial adicional:
+- `Haunted Fey Aspect`
+- `Negative Reaction`
+- `Animal Aspect`
+- `Spontaneous Immolation`
+
+### Directrices de campaña
+
+Se amplió `AGENTS.md` para reflejar:
+- la separación entre fichas, inventario y grimorio;
+- la lista cerrada de libros permitidos como fuente de verdad;
+- el uso de `RolRoyce` solo como ayuda auxiliar de correlación;
+- la política de no commitear PDFs locales, hojas de cálculo de migración ni artefactos temporales de trabajo.
+
 ## 2026-05-03
 
 ### Jocorax
@@ -7,8 +68,8 @@
 Se trasladó fuera de `ficha_jocorax.yaml` el historial de verificación reglada para mantener el YAML como fuente de verdad operativa de la ficha actual.
 
 Fuentes usadas para la corrección:
-- `Pathfinder RPG Core Rulebook`, reglas de familiar.
-- `Pathfinder RPG Bestiary`, entrada `Familiar, Raven`.
+- `Reglamento básico`, reglas de familiar.
+- `Bestiario 1`, estadísticas base del cuervo.
 
 Supuestos e inferencias aplicados:
 - El mordisco usa el BBA del amo, la Destreza del cuervo y el modificador de tamaño `Menudo`.
