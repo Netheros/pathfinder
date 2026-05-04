@@ -1,0 +1,14 @@
+# Documentos PDF locales en cualquier carpeta del repositorio
+*.pdf
+
+# Artefactos locales de Python generados por scripts y tests
+__pycache__/
+*.py[cod]
+
+# Artefactos generados por skills que no deben versionarse
+docs/superpowers/specs/
+docs/superpowers/plans/
+
+# Herramientas locales usadas para migrar o validar el grimorio
+la-maldicion-del-trono-carmesi/scripts/generar_grimorio_netheros.py
+tests/la_maldicion_del_trono_carmesi/test_generar_grimorio_netheros.py

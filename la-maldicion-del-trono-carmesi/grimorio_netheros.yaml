@@ -1,0 +1,4230 @@
+---
+grimorio:
+  propietario: Netheros
+  conjuros:
+  - nombre: Acid Splash
+    alias_en_ingles: Acid Splash
+    nivel: 0
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one missile of acid
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You fire a small orb of acid at the target. You must succeed on a
+      ranged touch attack to hit your target. The orb deals 1d3 points of acid damage.
+      This acid disappears after 1 round.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Bleed
+    alias_en_ingles: Bleed
+    nivel: 0
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one living creature
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: You cause a living creature that is below 0 hit points but stabilized
+      to resume dying. Upon casting this spell, you target a living creature that
+      has -1 or fewer hit points. That creature begins dying, taking 1 point of damage
+      per round. The creature can be stabilized later normally. This spell causes
+      a creature that is dying to take 1 point of damage.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Dancing Lights
+    alias_en_ingles: Dancing Lights
+    nivel: 0
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: Up to four lights, all within a 10-ft.-radius area
+    area:
+    duracion: 1 minute
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'Depending on the version selected, you create up to four lights
+      that resemble lanterns or torches (and cast that amount of light), or up to
+      four glowing spheres of light (which look like will-o''-wisps), or one faintly
+      glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius
+      area in relation to each other but otherwise move as you desire (no concentration
+      required): forward or back, up or down, straight or turning corners, or the
+      like. The lights can move up to 100 feet per round. A light winks out if the
+      distance between you and it exceeds the spell''s range. You can only have one
+      dancing lights spell active at any one time. If you cast this spell while another
+      casting is still in effect, the previous casting is dispelled. If you make this
+      spell permanent, it does not count against this limit. Dancing lights can be
+      made permanent with a permanency spell.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Daze
+    alias_en_ingles: Daze
+    nivel: 0
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a pinch of wool or similar substance)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one humanoid creature of 4 HD or less
+    efecto:
+    area:
+    duracion: 1 round
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell clouds the mind of a humanoid creature with 4 or fewer
+      Hit Dice so that it takes no actions. Humanoids of 5 or more HD are not affected.
+      A dazed subject is not stunned, so attackers get no special advantage against
+      it. After a creature has been dazed by this spell, it is immune to the effects
+      of this spell for 1 minute.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Detect Magic
+    alias_en_ingles: Detect Magic
+    nivel: 0
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 60 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped emanation
+    duracion: concentration, up to 1 min./level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'You detect magical auras. The amount of information revealed depends
+      on how long you study a particular area or subject. 1st Round: Presence or absence
+      of magical auras. 2nd Round: Number of different magical auras and the power
+      of the most potent aura. 3rd Round: The strength and location of each aura.
+      If the items or creatures bearing the auras are in line of sight, you can make
+      Knowledge (arcana) skill checks to determine the school of magic involved in
+      each. (Make one check per aura: DC 15 + spell level, or 15 + 1/2 caster level
+      for a nonspell effect.) If the aura emanates from a magic item, you can attempt
+      to identify its properties (see Spellcraft). Magical areas, multiple types of
+      magic, or strong local magical emanations may distort or conceal weaker auras.
+      Aura Strength: An aura''s power depends on a spell''s functioning spell level
+      or an item''s caster level; see the accompanying table. If an aura falls into
+      more than one category, detect magic indicates the stronger of the two. Spell
+      or Object Aura Power Faint Moderate Strong Overwhelming Functioning spell (spell
+      level) 3rd or lower 4th-6th 7th-9th 10th+ (deity-level) Magic item (caster level)
+      5th or lower 6th-11th 12th-20th 21st+ (artifact) Lingering Aura: A magical aura
+      lingers after its original source dissipates (in the case of a spell) or is
+      destroyed (in the case of a magic item). If detect magic is cast and directed
+      at such a location, the spell indicates an aura strength of dim (even weaker
+      than a faint aura). How long the aura lingers at this dim level depends on its
+      original power: Original Strength Duration of Lingering Aura Faint 1d6 rounds
+      Moderate 1d6 minutes Strong 1d6x10 minutes Overwhelming 1d6 days Outsiders and
+      elementals are not magical in themselves, but if they are summoned, the conjuration
+      spell registers. Each round, you can turn to detect magic in a new area. The
+      spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a
+      thin sheet of lead, or 3 feet of wood or dirt blocks it. Detect magic can be
+      made permanent with a permanency spell.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Detect Poison
+    alias_en_ingles: Detect Poison
+    nivel: 0
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature, one object, or a 5-ft. cube
+    efecto:
+    area: one creature, one object, or a 5-ft. cube
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You determine whether a creature, object, or area has been poisoned
+      or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom
+      check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy)
+      check if the Wisdom check fails, or may try the Craft (alchemy) check prior
+      to the Wisdom check. The spell can penetrate barriers, but 1 foot of stone,
+      1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks
+      it.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Disrupt Undead
+    alias_en_ingles: Disrupt Undead
+    nivel: 0
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: ray
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: You direct a ray of positive energy. You must make a ranged touch
+      attack to hit, and if the ray hits an undead creature, it deals 1d6 points of
+      damage to it.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Flare
+    alias_en_ingles: Flare
+    nivel: 0
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: burst of light
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates
+    resistencia_a_conjuros: sí
+    descripcion: This cantrip creates a burst of light. If you cause the light to
+      burst in front of a single creature, that creature is dazzled for 1 minute unless
+      it makes a successful Fortitude save. Sightless creatures, as well as creatures
+      already dazzled, are not affected by flare.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Ghost Sound
+    alias_en_ingles: Ghost Sound
+    nivel: 0
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a bit of wool or a small lump of wax)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: illusory sounds
+    area:
+    duracion: 1 round/level
+    cancelable: true
+    tirada_de_salvacion: Will disbelief
+    resistencia_a_conjuros:
+    descripcion: Ghost sound allows you to create a volume of sound that rises, recedes,
+      approaches, or remains at a fixed place. You choose what type of sound ghost
+      sound creates when casting it and cannot thereafter change the sound's basic
+      character. The volume of sound created depends on your level. You can produce
+      as much noise as four normal humans per caster level (maximum 40 humans). Thus,
+      talking, singing, shouting, walking, marching, or running sounds can be created.
+      The noise a ghost sound spell produces can be virtually any type of sound within
+      the volume limit. A horde of rats running and squeaking is about the same volume
+      as eight humans running and shouting. A roaring lion is equal to the noise from
+      16 humans, while a roaring dragon is equal to the noise from 32 humans. Anyone
+      who hears a ghost sound receives a Will save to disbelieve. Ghost sound can
+      enhance the effectiveness of a silent image spell. Ghost sound can be made permanent
+      with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Haunted Fey Aspect
+    alias_en_ingles: Haunted Fey Aspect
+    nivel: 0
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: S
+      materiales:
+    alcance: Personal
+    objetivo: You
+    efecto:
+    area:
+    duracion: 1 round/level (D)
+    cancelable: true
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: You surround yourself with disturbing illusions, making you look
+      and sound like a bizarre, insane fey creature. You gain DR 1/cold iron against
+      a single opponent until the end of the spell, or until you take damage.
+    fuente:
+      libro: Combate definitivo
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Light
+    alias_en_ingles: Light
+    nivel: 0
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, M/DF (a firefly)
+      materiales:
+    alcance: touch
+    objetivo: object touched
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell causes a touched object to glow like a torch, shedding
+      normal light in a 20-foot radius from the point touched, and increasing the
+      light level for an additional 20 feet by one step, up to normal light (darkness
+      becomes dim light, and dim light becomes normal light). In an area of normal
+      or bright light, this spell has no effect. The effect is immobile, but it can
+      be cast on a movable object. You can only have one light spell active at any
+      one time. If you cast this spell while another casting is still in effect, the
+      previous casting is dispelled. If you make this spell permanent (through permanency
+      or a similar effect), it does not count against this limit. Light can be used
+      to counter or dispel any darkness spell of equal or lower spell level.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Mage Hand
+    alias_en_ingles: Mage Hand
+    nivel: 0
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one nonmagical, unattended object weighing up to 5 lbs.
+    efecto:
+    area:
+    duracion: concentration
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You point your finger at an object and can lift it and move it at
+      will from a distance. As a move action, you can propel the object as far as
+      15 feet in any direction, though the spell ends if the distance between you
+      and the object ever exceeds the spell's range.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Marca arcana
+    alias_en_ingles: Arcane Mark
+    nivel: 0
+    escuela: Universal
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: touch
+    objetivo:
+    efecto: one personal rune or mark, all of which must fit within 1 sq. ft.
+    area:
+    duracion: permanent
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell allows you to inscribe your personal rune or mark, which
+      can consist of no more than six characters. The writing can be visible or invisible.
+      An arcane mark spell enables you to etch the rune upon any substance without
+      harm to the material upon which it is placed. If an invisible mark is made,
+      a detect magic spell causes it to glow and be visible, though not necessarily
+      understandable. See invisibility, true seeing, a gem of seeing, or a robe of
+      eyes likewise allows the user to see an invisible arcane mark. A read magic
+      spell reveals the words, if any. The mark cannot be dispelled, but it can be
+      removed by the caster or by an erase spell. If an arcane mark is placed on a
+      living being, the effect gradually fades in about a month. Arcane mark must
+      be cast on an object prior to casting instant summons on the same object (see
+      that spell DESCRIPTION for details).
+    fuente:
+      libro: Reglamento básico
+      pagina: 319
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Mending
+    alias_en_ingles: Mending
+    nivel: 0
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 10 minutes
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 10 ft.
+    objetivo: one object of up to 1 lb./level
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless, object)
+    resistencia_a_conjuros: yes (harmless, object)
+    descripcion: This spell repairs damaged objects, restoring 1d4 hit points to the
+      object. If the object has the broken condition, this condition is removed if
+      the object is restored to at least half its original hit points. All of the
+      pieces of an object must be present for this spell to function. Magic items
+      can be repaired by this spell, but you must have a caster level equal to or
+      higher than that of the object. Magic items that are destroyed (at 0 hit points
+      or less) can be repaired with this spell, but this spell does not restore their
+      magic abilities. This spell does not affect creatures (including constructs).
+      This spell has no effect on objects that have been warped or otherwise transmuted,
+      but it can still repair damage done to such items.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Message
+    alias_en_ingles: Message
+    nivel: 0
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a piece of copper wire)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one creature/level
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You can whisper messages and receive whispered replies. Those nearby
+      can hear these messages with a DC 25 Perception check. You point your finger
+      at each creature you want to receive the message. When you whisper, the whispered
+      message is audible to all targeted creatures within range. Magical silence,
+      1 foot of stone, 1 inch of common metal (or a thin sheet of lead), or 3 feet
+      of wood or dirt blocks the spell. The message does not have to travel in a straight
+      line. It can circumvent a barrier if there is an open path between you and the
+      subject, and the path's entire length lies within the spell's range. The creatures
+      that receive the message can whisper a reply that you hear. The spell transmits
+      sound, not meaning; it doesn't transcend language barriers. To speak a message,
+      you must mouth the words and whisper.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Open/Close
+    alias_en_ingles: Open/Close
+    nivel: 0
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a brass key)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: object weighing up to 30 lbs. or portal that can be opened or closed
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Will negates (object)
+    resistencia_a_conjuros: yes (object)
+    descripcion: You can open or close (your choice) a door, chest, box, window, bag,
+      pouch, bottle, barrel, or other container. If anything resists this activity
+      (such as a bar on a door or a lock on a chest), the spell fails. In addition,
+      the spell can only open and close things weighing 30 pounds or less. Thus, doors,
+      chests, and similar objects sized for enormous creatures may be beyond this
+      spell's ability to affect.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Prestidigitation
+    alias_en_ingles: Prestidigitation
+    nivel: 0
+    escuela: Universal
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 10 ft.
+    objetivo: see text
+    efecto: see text
+    area: see text
+    duracion: 1 hour
+    cancelable: false
+    tirada_de_salvacion: see text
+    resistencia_a_conjuros:
+    descripcion: Prestidigitations are minor tricks that novice spellcasters use for
+      practice. Once cast, a prestidigitation spell enables you to perform simple
+      magical effects for 1 hour. The effects are minor and have severe limitations.
+      A prestidigitation can slowly lift 1 pound of material. It can color, clean,
+      or soil items in a 1-foot cube each round. It can chill, warm, or flavor 1 pound
+      of nonliving material. It cannot deal damage or affect the concentration of
+      spellcasters. Prestidigitation can create small objects, but they look crude
+      and artificial. The materials created by a prestidigitation spell are extremely
+      fragile, and they cannot be used as tools, weapons, or spell components. Finally,
+      prestidigitation lacks the power to duplicate any other spell effects. Any actual
+      change to an object (beyond just moving, cleaning, or soiling it) persists only
+      1 hour.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Ray of Frost
+    alias_en_ingles: Ray of Frost
+    nivel: 0
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: ray
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: A ray of freezing air and ice projects from your pointing finger.
+      You must succeed on a ranged touch attack with the ray to deal damage to a target.
+      The ray deals 1d3 points of cold damage.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Read Magic
+    alias_en_ingles: Read Magic
+    nivel: 0
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a clear crystal or mineral prism)
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: You can decipher magical inscriptions on objects-books, scrolls,
+      weapons, and the like-that would otherwise be unintelligible. This deciphering
+      does not normally invoke the magic contained in the writing, although it may
+      do so in the case of a cursed or trapped scroll. Furthermore, once the spell
+      is cast and you have read the magical inscription, you are thereafter able to
+      read that particular writing without recourse to the use of read magic. You
+      can read at the rate of one page (250 words) per minute. The spell allows you
+      to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph
+      of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft
+      check (DC 10 + spell level). Read magic can be made permanent with a permanency
+      spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Resistance
+    alias_en_ingles: Resistance
+    nivel: 0
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a miniature cloak)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 minute
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: You imbue the subject with magical energy that protects it from harm,
+      granting it a +1 resistance bonus on saves. Resistance can be made permanent
+      with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Spark
+    alias_en_ingles: Spark
+    nivel: 0
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V or S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one Fine object
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates (object)
+    resistencia_a_conjuros: yes (object)
+    descripcion: You can make an unattended Fine flammable object catch on fire. This
+      works as if you were using flint and steel except that you can use spark in
+      any sort of weather and it takes much less time to actually ignite an object.
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Touch of Fatigue
+    alias_en_ingles: Touch of Fatigue
+    nivel: 0
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a drop of sweat)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates
+    resistencia_a_conjuros: sí
+    descripcion: You channel negative energy through your touch, fatiguing the target.
+      You must succeed on a touch attack to strike a target. The subject is immediately
+      fatigued for the spell's duration. This spell has no effect on a creature that
+      is already fatigued. Unlike with normal fatigue, the effect ends as soon as
+      the spell's duration expires.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Alarm
+    alias_en_ingles: Alarm
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F/DF (a tiny bell and a piece of very fine silver wire)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto:
+    area: 20-ft.-radius emanation centered on a point in space
+    duracion: 2 hours/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'Alarm creates a subtle ward on an area you select. Once the spell
+      effect is in place, it thereafter sounds a mental or audible alarm each time
+      a creature of Tiny or larger size enters the warded area or touches it. A creature
+      that speaks the password (determined by you at the time of casting) does not
+      set off the alarm. You decide at the time of casting whether the alarm will
+      be mental or audible in nature. Mental Alarm: A mental alarm alerts you (and
+      only you) so long as you remain within 1 mile of the warded area. You note a
+      single mental "ping" that awakens you from normal sleep but does not otherwise
+      disturb concentration. A silence spell has no effect on a mental alarm. Audible
+      Alarm: An audible alarm produces the sound of a hand bell, and anyone within
+      60 feet of the warded area can hear it clearly. Reduce the distance by 10 feet
+      for each interposing closed door and by 20 feet for each substantial interposing
+      wall. In quiet conditions, the ringing can be heard faintly as far as 180 feet
+      away. The sound lasts for 1 round. Creatures within a silence spell cannot hear
+      the ringing. Ethereal or astral creatures do not trigger the alarm. Alarm can
+      be made permanent with a permanency spell.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Burning Hands
+    alias_en_ingles: Burning Hands
+    nivel: 1
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 15 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped burst
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Reflex half
+    resistencia_a_conjuros: sí
+    descripcion: A cone of searing flame shoots from your fingertips. Any creature
+      in the area of the flames takes 1d4 points of fire damage per caster level (maximum
+      5d4). Flammable materials burn if the flames touch them. A character can extinguish
+      burning items as a full-round action.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Charm Person
+    alias_en_ingles: Charm Person
+    nivel: 1
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one humanoid creature
+    efecto:
+    area:
+    duracion: 1 hour/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: This charm makes a humanoid creature regard you as its trusted friend
+      and ally (treat the target's attitude as friendly). If the creature is currently
+      being threatened or attacked by you or your allies, however, it receives a +5
+      bonus on its saving throw. The spell does not enable you to control the charmed
+      person as if it were an automaton, but it perceives your words and actions in
+      the most favorable way. You can try to give the subject orders, but you must
+      win an opposed Charisma check to convince it to do anything it wouldn't ordinarily
+      do. (Retries are not allowed.) An affected creature never obeys suicidal or
+      obviously harmful orders, but it might be convinced that something very dangerous
+      is worth doing. Any act by you or your apparent allies that threatens the charmed
+      person breaks the spell. You must speak the person's language to communicate
+      your commands, or else be good at pantomiming.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Color Spray
+    alias_en_ingles: Color Spray
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (red, yellow, and blue powder or colored sand)
+      materiales:
+    alcance: 15 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped burst
+    duracion: instantaneous; see text
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: 'A vivid cone of clashing colors springs forth from your hand, causing
+      creatures to become stunned, perhaps also blinded, and possibly knocking them
+      unconscious. Each creature within the cone is affected according to its HD.
+      2 HD or less: The creature is unconscious, blinded, and stunned for 2d4 rounds,
+      then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only
+      living creatures are knocked unconscious.) 3 or 4 HD: The creature is blinded
+      and stunned for 1d4 rounds, then stunned for 1 round. 5 or more HD: The creature
+      is stunned for 1 round. Sightless creatures are not affected by color spray.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Crafter's Fortune
+    alias_en_ingles: Crafter's Fortune
+    nivel: 1
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a tool)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature
+    efecto:
+    area:
+    duracion: 1 day/level or until discharged (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The target is struck by inspiration and gains a +5 luck bonus on
+      its next Craft skill check.
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Detect Secret Doors
+    alias_en_ingles: Detect Secret Doors
+    nivel: 1
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 60 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped emanation
+    duracion: concentration, up to 1 min./level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'You can detect secret doors, compartments, caches, and so forth.
+      Only passages, doors, or openings that have been specifically constructed to
+      escape detection are detected by this spell. The amount of information revealed
+      depends on how long you study a particular area or subject. 1st Round: Presence
+      or absence of secret doors. 2nd Round: Number of secret doors and the location
+      of each. If an aura is outside your line of sight, then you discern its direction
+      but not its exact location. Each Additional Round: The mechanism or trigger
+      for one particular secret portal closely examined by you. Each round, you can
+      turn to detect secret doors in a new area. The spell can penetrate barriers,
+      but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet
+      of wood or dirt blocks it.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Disguise Self
+    alias_en_ingles: Disguise Self
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: true
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: You make yourself--including clothing, armor, weapons, and equipmen--look
+      different. You can seem 1 foot shorter or taller, thin, fat, or in between.
+      You cannot change your creature type (although you can appear as another subtype).
+      Otherwise, the extent of the apparent change is up to you. You could add or
+      obscure a minor feature or look like an entirely different person or gender.
+      The spell does not provide the abilities or mannerisms of the chosen form, nor
+      does it alter the perceived tactile (touch) or audible (sound) properties of
+      you or your equipment. If you use this spell to create a disguise, you get a
+      +10 bonus on the Disguise check. A creature that interacts with the glamer gets
+      a Will save to recognize it as an illusion.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Dormir
+    alias_en_ingles: Sleep
+    nivel: 1
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S, M (fine sand, rose petals, or a live cricket)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto:
+    area: one or more living creatures within a 10-ft.-radius burst
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: A sleep spell causes a magical slumber to come upon 4 HD of creatures.
+      Creatures with the fewest HD are affected first. Among creatures with equal
+      HD, those who are closest to the spell's point of origin are affected first.
+      HD that are not sufficient to affect a creature are wasted. Sleeping creatures
+      are helpless. Slapping or wounding awakens an affected creature, but normal
+      noise does not. Awakening a creature is a standard action (an application of
+      the aid another action). Sleep does not target unconscious creatures, constructs,
+      or undead creatures.
+    fuente:
+      libro: Reglamento básico
+      pagina: 285
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Enlarge Person
+    alias_en_ingles: Enlarge Person
+    nivel: 1
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S, M (powdered iron)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one humanoid creature
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Fortitude negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell causes instant growth of a humanoid creature, doubling
+      its height and multiplying its weight by 8. This increase changes the creature's
+      size category to the next larger one. The target gains a +2 size bonus to Strength,
+      a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack
+      rolls and AC due to its increased size. A humanoid creature whose size increases
+      to Large has a space of 10 feet and a natural reach of 10 feet. This spell does
+      not change the target's speed. If insufficient room is available for the desired
+      growth, the creature attains the maximum possible size and may make a Strength
+      check (using its increased Strength) to burst any enclosures in the process.
+      If it fails, it is constrained without harm by the materials enclosing it-the
+      spell cannot be used to crush a creature by increasing its size. All equipment
+      worn or carried by a creature is similarly enlarged by the spell. Melee weapons
+      affected by this spell deal more damage (see page 145). Other magical properties
+      are not affected by this spell. Any enlarged item that leaves an enlarged creature's
+      possession (including a projectile or thrown weapon) instantly returns to its
+      normal size. This means that thrown and projectile weapons deal their normal
+      damage. Magical properties of enlarged items are not increased by this spell.
+      Multiple magical effects that increase size do not stack. Enlarge person counters
+      and dispels reduce person. Enlarge person can be made permanent with a permanency
+      spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Feather Fall
+    alias_en_ingles: Feather Fall
+    nivel: 1
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 immediate action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one Medium or smaller freefalling object or creature/level, no two of
+      which may be more than 20 ft. apart
+    efecto:
+    area:
+    duracion: until landing or 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless) or Will negates (object)
+    resistencia_a_conjuros: yes (object)
+    descripcion: 'The affected creatures or objects fall slowly. Feather fall instantly
+      changes the rate at which the targets fall to a mere 60 feet per round (equivalent
+      to the end of a fall from a few feet), and the subjects take no damage upon
+      landing while the spell is in effect. When the spell duration expires, a normal
+      rate of falling resumes. The spell affects one or more Medium or smaller creatures
+      (including gear and carried objects up to each creature''s maximum load) or
+      objects, or the equivalent in larger creatures: a Large creature or object counts
+      as two Medium creatures or objects, a Huge creature or object counts as four
+      Medium creatures or objects, and so forth. This spell has no special effect
+      on ranged weapons unless they are falling quite a distance. If the spell is
+      cast on a falling item, the object does half normal damage based on its weight,
+      with no bonus for the height of the drop. Feather fall works only upon free-falling
+      objects. It does not affect a sword blow or a charging or flying creature.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Floating Disk
+    alias_en_ingles: Floating Disk
+    nivel: 1
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a drop of mercury)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: 3-ft.-diameter disk of force
+    area:
+    duracion: 1 hour/level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You create a slightly concave, circular plane of force that follows
+      you about and carries loads for you. The disk is 3 feet in diameter and 1 inch
+      deep at its center. It can hold 100 pounds of weight per caster level. If used
+      to transport a liquid, its capacity is 2 gallons. The disk floats approximately
+      3 feet above the ground at all times and remains level. It floats along horizontally
+      within spell range and will accompany you at a rate of no more than your normal
+      speed each round. If not otherwise directed, it maintains a constant interval
+      of 5 feet between itself and you. The disk winks out of existence when the spell
+      duration expires. The disk also winks out if you move beyond its range or try
+      to take the disk more than 3 feet away from the surface beneath it. When the
+      disk winks out, whatever it was supporting falls to the surface beneath it.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Grease
+    alias_en_ingles: Grease
+    nivel: 1
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (butter)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one object or 10-ft. square
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: see text
+    resistencia_a_conjuros:
+    descripcion: A grease spell covers a solid surface with a layer of slippery grease.
+      Any creature in the area when the spell is cast must make a successful Reflex
+      save or fall. A creature can walk within or through the area of grease at half
+      normal speed with a DC 10 Acrobatics check. Failure means it can't move that
+      round (and must then make a Reflex save or fall), while failure by 5 or more
+      means it falls (see the Acrobatics skill for details). Creatures that do not
+      move on their turn do not need to make this check and are not considered flat-footed.
+      The spell can also be used to create a greasy coating on an item. Material objects
+      not in use are always affected by this spell, while an object wielded or employed
+      by a creature requires its bearer to make a Reflex saving throw to avoid the
+      effect. If the initial saving throw fails, the creature immediately drops the
+      item. A saving throw must be made in each round that the creature attempts to
+      pick up or use the greased item. A creature wearing greased armor or clothing
+      gains a +10 circumstance bonus on Escape Artist checks and combat maneuver checks
+      made to escape a grapple, and to their CMD to avoid being grappled.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Hypnotism
+    alias_en_ingles: Hypnotism
+    nivel: 1
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto:
+    area: several living creatures, no two of which may be more than 30 ft. apart
+    duracion: 2d4 rounds
+    cancelable: true
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: Your gestures and droning incantation fascinate nearby creatures,
+      causing them to stop and stare blankly at you. In addition, you can use their
+      rapt attention to make your suggestions and requests seem more plausible. Roll
+      2d4 to see how many total HD of creatures you affect. Creatures with fewer HD
+      are affected before creatures with more HD. Only creatures that can see or hear
+      you are affected, but they do not need to understand you to be fascinated. If
+      you use this spell in combat, each target gains a +2 bonus on its saving throw.
+      If the spell affects only a single creature not in combat at the time, the saving
+      throw has a penalty of -2. While the subject is fascinated by this spell, it
+      reacts as though it were two steps more friendly in attitude. This allows you
+      to make a single request of the affected creature (provided you can communicate
+      with it). The request must be brief and reasonable. Even after the spell ends,
+      the creature retains its new attitude toward you, but only with respect to that
+      particular request. A creature that fails its saving throw does not remember
+      that you enspelled it.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Identify
+    alias_en_ingles: Identify
+    nivel: 1
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (wine stirred with an owl's feather)
+      materiales:
+    alcance: 60 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped emanation
+    duracion: 3 rounds/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell functions as detect magic, except that it gives you a
+      +10 enhancement bonus on Spellcraft checks made to identify the properties and
+      command words of magic items in your possession. This spell does not allow you
+      to identify artifacts.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Illusion of Calm
+    alias_en_ingles: Illusion of Calm
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 1 minute/level
+    cancelable: false
+    tirada_de_salvacion: Will disbelieve (on hit; see below)
+    resistencia_a_conjuros:
+    descripcion: When casting this spell, you create an illusory double that takes
+      the same space of you. That double makes it look like you are standing still,
+      even when you are not. While under the effects of this spell, you do not provoke
+      attacks of opportunity when you cast a spell, make a ranged attack with a thrown
+      weapon, or move out of your first square during a move action. It does not hide
+      ranged attacks made with any type of projectile weapon. When a creature hits
+      you with an attack of any type, it gains a saving throw to disbelieve the figment.
+      On a successful saving throw, it successfully disbelieves and the spell's effect
+      ends for that creature.
+    fuente:
+      libro: Combate definitivo
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Mage Armor
+    alias_en_ingles: Mage Armor
+    nivel: 1
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a piece of cured leather)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 hour/level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros:
+    descripcion: An invisible but tangible field of force surrounds the subject of
+      a mage armor spell, providing a +4 armor bonus to AC. Unlike mundane armor,
+      mage armor entails no armor check penalty, arcane spell failure chance, or speed
+      reduction. Since mage armor is made of force, incorporeal creatures can't bypass
+      it the way they do normal armor.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Weapon
+    alias_en_ingles: Magic Weapon
+    nivel: 1
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, DF
+      materiales:
+    alcance: touch
+    objetivo: weapon touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless, object)
+    resistencia_a_conjuros: yes (harmless, object)
+    descripcion: Magic weapon gives a weapon a +1 enhancement bonus on attack and
+      damage rolls. An enhancement bonus does not stack with a masterwork weapon's
+      +1 bonus on attack rolls. You can't cast this spell on a natural weapon, such
+      as an unarmed strike (instead, see magic fang). A monk's unarmed strike is considered
+      a weapon, and thus it can be enhanced by this spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Memory Lapse
+    alias_en_ingles: Memory Lapse
+    nivel: 1
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one living creature
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: You cause the target to forget what happened from the casting of
+      the spell back to the beginning of its last turn. This may allow a retry on
+      a Diplomacy, Intimidate, or opposed skill check, though only with respect to
+      the target, not other creatures that may be present.
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Mount
+    alias_en_ingles: Mount
+    nivel: 1
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S, M (a bit of horse hair)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one mount
+    area:
+    duracion: 2 hours/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You summon a light horse or a pony (your choice) to serve you as
+      a mount (see the Pathfinder RPG Bestiary). The steed serves willingly and well.
+      The mount comes with a bit and bridle and a riding saddle.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Negative Reaction
+    alias_en_ingles: Negative Reaction
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: The target's actions and words fail to impress. The target of this
+      spell takes a -10 penalty on any Bluff, Diplomacy, and Intimidate checks as
+      well as any performance combat checks it attempts.
+    fuente:
+      libro: Combate definitivo
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Obscuring Mist
+    alias_en_ingles: Obscuring Mist
+    nivel: 1
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 20 ft.
+    objetivo:
+    efecto: cloud spreads in 20-ft. radius from you, 20 ft. high
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: A misty vapor arises around you. It is stationary. The vapor obscures
+      all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment
+      (attacks have a 20% miss chance). Creatures farther away have total concealment
+      (50% miss chance, and the attacker cannot use sight to locate the target). A
+      moderate wind (11+ mph), such as from a gust of wind spell, disperses the fog
+      in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A fireball,
+      flame strike, or similar spell burns away the fog in the explosive or fiery
+      spell's area. A wall of fire burns away the fog in the area into which it deals
+      damage. This spell does not function underwater.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Protection From Chaos
+    alias_en_ingles: Protection From Chaos
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like protection from evil, except that the deflection
+      and resistance bonuses apply to attacks made by chaotic creatures. The target
+      receives a new saving throw against control by chaotic creatures and chaotic
+      summoned creatures cannot touch the target.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Protection From Evil
+    alias_en_ingles: Protection From Evil
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell wards a creature from attacks by evil creatures, from
+      mental control, and from summoned creatures. It creates a magical barrier around
+      the subject at a distance of 1 foot. The barrier moves with the subject and
+      has three major effects. First, the subject gains a +2 deflection bonus to AC
+      and a +2 resistance bonus on saves. Both these bonuses apply against attacks
+      made or effects created by evil creatures. Second, the subject immediately receives
+      another saving throw (if one was allowed to begin with) against any spells or
+      effects that possess or exercise mental control over the creature (including
+      enchantment [charm] effects and enchantment [compulsion] effects such as charm
+      person, command, and dominate person). This saving throw is made with a +2 morale
+      bonus, using the same DC as the original effect. If successful, such effects
+      are suppressed for the duration of this spell. The effects resume when the duration
+      of this spell expires. While under the effects of this spell, the target is
+      immune to any new attempts to possess or exercise mental control over the target.
+      This spell does not expel a controlling life force (such as a ghost or spellcaster
+      using magic jar), but it does prevent them from controlling the target. This
+      second effect only functions against spells and effects created by evil creatures
+      or objects, subject to GM discretion. Third, the spell prevents bodily contact
+      by evil summoned creatures. This causes the natural weapon attacks of such creatures
+      to fail and the creatures to recoil if such attacks require touching the warded
+      creature. Summoned creatures that are not evil are immune to this effect. The
+      protection against contact by summoned creatures ends if the warded creature
+      makes an attack against or tries to force the barrier against the blocked creature.
+      Spell resistance can allow a creature to overcome this protection and touch
+      the warded creature.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Protection From Good
+    alias_en_ingles: Protection From Good
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like protection from evil, except that the deflection
+      and resistance bonuses apply to attacks made by good creatures. The target receives
+      a new saving throw against control by good creatures and good summoned creatures
+      cannot touch the target.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Protection From Law
+    alias_en_ingles: Protection From Law
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like protection from evil, except that the deflection
+      and resistance bonuses apply to attacks made by lawful creatures. The target
+      receives a new saving throw against control by lawful creatures and lawful summoned
+      creatures cannot touch the target.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Proyectil mágico
+    alias_en_ingles: Magic Missile
+    nivel: 1
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: up to five creatures, no two of which can be more than 15 ft. apart
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: A missile of magical energy darts forth from your fingertip and strikes
+      its target, dealing 1d4+1 points of force damage. The missile strikes unerringly,
+      even if the target is in melee combat, so long as it has less than total cover
+      or total concealment. Specific parts of a creature can't be singled out. Objects
+      are not damaged by the spell. For every two caster levels beyond 1st, you gain
+      an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum
+      of five missiles at 9th level or higher. If you shoot multiple missiles, you
+      can have them strike a single creature or several creatures. A single missile
+      can strike only one creature. You must designate targets before you check for
+      spell resistance or roll damage.
+    fuente:
+      libro: Reglamento básico
+      pagina: 339
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Shield
+    alias_en_ingles: Shield
+    nivel: 1
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: Shield creates an invisible shield of force that hovers in front
+      of you. It negates magic missile attacks directed at you. The disk also provides
+      a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks,
+      since it is a force effect. The shield has no armor check penalty or arcane
+      spell failure chance.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Shocking Grasp
+    alias_en_ingles: Shocking Grasp
+    nivel: 1
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: touch
+    objetivo: creature or object touched
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: Your successful melee touch attack deals 1d6 points of electricity
+      damage per caster level (maximum 5d6). When delivering the jolt, you gain a
+      +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying
+      a metal weapon or is made of metal).
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Silent Image
+    alias_en_ingles: Silent Image
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a bit of fleece)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto: visual figment that cannot extend beyond four 10-ft. Cubes + one 10-ft.
+      cube/level (S)
+    area:
+    duracion: concentration
+    cancelable: false
+    tirada_de_salvacion: Will disbelief (if interacted with)
+    resistencia_a_conjuros:
+    descripcion: This spell creates the visual illusion of an object, creature, or
+      force, as visualized by you. The illusion does not create sound, smell, texture,
+      or temperature. You can move the image within the limits of the size of the
+      effect.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Unseen Servant
+    alias_en_ingles: Unseen Servant
+    nivel: 1
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a piece of string and a bit of wood)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one invisible, mindless, shapeless servant
+    area:
+    duracion: 1 hour/level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: An unseen servant is an invisible, mindless, shapeless force that
+      performs simple tasks at your command. It can run and fetch things, open unstuck
+      doors, and hold chairs, as well as clean and mend. The servant can perform only
+      one activity at a time, but it repeats the same activity over and over again
+      if told to do so as long as you remain within range. It can open only normal
+      doors, drawers, lids, and the like. It has an effective Strength score of 2
+      (so it can lift 20 pounds or drag 100 pounds). It can trigger traps and such,
+      but it can exert only 20 pounds of force, which is not enough to activate certain
+      pressure plates and other devices. It can't perform any task that requires a
+      skill check with a DC higher than 10 or that requires a check using a skill
+      that can't be used untrained. This servant cannot fly, climb, or even swim (though
+      it can walk on water). Its base speed is 15 feet. The servant cannot attack
+      in any way; it is never allowed an attack roll. It cannot be killed, but it
+      dissipates if it takes 6 points of damage from area attacks. (It gets no saves
+      against attacks.) If you attempt to send it beyond the spell's range (measured
+      from your current position), the servant ceases to exist.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Ventriloquism
+    alias_en_ingles: Ventriloquism
+    nivel: 1
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, F (parchment rolled into cone)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: intelligible sound, usually speech
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: Will disbelief (if interacted with)
+    resistencia_a_conjuros:
+    descripcion: You can make your voice (or any sound that you can normally make
+      vocally) seem to issue from someplace else. You can speak in any language you
+      know. With respect to such voices and sounds, anyone who hears the sound and
+      rolls a successful save recognizes it as illusory (but still hears it).
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Acid Arrow
+    alias_en_ingles: Acid Arrow
+    nivel: 2
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (rhubarb leaf and an adder's stomach), F (a dart)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto: one arrow of acid
+    area:
+    duracion: 1 round + 1 round per three levels
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: An arrow of acid springs from your hand and speeds to its target.
+      You must succeed on a ranged touch attack to hit your target. The arrow deals
+      2d4 points of acid damage with no splash damage. For every three caster levels
+      you possess, the acid, unless neutralized, lasts for another round (to a maximum
+      of 6 additional rounds at 18th level), dealing another 2d4 points of damage
+      in each round.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Animal Aspect
+    alias_en_ingles: Animal Aspect
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a part of the animal)
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 1 minute/level (D)
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: 'You gain some of the beneficial qualities of an animal. Your base
+      form is largely unchanged and your size is unaltered, but some of your body
+      parts are altered. Armor or gear you are wearing adjusts to your new shape for
+      the duration of the spell. When you cast animal aspect, choose one of the following
+      animals to gain the associated benefits. You can only have one animal aspect
+      or greater animal aspect spell active on you at a time. Frog: Your legs become
+      elongated and muscular. You gain a +4 competence bonus on Acrobatics checks,
+      and you always jump as if you had a running start. Gorilla: Your arms become
+      long, flexible, and strong like those of a great ape. Your unarmed damage die
+      type increases by one step, and you gain a +4 competence bonus on combat maneuver
+      checks when making the grapple or reposition combat maneuver. Monkey: Your hands
+      and arms become dexterous like those of a simian. You gain a +4 competence bonus
+      on Climb checks, and you can throw objects as if you had the Throw Anything
+      feat. Otter: Your hands and feet gain webbing, and your lungs gain capacity,
+      allowing you to move through the water with ease. You gain a Swim speed equal
+      to half your speed, and all the benefits of having a swim speed. Additionally,
+      you can hold your breath for 4 rounds per point of Constitution before being
+      forced to make Constitution checks to keep holding your breath. Raccoon: Your
+      hands become extremely dexterous, and your feet become padded. You gain a +2
+      competence bonus on Disable Device, Sleight of Hand, and Stealth checks. Raptor:
+      Your legs become built for running speed, like those of a deinonychus. You gain
+      a enhancement bonus of +20 feet to your base speed. Tree Lizard: Your hands
+      and feet gain climbing claws and climbing pads. You gain a climb speed equal
+      to half your normal speed and all the benefits of having a natural climb speed.'
+    fuente:
+      libro: Combate definitivo
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Arcane Lock
+    alias_en_ingles: Arcane Lock
+    nivel: 2
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (gold dust worth 25 gp)
+      materiales: '25'
+    alcance: touch
+    objetivo: door, chest, or portal touched, up to 30 sq. ft./level in size
+    efecto:
+    area:
+    duracion: permanent
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: An arcane lock spell cast upon a door, chest, or portal magically
+      locks it. You can freely pass your own arcane lock without affecting it. If
+      the locked object has a lock, the DC to open that lock increases by 10 while
+      it remains attached to the object. If the object does not have a lock, this
+      spell creates one that can only be opened with a DC 20 Disable Device skill
+      check. A door or object secured with this spell can be opened only by breaking
+      in or with a successful dispel magic or knock spell. Add 10 to the normal DC
+      to break open a door or portal affected by this spell. A knock spell does not
+      remove an arcane lock; it only suppresses the effect for 10 minutes.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Blindness/Deafness
+    alias_en_ingles: Blindness/Deafness
+    nivel: 2
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one living creature
+    efecto:
+    area:
+    duracion: permanent (D)
+    cancelable: true
+    tirada_de_salvacion: Fortitude negates
+    resistencia_a_conjuros: sí
+    descripcion: You call upon the powers of unlife to render the subject blinded
+      or deafened, as you choose.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Blur
+    alias_en_ingles: Blur
+    nivel: 2
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject's outline appears blurred, shifting, and wavering. This
+      distortion grants the subject concealment (20% miss chance). A see invisibility
+      spell does not counteract the blur effect, but a true seeing spell does. Opponents
+      that cannot see the subject ignore the spell's effect (though fighting an unseen
+      opponent carries penalties of its own).
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Bull's Strength
+    alias_en_ingles: Bull's Strength
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a few hairs, or a pinch of dung, from a bull)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject becomes stronger. The spell grants a +4 enhancement bonus
+      to Strength, adding the usual benefits to melee attack rolls, melee damage rolls,
+      and other uses of the Strength modifier.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Cat's Grace
+    alias_en_ingles: Cat's Grace
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (pinch of cat fur)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: sí
+    descripcion: The transmuted creature becomes more graceful, agile, and coordinated.
+      The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits
+      to AC, Reflex saves, and other uses of the Dexterity modifier.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Command Undead
+    alias_en_ingles: Command Undead
+    nivel: 2
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a shred of raw meat and a splinter of bone)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one undead creature
+    efecto:
+    area:
+    duracion: 1 day/level
+    cancelable: false
+    tirada_de_salvacion: Will negates; see text
+    resistencia_a_conjuros: sí
+    descripcion: This spell allows you a degree of control over an undead creature.
+      If the subject is intelligent, it perceives your words and actions favorably
+      (treat its attitude as friendly). It will not attack you while the spell lasts.
+      You can give the subject orders, but you must win an opposed Charisma check
+      to convince it to do anything it wouldn't ordinarily do. Retries are not allowed.
+      An intelligent commanded undead never obeys suicidal or obviously harmful orders,
+      but it might be convinced that something very dangerous is worth doing. A nonintelligent
+      undead creature gets no saving throw against this spell. When you control a
+      mindless being, you can communicate only basic commands, such as "come here,"
+      "go there," "fight," "stand still," and so on. Nonintelligent undead won't resist
+      suicidal or obviously harmful orders. Any act by you or your apparent allies
+      that threatens the commanded undead (regardless of its Intelligence) breaks
+      the spell. Your commands are not telepathic. The undead creature must be able
+      to hear you.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Create Treasure Map
+    alias_en_ingles: Create Treasure Map
+    nivel: 2
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 hour
+    componentes:
+      abreviatura: V, S, M (powdered metal and rare inks worth 100 gp)
+      materiales: '1'
+    alcance: touch
+    objetivo: one dead creature
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You can take a piece from a dead creature's body and use it to create
+      a map that reveals the locations of any valuables that creature knew about while
+      still alive. You must cut this piece off yourself and the creature cannot have
+      died more than 24 hours prior to the casting of this spell. You cannot cast
+      this spell on a creature without a physical body, and the portion you remove
+      must have a fairly level surface such as a piece of hide, carapace, or skin.
+      The map you create is accurate to the best knowledge the creature had at the
+      time of its death. It reveals the location of one source of treasure for every
+      three caster levels you possess. Any inaccuracies or faulty information held
+      by the creature are represented on the map as well. Similarly, the map cannot
+      account for any changes that occur after the creature's death. You must choose
+      the scale of the map when creating it, opting between nearby (e.g., one or two
+      dungeon levels), local (e.g., a valley or community), or broad (e.g., a country
+      or larger). The map reveals the locations of what the creature deemed most valuable
+      within its area. Depending on the creature, the map might reveal a source of
+      tasty food, suitable mates, or even your own treasure vault.
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Darkness
+    alias_en_ingles: Darkness
+    nivel: 2
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, M/DF (bat fur and a piece of coal)
+      materiales:
+    alcance: touch
+    objetivo: object touched
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell causes an object to radiate darkness out to a 20-foot
+      radius. This darkness causes the illumination level in the area to drop one
+      step, from bright light to normal light, from normal light to dim light, or
+      from dim light to darkness. This spell has no effect in an area that is already
+      dark. Creatures with light vulnerability or sensitivity take no penalties in
+      normal light. All creatures gain concealment (20% miss chance) in dim light.
+      All creatures gain total concealment (50% miss chance) in darkness. Creatures
+      with darkvision can see in an area of dim light or darkness without penalty.
+      Nonmagical sources of light, such as torches and lanterns, do not increase the
+      light level in an area of darkness. Magical light sources only increase the
+      light level in an area if they are of a higher spell level than darkness. If
+      darkness is cast on a small object that is then placed inside or under a lightproof
+      covering, the spell's effect is blocked until the covering is removed. This
+      spell does not stack with itself. Darkness can be used to counter or dispel
+      any light spell of equal or lower spell level.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Darkvision
+    alias_en_ingles: Darkvision
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (either a pinch of dried carrot or an agate)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 hour/level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject gains the ability to see 60 feet even in total darkness.
+      Darkvision is black and white only but otherwise like normal sight. Darkvision
+      can be made permanent with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Detect Thoughts
+    alias_en_ingles: Detect Thoughts
+    nivel: 2
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F/DF (a copper piece)
+      materiales:
+    alcance: 60 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped emanation
+    duracion: concentration, up to 1 min./level
+    cancelable: true
+    tirada_de_salvacion: Will negates; see text
+    resistencia_a_conjuros:
+    descripcion: 'You detect surface thoughts. The amount of information revealed
+      depends on how long you study a particular area or subject. 1st Round: Presence
+      or absence of thoughts (from conscious creatures with Intelligence scores of
+      1 or higher). 2nd Round: Number of thinking minds and the Intelligence score
+      of each. If the highest Intelligence is 26 or higher (and at least 10 points
+      higher than your own Intelligence score), you are stunned for 1 round and the
+      spell ends. This spell does not let you determine the location of the thinking
+      minds if you can''t see the creatures whose thoughts you are detecting. 3rd
+      Round: Surface thoughts of any mind in the area. A target''s Will save prevents
+      you from reading its thoughts, and you must cast detect thoughts again to have
+      another chance. Creatures of animal intelligence (Int 1 or 2) have simple, instinctual
+      thoughts. Each round, you can turn to detect thoughts in a new area. The spell
+      can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin
+      sheet of lead, or 3 feet of wood or dirt blocks it.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Eagle's Splendor
+    alias_en_ingles: Eagle's Splendor
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (feathers or droppings from an eagle)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: sí
+    descripcion: The transmuted creature becomes more poised, articulate, and personally
+      forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual
+      benefits to Charisma-based skill checks and other uses of the Charisma modifier.
+      Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma)
+      affected by this spell do not gain any additional bonus spells for the increased
+      Charisma, but the save DCs for spells they cast while under this spell's effect
+      do increase.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Falsa vida
+    alias_en_ingles: False Life
+    nivel: 2
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a drop of blood)
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 1 hour/level or until discharged; see text
+    cancelable: false
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: You harness the power of unlife to grant yourself a limited ability
+      to avoid death. While this spell is in effect, you gain temporary hit points
+      equal to 1d10 + 1 per caster level (maximum +10).
+    fuente:
+      libro: Reglamento básico
+      pagina: 295
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Flaming Sphere
+    alias_en_ingles: Flaming Sphere
+    nivel: 2
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (tallow, brimstone, and powdered iron)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: 5-ft.-diameter sphere
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Reflex negates
+    resistencia_a_conjuros: sí
+    descripcion: A burning globe of fire rolls in whichever direction you point and
+      burns those it strikes. It moves 30 feet per round. As part of this movement,
+      it can ascend or jump up to 30 feet to strike a target. If it enters a space
+      with a creature, it stops moving for the round and deals 3d6 points of fire
+      damage to that creature, though a successful Reflex save negates that damage.
+      A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable
+      substances it touches and illuminates the same area as a torch would. The sphere
+      moves as long as you actively direct it (a move action for you); otherwise,
+      it merely stays at rest and burns. It can be extinguished by any means that
+      would put out a normal fire of its size. The surface of the sphere has a spongy,
+      yielding consistency and so does not cause damage except by its flame. It cannot
+      push aside unwilling creatures or batter down large obstacles. A flaming sphere
+      winks out if it exceeds the spell's range.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Fog Cloud
+    alias_en_ingles: Fog Cloud
+    nivel: 2
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft. level)
+    objetivo:
+    efecto: fog spreads in 20-ft. radius
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: A bank of fog billows out from the point you designate. The fog obscures
+      all sight, including darkvision, beyond 5 feet. A creature within 5 feet has
+      concealment (attacks have a 20% miss chance). Creatures farther away have total
+      concealment (50% miss chance, and the attacker can't use sight to locate the
+      target). A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind
+      (21+ mph) disperses the fog in 1 round. The spell does not function underwater.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Glitterdust
+    alias_en_ingles: Glitterdust
+    nivel: 2
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (ground mica)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto:
+    area: creatures and objects within 10-ft.-radius spread
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates (blinding only)
+    resistencia_a_conjuros:
+    descripcion: A cloud of golden particles covers everyone and everything in the
+      area, causing creatures to become blinded and visibly outlining invisible things
+      for the duration of the spell. All within the area are covered by the dust,
+      which cannot be removed and continues to sparkle until it fades. Each round
+      at the end of their turn blinded creatures may attempt new saving throws to
+      end the blindness effect. Any creature covered by the dust takes a -40 penalty
+      on Stealth checks.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Gust Of Wind
+    alias_en_ingles: Gust Of Wind
+    nivel: 2
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 60 ft.
+    objetivo:
+    efecto: line-shaped gust of severe wind emanating out from you to the extreme
+      of the range
+    area:
+    duracion: 1 round
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell creates a severe blast of air (approximately 50 mph) that
+      originates from you, affecting all creatures in its path. All flying creatures
+      in this area take a -4 penalty on Fly skill checks. Tiny or smaller flying creatures
+      must make a DC 25 Fly skill check or be blown back 2d6 x 10 feet and take 2d6
+      points of damage. Small or smaller flying creatures must make a DC 20 Fly skill
+      check to move against the force of the wind. A Tiny or smaller creature on the
+      ground is knocked down and rolled 1d4 x 10 feet, taking 1d4 points of nonlethal
+      damage per 10 feet. Small creatures are knocked prone by the force of the wind.
+      Medium or smaller creatures are unable to move forward against the force of
+      the wind unless they succeed at a DC 15 Strength check. Large or larger creatures
+      may move normally within a gust of wind effect. This spell can't move a creature
+      beyond the limit of it's range. Any creature, regardless of size, takes a -4
+      penalty on ranged attacks and Perception checks in the area of a gust of wind.
+      The force of the gust automatically extinguishes candles, torches, and similar
+      unprotected flames. It causes protected flames, such as those in lanterns, to
+      dance wildly and has a 50% chance to extinguish those lights. In addition to
+      the effects noted, a gust of wind can do anything that a sudden blast of wind
+      would be expected to do. It can create a stinging spray of sand or dust, fan
+      a large fire, overturn delicate awnings or hangings, heel over a small boat,
+      and blow gases or vapors to the edge of its range. Gust of wind can be made
+      permanent with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Hideous Laughter
+    alias_en_ingles: Hideous Laughter
+    nivel: 2
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (tiny fruit tarts and a feather)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature; see text
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell afflicts the subject with uncontrollable laughter. It
+      collapses into gales of manic laughter, falling prone. The subject can take
+      no actions while laughing, but is not considered helpless. After the spell ends,
+      it can act normally. On the creature's next turn, it may attempt a new saving
+      throw to end the effect. This is a full round action that does not provoke attacks
+      of opportunity. If this save is successful, the effect ends. If not, the creature
+      continues laughing for the entire duration. A creature with an Intelligence
+      score of 2 or lower is not affected. A creature whose type is different from
+      the caster's receives a +4 bonus on its saving throw, because humor doesn't
+      "translate" well.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Invisibility
+    alias_en_ingles: Invisibility
+    nivel: 2
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (an eyelash encased in gum arabic)
+      materiales:
+    alcance: personal or touch
+    objetivo: you or a creature or object weighing no more than 100 lbs./level
+    efecto:
+    area:
+    duracion: 1 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless) or Will negates (harmless, object)
+    resistencia_a_conjuros: yes (harmless) or yes (harmless, object)
+    descripcion: The creature or object touched becomes invisible. If the recipient
+      is a creature carrying gear, that vanishes, too. If you cast the spell on someone
+      else, neither you nor your allies can see the subject, unless you can normally
+      see invisible things or you employ magic to do so. Items dropped or put down
+      by an invisible creature become visible; items picked up disappear if tucked
+      into the clothing or pouches worn by the creature. Light, however, never becomes
+      invisible, although a source of light can become so (thus, the effect is that
+      of a light with no visible source). Any part of an item that the subject carries
+      but that extends more than 10 feet from it becomes visible. Of course, the subject
+      is not magically silenced, and certain other conditions can render the recipient
+      detectable (such as swimming in water or stepping in a puddle). If a check is
+      required, a stationary invisible creature has a +40 bonus on its Stealth checks.
+      This bonus is reduced to +20 if the creature is moving. The spell ends if the
+      subject attacks any creature. For purposes of this spell, an attack includes
+      any spell targeting a foe or whose area or effect includes a foe. Exactly who
+      is a foe depends on the invisible character's perceptions. Actions directed
+      at unattended objects do not break the spell. Causing harm indirectly is not
+      an attack. Thus, an invisible being can open doors, talk, eat, climb stairs,
+      summon monsters and have them attack, cut the ropes holding a rope bridge while
+      enemies are on the bridge, remotely trigger traps, open a portcullis to release
+      attack dogs, and so forth. If the subject attacks directly, however, it immediately
+      becomes visible along with all its gear. Spells such as bless that specifically
+      affect allies but not foes are not attacks for this purpose, even when they
+      include foes in their area. Invisibility can be made permanent (on objects only)
+      with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Knock
+    alias_en_ingles: Knock
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one door, box, or chest with an area of up to 10 sq. ft./level
+    efecto:
+    area:
+    duracion: instantaneous; see text
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: Knock opens stuck, barred, or locked doors, as well as those subject
+      to hold portal or arcane lock. When you complete the casting of this spell,
+      make a caster level check against the DC of the lock with a +10 bonus. If successful,
+      knock opens up to two means of closure. This spell opens secret doors, as well
+      as locked or trick-opening boxes or chests. It also loosens welds, shackles,
+      or chains (provided they serve to hold something shut). If used to open an arcane
+      locked door, the spell does not remove the arcane lock but simply suspends its
+      functioning for 10 minutes. In all other cases, the door does not relock itself
+      or become stuck again on its own. Knock does not raise barred gates or similar
+      impediments (such as a portcullis), nor does it affect ropes, vines, and the
+      like. The effect is limited by the area. Each casting can undo as many as two
+      means of preventing access.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Levitate
+    alias_en_ingles: Levitate
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a leather loop or golden wire bent into a cup shape)
+      materiales:
+    alcance: personal or close (25 ft. + 5 ft./2 levels)
+    objetivo: you or one willing creature or one object (total weight up to 100 lbs./level)
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: Levitate allows you to move yourself, another creature, or an object
+      up and down as you wish. A creature must be willing to be levitated, and an
+      object must be unattended or possessed by a willing creature. You can mentally
+      direct the recipient to move up or down as much as 20 feet each round; doing
+      so is a move action. You cannot move the recipient horizontally, but the recipient
+      could clamber along the face of a cliff, for example, or push against a ceiling
+      to move laterally (generally at half its base land speed). A levitating creature
+      that attacks with a melee or ranged weapon finds itself increasingly unstable;
+      the first attack has a -1 penalty on attack rolls, the second -2, and so on,
+      to a maximum penalty of -5. A full round spent stabilizing allows the creature
+      to begin again at -1.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Locate Object
+    alias_en_ingles: Locate Object
+    nivel: 2
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F/DF (a forked twig)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto:
+    area: circle, centered on you, with a radius of 400 ft. + 40 ft./level
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You sense the direction of a well-known or clearly visualized object.
+      You can search for general items, in which case you locate the nearest of its
+      kind if more than one is within range. Attempting to find a certain item requires
+      a specific and accurate mental image; if the image is not close enough to the
+      actual object, the spell fails. You cannot specify a unique item unless you
+      have observed that particular item firsthand (not through divination). The spell
+      is blocked by even a thin sheet of lead. Creatures cannot be found by this spell.
+      Polymorph any object and nondetection fool it.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Minor Image
+    alias_en_ingles: Minor Image
+    nivel: 2
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a bit of fleece)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft.
+      cube/level (S)
+    area:
+    duracion: concentration + 2 rounds
+    cancelable: false
+    tirada_de_salvacion: Will disbelief (if interacted with)
+    resistencia_a_conjuros:
+    descripcion: This spell functions like silent image, except that minor image includes
+      some minor sounds but not understandable speech.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Mirror Image
+    alias_en_ingles: Mirror Image
+    nivel: 2
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: This spell creates a number of illusory doubles of you that inhabit
+      your square. These doubles make it difficult for enemies to precisely locate
+      and attack you. When mirror image is cast, 1d4 images plus one image per three
+      caster levels (maximum eight images total) are created. These images remain
+      in your space and move with you, mimicking your movements, sounds, and actions
+      exactly. Whenever you are attacked or are the target of a spell that requires
+      an attack roll, there is a possibility that the attack targets one of your images
+      instead. If the attack is a hit, roll randomly to see whether the selected target
+      is real or a figment. If it is a figment, the figment is destroyed. If the attack
+      misses by 5 or less, one of your figments is destroyed by the near miss. Area
+      spells affect you normally and do not destroy any of your figments. Spells and
+      effects that do not require an attack roll affect you normally and do not destroy
+      any of your figments. Spells that require a touch attack are harmlessly discharged
+      if used to destroy a figment. An attacker must be able to see the figments to
+      be fooled. If you are invisible or the attacker is blind, the spell has no effect
+      (although the normal miss chances still apply).
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Resist Energy
+    alias_en_ingles: Resist Energy
+    nivel: 2
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: 'This abjuration grants a creature limited protection from damage
+      of whichever one of five energy types you select: acid, cold, electricity, fire,
+      or sonic. The subject gains resist energy 10 against the energy type chosen,
+      meaning that each time the creature is subjected to such damage (whether from
+      a natural or magical source), that damage is reduced by 10 points before being
+      applied to the creature''s hit points. The value of the energy resistance granted
+      increases to 20 points at 7th level and to a maximum of 30 points at 11th level.
+      The spell protects the recipient''s equipment as well. Resist energy absorbs
+      only damage. The subject could still suffer unfortunate side effects. Resist
+      energy overlaps (and does not stack with) protection from energy. If a character
+      is warded by protection from energy and resist energy, the protection spell
+      absorbs damage until its power is exhausted.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Rope Trick
+    alias_en_ingles: Rope Trick
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (powdered corn and a twisted loop of parchment)
+      materiales:
+    alcance: touch
+    objetivo: one touched piece of rope from 5 ft. to 30 ft. long
+    efecto:
+    area:
+    duracion: 1 hour/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: When this spell is cast upon a piece of rope from 5 to 30 feet long,
+      one end of the rope rises into the air until the whole rope hangs perpendicular
+      to the ground, as if affixed at the upper end. The upper end is, in fact, fastened
+      to an extradimensional space that is outside the usual multiverse of extradimensional
+      spaces. Creatures in the extradimensional space are hidden, beyond the reach
+      of spells (including divinations), unless those spells work across planes. The
+      space holds as many as eight creatures (of any size). The rope cannot be removed
+      or hidden. The rope can support up to 16,000 pounds. A weight greater than that
+      can pull the rope free. Spells cannot be cast across the extradimensional interface,
+      nor can area effects cross it. Those in the extradimensional space can see out
+      of it as if a 3-foot-by-5-foot window were centered on the rope. The window
+      is invisible, and even creatures that can see the window can't see through it.
+      Anything inside the extradimensional space drops out when the spell ends. The
+      rope can be climbed by only one person at a time. The rope trick spell enables
+      climbers to reach a normal place if they do not climb all the way to the extradimensional
+      space.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Scare
+    alias_en_ingles: Scare
+    nivel: 2
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a bone from an undead creature)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one living creature per three levels, no two of which can be more than
+      30 ft. apart
+    efecto:
+    area:
+    duracion: 1 round/level or 1 round; see text for cause fear
+    cancelable: false
+    tirada_de_salvacion: Will partial
+    resistencia_a_conjuros: sí
+    descripcion: This spell functions like cause fear, except that it causes all targeted
+      creatures of less than 6 HD to become frightened.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Scorching Ray
+    alias_en_ingles: Scorching Ray
+    nivel: 2
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one or more rays
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: You blast your enemies with a searing beam of fire. You may fire
+      one ray, plus one additional ray for every four levels beyond 3rd (to a maximum
+      of three rays at 11th level). Each ray requires a ranged touch attack to hit
+      and deals 4d6 points of fire damage. The rays may be fired at the same or different
+      targets, but all rays must be aimed at targets within 30 feet of each other
+      and fired simultaneously.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: See Invisibility
+    alias_en_ingles: See Invisibility
+    nivel: 2
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (talc and powdered silver)
+      materiales:
+    alcance: personal
+    objetivo: you
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: true
+    tirada_de_salvacion:
+    resistencia_a_conjuros:
+    descripcion: You can see any objects or beings that are invisible within your
+      range of vision, as well as any that are ethereal, as if they were normally
+      visible. Such creatures are visible to you as translucent shapes, allowing you
+      easily to discern the difference between visible, invisible, and ethereal creatures.
+      The spell does not reveal the method used to obtain invisibility. It does not
+      reveal illusions or enable you to see through opaque objects. It does not reveal
+      creatures who are simply hiding, concealed, or otherwise hard to see. See invisibility
+      can be made permanent with a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Spider Climb
+    alias_en_ingles: Spider Climb
+    nivel: 2
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a live spider)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject can climb and travel on vertical surfaces or even traverse
+      ceilings as well as a spider does. The affected creature must have its hands
+      free to climb in this manner. The subject gains a climb speed of 20 feet and
+      a +8 racial bonus on Climb skill checks; furthermore, it need not make Climb
+      checks to traverse a vertical or horizontal surface (even upside down). A spider
+      climbing creature retains its Dexterity bonus to Armor Class (if any) while
+      climbing, and opponents get no special bonus to their attacks against it. It
+      cannot, however, use the run action while climbing.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Spontaneous Immolation
+    alias_en_ingles: Spontaneous Immolation
+    nivel: 2
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (pinch of saltpeter)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one creature
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Fortitude half and Reflex (see description)
+    resistencia_a_conjuros: sí
+    descripcion: You point your finger at a creature, causing it to spontaneously
+      burst into flame. The target takes 3d6 points of fire damage and catches on
+      fire (Pathfinder RPG Core Rulebook 444). A successful Fortitude save reduces
+      this damage by half and prevents the target from catching on fire. Each round
+      on your turn, a burning target can attempt a new save to extinguish the flames
+      (DC equal to the DC of the spell); otherwise it takes another 1d6 fire damage.
+    fuente:
+      libro: Combate definitivo
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Stone Call
+    alias_en_ingles: Stone Call
+    nivel: 2
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, DF
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto:
+    area: cylinder (40-ft. radius, 20 ft. high)
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: A rain of dirt, gravel, and small pebbles fills the area, dealing
+      2d6 points of bludgeoning damage to every creature in the area. This damage
+      only occurs once, when the spell is cast. For the remaining duration of the
+      spell, this debris covers the ground, making the entire area difficult terrain.
+      At the end of the duration, the rocks disappear, leaving no aftereffects (other
+      than the damage dealt).
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Web
+    alias_en_ingles: Web
+    nivel: 2
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (spider web)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: webs in a 20-ft.-radius spread
+    area:
+    duracion: 10 min./level (D)
+    cancelable: true
+    tirada_de_salvacion: Reflex negates; see text
+    resistencia_a_conjuros:
+    descripcion: Web creates a many-layered mass of strong, sticky strands. These
+      strands trap those caught in them. The strands are similar to spiderwebs but
+      far larger and tougher. These masses must be anchored to two or more solid and
+      diametrically opposed points or else the web collapses upon itself and disappears.
+      Creatures caught within a web become grappled by the sticky fibers. Attacking
+      a creature in a web doesn't cause you to become grappled. Anyone in the effect's
+      area when the spell is cast must make a Reflex save. If this save succeeds,
+      the creature is inside the web but is otherwise unaffected. If the save fails,
+      the creature gains the grappled condition, but can break free by making a combat
+      maneuver check or Escape Artist check as a standard action against the DC of
+      this spell. The entire area of the web is considered difficult terrain. Anyone
+      moving through the webs must make a combat maneuver check or Escape Artist check
+      as part of their move action, with a DC equal to the spell's DC. Creatures that
+      fail lose their movement and become grappled in the first square of webbing
+      that they enter. If you have at least 5 feet of web between you and an opponent,
+      it provides cover. If you have at least 20 feet of web between you, it provides
+      total cover. The strands of a web spell are flammable. A flaming weapon can
+      slash them away as easily as a hand brushes away cobwebs. Any fire can set the
+      webs alight and burn away one 5-foot square in 1 round. All creatures within
+      flaming webs take 2d4 points of fire damage from the flames. Web can be made
+      permanent with a permanency spell. A permanent web that is damaged (but not
+      destroyed) regrows in 10 minutes.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Dispel Magic
+    alias_en_ingles: Dispel Magic
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one spellcaster, creature, or object
+    efecto:
+    area: one spellcaster, creature, or object
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'You can use dispel magic to end one ongoing spell that has been
+      cast on a creature or object, to temporarily suppress the magical abilities
+      of a magic item, or to counter another spellcaster''s spell. A dispelled spell
+      ends as if its duration had expired. Some spells, as detailed in their descriptions,
+      can''t be defeated by dispel magic. Dispel magic can dispel (but not counter)
+      spell-like effects just as it does spells. The of a spell with an instantaneous
+      duration can''t be dispelled, because the magical effect is already over before
+      the dispel magic can take effect. You choose to use dispel magic in one of two
+      ways: a targeted dispel or a counterspell. Targeted Dispel: One object, creature,
+      or spell is the target of the dispel magic spell. You make one dispel check
+      (1d20 + your caster level) and compare that to the spell with highest caster
+      level (DC = 11 + the spell''s caster level). If successful, that spell ends.
+      If not, compare the same result to the spell with the next highest caster level.
+      Repeat this process until you have dispelled one spell affecting the target,
+      or you have failed to dispel every spell. For example, a 7th-level caster casts
+      dispel magic, targeting a creature affected by stoneskin (caster level 12th)
+      and fly (caster level 6th). The caster level check results in a 19. This check
+      is not high enough to end the stoneskin (which would have required a 23 or higher),
+      but it is high enough to end the fly (which only required a 17). Had the dispel
+      check resulted in a 23 or higher, the stoneskin would have been dispelled, leaving
+      the fly intact. Had the dispel check been a 16 or less, no spells would have
+      been affected. You can also use a targeted dispel to specifically end one spell
+      affecting the target or one spell affecting an area (such as a wall of fire).
+      You must name the specific spell effect to be targeted in this way. If your
+      caster level check is equal to or higher than the DC of that spell, it ends.
+      No other spells or effects on the target are dispelled if your check is not
+      high enough to end the targeted effect. If you target an object or creature
+      that is the effect of an ongoing spell (such as a monster summoned by summon
+      monster), you make a dispel check to end the spell that conjured the object
+      or creature. If the object that you target is a magic item, you make a dispel
+      check against the item''s caster level (DC = 11 + the item''s caster level).
+      If you succeed, all the item''s magical properties are suppressed for 1d4 rounds,
+      after which the item recovers its magical properties. A suppressed item becomes
+      nonmagical for the duration of the effect. An interdimensional opening (such
+      as a bag of holding) is temporarily closed. A magic item''s physical properties
+      are unchanged: A suppressed magic sword is still a sword (a masterwork sword,
+      in fact). Artifacts and deities are unaffected by mortal magic such as this.
+      You automatically succeed on your dispel check against any spell that you cast
+      yourself. Counterspell: When dispel magic is used in this way, the spell targets
+      a spellcaster and is cast as a counterspell. Unlike a true counterspell, however,
+      dispel magic may not work; you must make a dispel check to counter the other
+      spellcaster''s spell.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Displacement
+    alias_en_ingles: Displacement
+    nivel: 3
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, M (a small loop of leather)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject of this spell appears to be about 2 feet away from its
+      true location. The creature benefits from a 50% miss chance as if it had total
+      concealment. Unlike actual total concealment, displacement does not prevent
+      enemies from targeting the creature normally. True seeing reveals its true location
+      and negates the miss chance.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Fireball
+    alias_en_ingles: Fireball
+    nivel: 3
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a ball of bat guano and sulfur)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto:
+    area: 20-ft.-radius spread
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Reflex half
+    resistencia_a_conjuros: sí
+    descripcion: A fireball spell generates a searing explosion of flame that detonates
+      with a low roar and deals 1d6 points of fire damage per caster level (maximum
+      10d6) to every creature within the area. Unattended objects also take this damage.
+      The explosion creates almost no pressure. You point your finger and determine
+      the range (distance and height) at which the fireball is to burst. A glowing,
+      pea-sized bead streaks from the pointing digit and, unless it impacts upon a
+      material body or solid barrier prior to attaining the prescribed range, blossoms
+      into the fireball at that point. An early impact results in an early detonation.
+      If you attempt to send the bead through a narrow passage, such as through an
+      arrow slit, you must "hit" the opening with a ranged touch attack, or else the
+      bead strikes the barrier and detonates prematurely. The fireball sets fire to
+      combustibles and damages objects in the area. It can melt metals with low melting
+      points, such as lead, gold, copper, silver, and bronze. If the damage caused
+      to an interposing barrier shatters or breaks through it, the fireball may continue
+      beyond the barrier if the area permits; otherwise it stops at the barrier just
+      as any other spell effect does.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Fly
+    alias_en_ingles: Fly
+    nivel: 3
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a wing feather)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The subject can fly at a speed of 60 feet (or 40 feet if it wears
+      medium or heavy armor, or if it carries a medium or heavy load). It can ascend
+      at half speed and descend at double speed, and its maneuverability is good.
+      Using a fly spell requires only as much concentration as walking, so the subject
+      can attack or cast spells normally. The subject of a fly spell can charge but
+      not run, and it cannot carry aloft more weight than its maximum load, plus any
+      armor it wears. The subject gains a bonus on Fly skill checks equal to 1/2 your
+      caster level. Should the spell duration expire while the subject is still aloft,
+      the magic fails slowly. The subject floats downward 60 feet per round for 1d6
+      rounds. If it reaches the ground in that amount of time, it lands safely. If
+      not, it falls the rest of the distance, taking 1d6 points of damage per 10 feet
+      of fall. Since dispelling a spell effectively ends it, the subject also descends
+      safely in this way if the fly spell is dispelled, but not if it is negated by
+      an antimagic field.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Haste
+    alias_en_ingles: Haste
+    nivel: 3
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a shaving of licorice root)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature/level, no two of which can be more than 30 ft. apart
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The transmuted creatures move and act more quickly than normal. This
+      extra speed has several effects. When making a full attack action, a hasted
+      creature may make one extra attack with one natural or manufactured weapon.
+      The attack is made using the creature's full base attack bonus, plus any modifiers
+      appropriate to the situation. (This effect is not cumulative with similar effects,
+      such as that provided by a speed weapon, nor does it actually grant an extra
+      action, so you can't use it to cast a second spell or otherwise take an extra
+      action in the round.) A hasted creature gains a +1 bonus on attack rolls and
+      a +1 dodge bonus to AC and Reflex saves. Any condition that makes you lose your
+      Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses. All
+      of the hasted creature's modes of movement (including land movement, burrow,
+      climb, fly, and swim) increase by 30 feet, to a maximum of twice the subject's
+      normal speed using that form of movement. This increase counts as an enhancement
+      bonus, and it affects the creature's jumping distance as normal for increased
+      speed. Multiple haste effects don't stack. Haste dispels and counters slow.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Heroism
+    alias_en_ingles: Heroism
+    nivel: 3
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: This spell imbues a single creature with great bravery and morale
+      in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill
+      checks.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Lightning Bolt
+    alias_en_ingles: Lightning Bolt
+    nivel: 3
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (fur and a glass rod)
+      materiales:
+    alcance: 120 ft.
+    objetivo:
+    efecto:
+    area: 120-ft. line
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Reflex half
+    resistencia_a_conjuros: sí
+    descripcion: You release a powerful stroke of electrical energy that deals 1d6
+      points of electricity damage per caster level (maximum 10d6) to each creature
+      within its area. The bolt begins at your fingertips. The lightning bolt sets
+      fire to combustibles and damages objects in its path. It can melt metals with
+      a low melting point, such as lead, gold, copper, silver, or bronze. If the damage
+      caused to an interposing barrier shatters or breaks through it, the bolt may
+      continue beyond the barrier if the spell's range permits; otherwise, it stops
+      at the barrier just as any other spell effect does.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Circle against Chaos
+    alias_en_ingles: Magic Circle against Chaos
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a 3-ft.-diameter circle of powdered silver)
+      materiales:
+    alcance: touch
+    objetivo:
+    efecto:
+    area: 10-ft.-radius emanation from touched creature
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like magic circle against evil, except that
+      it is similar to protection from chaos instead of protection from evil, and
+      it can imprison a nonlawful called creature.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Circle against Evil
+    alias_en_ingles: Magic Circle against Evil
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a 3-ft.-diameter circle of powdered silver)
+      materiales:
+    alcance: touch
+    objetivo:
+    efecto:
+    area: 10-ft.-radius emanation from touched creature
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: All creatures within the area gain the effects of a protection from
+      evil spell, and evil summoned creatures cannot enter the area either. Creatures
+      in the area, or who later enter the area, receive only one attempt to suppress
+      effects that are controlling them. If successful, such effects are suppressed
+      as long as they remain in the area. Creatures that leave the area and come back
+      are not protected. You must overcome a creature's spell resistance in order
+      to keep it at bay (as in the third function of protection from evil), but the
+      deflection and resistance bonuses and the protection from mental control apply
+      regardless of enemies' spell resistance. This spell has an alternative version
+      that you may choose when casting it. A magic circle against evil can be focused
+      inward rather than outward. When focused inward, the spell binds a nongood called
+      creature (such as those called by the lesser planar binding, planar binding,
+      and greater planar binding spells) for a maximum of 24 hours per caster level,
+      provided that you cast the spell that calls the creature within 1 round of casting
+      the magic circle. The creature cannot cross the circle's boundaries. If a creature
+      too large to fit into the spell's area is the subject of the spell, the spell
+      acts as a normal protection from evil spell for that creature only. A magic
+      circle leaves much to be desired as a trap. If the circle of powdered silver
+      laid down in the process of spellcasting is broken, the effect immediately ends.
+      The trapped creature can do nothing that disturbs the circle, directly or indirectly,
+      but other creatures can. If the called creature has spell resistance, it can
+      test the trap once a day. If you fail to overcome its spell resistance, the
+      creature breaks free, destroying the circle. A creature capable of any form
+      of dimensional travel (astral projection, blink, dimension door, etherealness,
+      gate, plane shift, shadow walk, teleport, and similar abilities) can simply
+      leave the circle through such means. You can prevent the creature's extradimensional
+      escape by casting a dimensional anchor spell on it, but you must cast the spell
+      before the creature acts. If you are successful, the anchor effect lasts as
+      long as the magic circle does. The creature cannot reach across the magic circle,
+      but its ranged attacks (ranged weapons, spells, magical abilities, and the like)
+      can. The creature can attack any target it can reach with its ranged attacks
+      except for the circle itself. You can add a special diagram (a two-dimensional
+      bounded figure with no gaps along its circumference, augmented with various
+      magical sigils) to make the magic circle more secure. Drawing the diagram by
+      hand takes 10 minutes and requires a DC 20 Spellcraft check. You do not know
+      the result of this check. If the check fails, the diagram is ineffective. You
+      can take 10 when drawing the diagram if you are under no particular time pressure
+      to complete the task. This task also takes 10 full minutes. If time is no factor
+      at all, and you devote 3 hours and 20 minutes to the task, you can take 20.
+      A successful diagram allows you to cast a dimensional anchor spell on the magic
+      circle during the round before casting any summoning spell. The anchor holds
+      any called creatures in the magic circle for 24 hours per caster level. A creature
+      cannot use its spell resistance against a magic circle prepared with a diagram,
+      and none of its abilities or attacks can cross the diagram. If the creature
+      tries a Charisma check to break free of the trap (see the lesser planar binding
+      spell), the DC increases by 5. The creature is immediately released if anything
+      disturbs the diagram-even a straw laid across it. The creature itself cannot
+      disturb the diagram either directly or indirectly, as noted above. This spell
+      is not cumulative with protection from evil and vice versa.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Circle against Good
+    alias_en_ingles: Magic Circle against Good
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a 3-ft.-diameter circle of powdered silver)
+      materiales:
+    alcance: touch
+    objetivo:
+    efecto:
+    area: 10-ft.-radius emanation from touched creature
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like magic circle against evil, except that
+      it is similar to protection from good instead of protection from evil, and it
+      can imprison a nonevil called creature.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Circle against Law
+    alias_en_ingles: Magic Circle against Law
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a 3-ft.-diameter circle of powdered silver)
+      materiales:
+    alcance: touch
+    objetivo:
+    efecto:
+    area: 10-ft.-radius emanation from touched creature
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: "; see text"
+    descripcion: This spell functions like magic circle against evil, except that
+      it is similar to protection from law instead of protection from evil, and it
+      can imprison a nonchaotic called creature.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Phantom Steed
+    alias_en_ingles: Phantom Steed
+    nivel: 3
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 10 minutes
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: 0 ft.
+    objetivo:
+    efecto: one quasi-real, horselike creature
+    area:
+    duracion: 1 hour/level (D)
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: 'You conjure a Large, quasi-real, horselike creature (the exact coloration
+      can be customized as you wish). It can be ridden only by you or by the one person
+      for whom you specifically created the mount. A phantom steed has a black head
+      and body, gray mane and tail, and smoke-colored, insubstantial hooves that make
+      no sound. It has what seems to be a saddle, bit, and bridle. It does not fight,
+      but animals shun it and refuse to attack it. The mount is AC 18 (-1 size, +4
+      natural armor, +5 Dex) and 7 hit points + 1 hit point per caster level. If it
+      loses all its hit points, the phantom steed disappears. A phantom steed has
+      a speed of 20 feet per two caster levels, to a maximum of 100 feet at 10th level.
+      It can bear its rider''s weight plus up to 10 pounds per caster level. These
+      mounts gain certain powers according to caster level. A mount''s abilities include
+      those of mounts of lower caster levels. 8th Level: The mount can ride over sandy,
+      muddy, or even swampy ground without difficulty or decrease in speed. 10th Level:
+      The mount can use water walk at will (as the spell, no action required to activate
+      this ability). 12th Level: The mount can use air walk at will (as the spell,
+      no action required to activate this ability) for up to 1 round at a time, after
+      which it falls to the ground. 14th Level: The mount can fly at its speed with
+      a bonus on Fly skill checks equal to your caster level.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Protection from Energy
+    alias_en_ingles: Protection from Energy
+    nivel: 3
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, DF
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 10 min./level or until discharged
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: Protection from energy grants temporary immunity to the type of energy
+      you specify when you cast it (acid, cold, electricity, fire, or sonic). When
+      the spell absorbs 12 points per caster level of energy damage (to a maximum
+      of 120 points at 10th level), it is discharged. Protection from energy overlaps
+      (and does not stack with) resist energy. If a character is warded by protection
+      from energy and resist energy, the protection spell absorbs damage until its
+      power is exhausted.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Seek Thoughts
+    alias_en_ingles: Seek Thoughts
+    nivel: 3
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a handful of copper coins)
+      materiales:
+    alcance: 40 ft.
+    objetivo:
+    efecto:
+    area: 40-ft.-radius emanation centered on you
+    duracion: concentration, up to 1 minute/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros:
+    descripcion: Similar to detect thoughts, seek thoughts allows you to sift through
+      the surface thoughts of those around you. You may scan for either the answer
+      to a simple question (such as "Where is the hidden lair of the wererats?") or
+      for information on a general topic (such as the beliefs of an evil cult). You
+      detect the number of creatures who are thinking about this question or topic
+      within range, as well as their location if they are visible to you. Seek thoughts
+      does not let you read actual surface thoughts, only if a given creature is thinking
+      about the topic you are concentrating on. A successful Will save prevents you
+      from sensing a creature's thoughts for the duration of the spell. You can maintain
+      concentration on seek thoughts while you engage in normal conversation, allowing
+      you to ask leading questions about topics of interest. A creature conversing
+      with you while you concentrate can notice that you are distracted with a successful
+      DC 25 Sense Motive check.
+    fuente:
+      libro: Guía del jugador avanzada
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Shrink Item
+    alias_en_ingles: Shrink Item
+    nivel: 3
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: touch
+    objetivo: one touched object of up to 2 cu. ft./level
+    efecto:
+    area:
+    duracion: 1 day/level; see text
+    cancelable: false
+    tirada_de_salvacion: Will negates (object)
+    resistencia_a_conjuros: yes (object)
+    descripcion: You are able to shrink one nonmagical item (if it is within the size
+      limit) to 1/16 of its normal size in each dimension (to about 1/4,000 the original
+      volume and mass). This change effectively reduces the object's size by four
+      categories. Optionally, you can also change its now shrunken composition to
+      a clothlike one. Objects changed by a shrink item spell can be returned to normal
+      composition and size merely by tossing them onto any solid surface or by a word
+      of command from the original caster. Even a burning fire and its fuel can be
+      shrunk by this spell. Restoring the shrunken object to its normal size and composition
+      ends the spell. Shrink item can be made permanent with a permanency spell, in
+      which case the affected object can be shrunk and expanded an indefinite number
+      of times, but only by the original caster.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Sleet Storm
+    alias_en_ingles: Sleet Storm
+    nivel: 3
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (dust and water)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto:
+    area: cylinder (40-ft. radius, 20 ft. high)
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: Driving sleet blocks all sight (even darkvision) within it and causes
+      the ground in the area to be icy. A creature can walk within or through the
+      area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means
+      it can't move in that round, while failure by 5 or more means it falls (see
+      the Acrobatics skill for details). The sleet extinguishes torches and small
+      fires.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Slow
+    alias_en_ingles: Slow
+    nivel: 3
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a drop of molasses)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one creature/level, no two of which can be more than 30 ft. apart
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: An affected creature moves and attacks at a drastically slowed rate.
+      Creatures affected by this spell are staggered and can take only a single move
+      action or standard action each turn, but not both (nor may it take full-round
+      actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex
+      saves. A slowed creature moves at half its normal speed (round down to the next
+      5-foot increment), which affects the creature's jumping distance as normal for
+      decreased speed. Multiple slow effects don't stack. Slow counters and dispels
+      haste.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Stinking Cloud
+    alias_en_ingles: Stinking Cloud
+    nivel: 3
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a rotten egg or cabbage leaves)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: cloud spreads in 20-ft. radius, 20 ft. high
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Fortitude negates; see text
+    resistencia_a_conjuros:
+    descripcion: Stinking cloud creates a bank of fog like that created by fog cloud,
+      except that the vapors are nauseating. Living creatures in the cloud become
+      nauseated. This condition lasts as long as the creature is in the cloud and
+      for 1d4+1 rounds after it leaves. (Roll separately for each nauseated character.)
+      Any creature that succeeds on its save but remains in the cloud must continue
+      to save each round on your turn. This is a poison effect. Stinking cloud can
+      be made permanent with a permanency spell. A permanent stinking cloud dispersed
+      by wind reforms in 10 minutes.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Summon Monster III
+    alias_en_ingles: Summon Monster III
+    nivel: 3
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S, F/DF (a tiny bag and a small candle)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one summoned creature
+    area:
+    duracion: 1 round/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell functions like summon monster I, except that you can summon
+      one creature from the 3rd-level list, 1d3 creatures of the same kind from the
+      2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Tongues
+    alias_en_ingles: Tongues
+    nivel: 3
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, M/DF (a clay model of a ziggurat)
+      materiales:
+    alcance: touch
+    objetivo: creature touched
+    efecto:
+    area:
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros:
+    descripcion: This spell grants the creature touched the ability to speak and understand
+      the language of any intelligent creature, whether it is a racial tongue or a
+      regional dialect. The subject can speak only one language at a time, although
+      it may be able to understand several languages. Tongues does not enable the
+      subject to speak with creatures who don't speak. The subject can make itself
+      understood as far as its voice carries. This spell does not predispose any creature
+      addressed toward the subject in any way. Tongues can be made permanent with
+      a permanency spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Water Breathing
+    alias_en_ingles: Water Breathing
+    nivel: 3
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (short reed or piece of straw)
+      materiales:
+    alcance: touch
+    objetivo: living creatures touched
+    efecto:
+    area:
+    duracion: 2 hours/level; see text
+    cancelable: false
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: The transmuted creatures can breathe water freely. Divide the duration
+      evenly among all the creatures you touch. The spell does not make creatures
+      unable to breathe air.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Arcane Eye
+    alias_en_ingles: Arcane Eye
+    nivel: 4
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 10 minutes
+    componentes:
+      abreviatura: V, S, M (a bit of bat fur)
+      materiales:
+    alcance: unlimited
+    objetivo:
+    efecto: magical sensor
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: You create an invisible magical sensor that sends you visual information.
+      You can create the arcane eye at any point you can see, but it can then travel
+      outside your line of sight without hindrance. An arcane eye travels at 30 feet
+      per round (300 feet per minute) if viewing an area ahead as a human would (primarily
+      looking at the floor) or 10 feet per round (100 feet per minute) if examining
+      the ceiling and walls as well as the floor ahead. It sees exactly as you would
+      see if you were there. The eye can travel in any direction as long as the spell
+      lasts. Solid barriers block its passage, but it can pass through a hole or space
+      as small as 1 inch in diameter. The eye can't enter another plane of existence,
+      even through a gate or similar magical portal. You must concentrate to use an
+      arcane eye. If you do not concentrate, the eye is inert until you again concentrate.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Black Tentacles
+    alias_en_ingles: Black Tentacles
+    nivel: 4
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (octopus or squid tentacle)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto:
+    area: 20-ft.-radius spread
+    duracion: 1 round/level (D)
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell causes a field of rubbery black tentacles to appear, burrowing
+      up from the floor and reaching for any creature in the area. Every creature
+      within the area of the spell is the target of a combat maneuver check made to
+      grapple each round at the beginning of your turn, including the round that black
+      tentacles is cast. Creatures that enter the area of effect are also automatically
+      attacked. The tentacles do not provoke attacks of opportunity. When determining
+      the tentacles' CMB, the tentacles use your caster level as their base attack
+      bonus and receive a +4 bonus due to their Strength and a +1 size bonus. Roll
+      only once for the entire spell effect each round and apply the result to all
+      creatures in the area of effect. If the tentacles succeed in grappling a foe,
+      that foe takes 1d6+4 points of damage and gains the grappled condition. Grappled
+      opponents cannot move without first breaking the grapple. All other movement
+      is prohibited unless the creature breaks the grapple first. The black tentacles
+      spell receives a +5 bonus on grapple checks made against opponents it is already
+      grappling, but cannot move foes or pin foes. Each round that black tentacles
+      succeeds on a grapple check, it deals an additional 1d6+4 points of damage.
+      The CMD of black tentacles, for the purposes of escaping the grapple, is equal
+      to 10 + its CMB. The tentacles created by this spell cannot be damaged, but
+      they can be dispelled as normal. The entire area of effect is considered difficult
+      terrain while the tentacles last.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Charm Monster
+    alias_en_ingles: Charm Monster
+    nivel: 4
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo: one living creature
+    efecto:
+    area:
+    duracion: 1 day/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell functions like charm person, except that the effect is
+      not restricted by creature type or size.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Confusion
+    alias_en_ingles: Confusion
+    nivel: 4
+    escuela: Encantamiento
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (three nutshells)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: all creatures in a 15-ft.-radius burst
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: This spell causes confusion in the targets, making them unable to
+      determine their actions. Roll on the following table at the start of each subject's
+      turn each round to see what it does in that round. d% Behavior 01-25 Act normally
+      26-50 Do nothing but babble incoherently 51-75 Deal 1d8 points of damage + Str
+      modifier to self with item in hand 76-100 Attack nearest creature (for this
+      purpose, a familiar counts as part of the subject's self) A confused character
+      who can't carry out the indicated action does nothing but babble incoherently.
+      Attackers are not at any special advantage when attacking a confused character.
+      Any confused character who is attacked automatically attacks its attackers on
+      its next turn, as long as it is still confused when its turn comes. Note that
+      a confused character will not make attacks of opportunity against any creature
+      that it is not already devoted to attacking (either because of its most recent
+      action or because it has just been attacked).
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Dimension Door
+    alias_en_ingles: Dimension Door
+    nivel: 4
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo: you and touched objects or other touched willing creatures
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none and Will negates (object)
+    resistencia_a_conjuros: and yes (object)
+    descripcion: You instantly transfer yourself from your current location to any
+      other spot within range. You always arrive at exactly the spot desired--whether
+      by simply visualizing the area or by stating direction. After using this spell,
+      you can't take any other actions until your next turn. You can bring along objects
+      as long as their weight doesn't exceed your maximum load. You may also bring
+      one additional willing Medium or smaller creature (carrying gear or objects
+      up to its maximum load) or its equivalent per three caster levels. A Large creature
+      counts as two Medium creatures, a Huge creature counts as two Large creatures,
+      and so forth. All creatures to be transported must be in contact with one another,
+      and at least one of those creatures must be in contact with you. If you arrive
+      in a place that is already occupied by a solid body, you and each creature traveling
+      with you take 1d6 points of damage and are shunted to a random open space on
+      a suitable surface within 100 feet of the intended location. If there is no
+      free space within 100 feet, you and each creature traveling with you take an
+      additional 2d6 points of damage and are shunted to a free space within 1,000
+      feet. If there is no free space within 1,000 feet, you and each creature travelling
+      with you take an additional 4d6 points of damage and the spell simply fails.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Dimensional Anchor
+    alias_en_ingles: Dimensional Anchor
+    nivel: 4
+    escuela: Abjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: ray
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: yes (object)
+    descripcion: A green ray springs from your hand. You must make a ranged touch
+      attack to hit the target. Any creature or object struck by the ray is covered
+      with a shimmering emerald field that completely blocks extradimensional travel.
+      Forms of movement barred by a dimensional anchor include astral projection,
+      blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift,
+      shadow walk, teleport, and similar spell-like abilities. The spell also prevents
+      the use of a gate or teleportation circle for the duration of the spell. A dimensional
+      anchor does not interfere with the movement of creatures already in ethereal
+      or astral form when the spell is cast, nor does it block extradimensional perception
+      or attack forms. Also, dimensional anchor does not prevent summoned creatures
+      from disappearing at the end of a summoning spell.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Enervation
+    alias_en_ingles: Enervation
+    nivel: 4
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: ray of negative energy
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: You point your finger and fire a black ray of negative energy that
+      suppresses the life force of any living creature it strikes. You must make a
+      ranged touch attack to hit. If you hit, the subject gains 1d4 temporary negative
+      levels (see Appendix 1). Negative levels stack. Assuming the subject survives,
+      it regains lost levels after a number of hours equal to your caster level (maximum
+      15 hours). Usually, negative levels have a chance of becoming permanent, but
+      the negative levels from enervation don't last long enough to do so. An undead
+      creature struck by the ray gains 1d4 x 5 temporary hit points for 1 hour.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Fear
+    alias_en_ingles: Fear
+    nivel: 4
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (the heart of a hen or a white feather)
+      materiales:
+    alcance: 30 ft.
+    objetivo:
+    efecto:
+    area: cone-shaped burst
+    duracion: 1 round/level or 1 round; see text
+    cancelable: false
+    tirada_de_salvacion: Will partial
+    resistencia_a_conjuros: sí
+    descripcion: An invisible cone of terror causes each living creature in the area
+      to become panicked unless it succeeds on a Will save. If cornered, a panicked
+      creature begins cowering. If the Will save succeeds, the creature is shaken
+      for 1 round.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Invisibility, Greater
+    alias_en_ingles: Invisibility, Greater
+    nivel: 4
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: personal or touch
+    objetivo: you or creature touched
+    efecto:
+    area:
+    duracion: 1 round/level
+    cancelable: true
+    tirada_de_salvacion: Will negates (harmless)
+    resistencia_a_conjuros: yes (harmless)
+    descripcion: This spell functions like invisibility, except that it doesn't end
+      if the subject attacks.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Locate Creature
+    alias_en_ingles: Locate Creature
+    nivel: 4
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (fur from a bloodhound)
+      materiales:
+    alcance: long (400 ft. + 40 ft./level)
+    objetivo:
+    efecto:
+    area: circle, centered on you, with a radius of 400 ft. + 40 ft./level
+    duracion: 10 min./level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell functions like locate object, except this spell locates
+      a known creature. You slowly turn and sense when you are facing in the direction
+      of the creature to be located, provided it is within range. You also know in
+      which direction the creature is moving, if any. The spell can locate a creature
+      of a specific kind or a specific creature known to you. It cannot find a creature
+      of a certain type. To find a kind of creature, you must have seen such a creature
+      up close (within 30 feet) at least once. Running water blocks the spell. It
+      cannot detect objects. It can be fooled by mislead, nondetection, and polymorph
+      spells.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Phantasmal Killer
+    alias_en_ingles: Phantasmal Killer
+    nivel: 4
+    escuela: Ilusión
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one living creature
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: Will disbelief, then Fortitude partial; see text
+    resistencia_a_conjuros: sí
+    descripcion: 'You create a phantasmal image of the most fearsome creature imaginable
+      to the subject simply by forming the fears of the subject''s subconscious mind
+      into something that its conscious mind can visualize: this most horrible beast.
+      Only the spell''s subject can see the phantasmal killer. You see only a vague
+      shape. The target first gets a Will save to recognize the image as unreal. If
+      that save fails, the phantasm touches the subject, and the subject must succeed
+      on a Fortitude save or die from fear. Even if the Fortitude save is successful,
+      the subject takes 3d6 points of damage. If the subject of a phantasmal killer
+      attack succeeds in disbelieving and possesses telepathy or is wearing a helm
+      of telepathy, the beast can be turned upon you. You must then disbelieve it
+      or become subject to its deadly fear attack.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Resilient Sphere
+    alias_en_ingles: Resilient Sphere
+    nivel: 4
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a crystal sphere)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: 1-ft.-diameter/level sphere, centered around a creature
+    area:
+    duracion: 1 min./level
+    cancelable: true
+    tirada_de_salvacion: Reflex negates
+    resistencia_a_conjuros: sí
+    descripcion: A globe of shimmering force encloses a creature, provided the creature
+      is small enough to fit within the diameter of the sphere. The sphere contains
+      its subject for the spell's duration. The sphere functions as a wall of force,
+      except that it can be negated by dispel magic. A subject inside the sphere can
+      breathe normally. The sphere cannot be physically moved either by people outside
+      it or by the struggles of those within.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Scrying
+    alias_en_ingles: Scrying
+    nivel: 4
+    escuela: Adivinación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 hour
+    componentes:
+      abreviatura: V, S, M/DF (a pool of water), F (a silver mirror worth 1,000 gp)
+      materiales: '1'
+    alcance: see text
+    objetivo:
+    efecto: magical sensor
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Will negates
+    resistencia_a_conjuros: sí
+    descripcion: 'You can observe a creature at any distance. If the subject succeeds
+      on a Will save, the spell fails. The difficulty of the save depends on how well
+      your knowledge of the subject and what sort of physical connection (if any)
+      you have to that creature. Furthermore, if the subject is on another plane,
+      it gets a +5 bonus on its Will save. Will Save Knowledge M odifier None* +10
+      Secondhand (you have heard of the subject) +5 Firsthand (you have met the subject)
+      +0 Familiar (you know the subject well) -5 *You must have some sort of connection
+      (see below) to a creature of which you have no knowledge. Will Save Connection
+      M odifier Likeness or picture -2 Possession or garment -4 Body part, lock of
+      hair, bit of nail, etc. -10 If the save fails, you can see and hear the subject
+      and its surroundings (approximately 10 feet in all directions of the subject).
+      If the subject moves, the sensor follows at a speed of up to 150 feet. As with
+      all divination (scrying) spells, the sensor has your full visual acuity, including
+      any magical effects. In addition, the following spells have a 5% chance per
+      caster level of operating through the sensor: detect chaos, detect evil, detect
+      good, detect law, detect magic, and message. If the save succeeds, you can''t
+      attempt to scry on that subject again for at least 24 hours.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Summon Monster IV
+    alias_en_ingles: Summon Monster IV
+    nivel: 4
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 round
+    componentes:
+      abreviatura: V, S, F/DF (a tiny bag and a small candle)
+      materiales:
+    alcance: close (25 ft. + 5 ft./2 levels)
+    objetivo:
+    efecto: one summoned creature
+    area:
+    duracion: 1 round/level
+    cancelable: true
+    tirada_de_salvacion: none
+    resistencia_a_conjuros:
+    descripcion: This spell functions like summon monster I, except that you can summon
+      one creature from the 4th-level list, 1d3 creatures of the same kind from the
+      3rd-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Wall Of Fire
+    alias_en_ingles: Wall Of Fire
+    nivel: 4
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M/DF (a piece of phosphor)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: opaque sheet of flame up to 20 ft. long/level or a ring of fire with a
+      radius of up to 5 ft./two levels; either form 20 ft. high
+    area:
+    duracion: concentration + 1 round/level
+    cancelable: false
+    tirada_de_salvacion: none
+    resistencia_a_conjuros: sí
+    descripcion: An immobile, blazing curtain of shimmering violet fire springs into
+      existence. One side of the wall, selected by you, sends forth waves of heat,
+      dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points
+      of fire damage to those past 10 feet but within 20 feet. The wall deals this
+      damage when it appears, and to all creatures in the area on your turn each round.
+      In addition, the wall deals 2d6 points of fire damage + 1 point of fire damage
+      per caster level (maximum +20) to any creature passing through it. The wall
+      deals double damage to undead creatures. If you evoke the wall so that it appears
+      where creatures are, each creature takes damage as if passing through the wall.
+      If any 5-foot length of wall takes 20 points or more of cold damage in 1 round,
+      that length goes away. (Do not divide cold damage by 2, as normal for objects.)
+      Wall of fire can be made permanent with a permanency spell. A permanent wall
+      of fire that is extinguished by cold damage becomes inactive for 10 minutes,
+      then reforms at normal strength.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Wall Of Ice
+    alias_en_ingles: Wall Of Ice
+    nivel: 4
+    escuela: Evocación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, M (a piece of quartz or rock crystal)
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: anchored plane of ice, up to one 10-ft. square/level, or hemisphere of
+      ice with a radius of up to 3 ft. + 1 ft./level
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Reflex negates; see text
+    resistencia_a_conjuros: sí
+    descripcion: 'This spell creates an anchored plane of ice or a hemisphere of ice,
+      depending on the version selected. A wall of ice cannot form in an area occupied
+      by physical objects or creatures. Its surface must be smooth and unbroken when
+      created. Any creature adjacent to the wall when it is created may attempt a
+      Reflex save to disrupt the wall as it is being formed. A successful save indicates
+      that the spell automatically fails. Fire can melt a wall of ice, and it deals
+      full damage to the wall (instead of the normal half damage taken by objects).
+      Suddenly melting a wall of ice creates a great cloud of steamy fog that lasts
+      for 10 minutes. Ice Plane: A sheet of strong, hard ice appears. The wall is
+      1 inch thick per caster level. It covers up to a 10-foot-square area per caster
+      level (so a 10th-level wizard can create a wall of ice 100 feet long and 10
+      feet high, a wall 50 feet long and 20 feet high, or any other combination of
+      length and height that does not exceed 1,000 square feet). The plane can be
+      oriented in any fashion as long as it is anchored. A vertical wall need only
+      be anchored on the floor, while a horizontal or slanting wall must be anchored
+      on two opposite sides. Each 10-foot square of wall has 3 hit points per inch
+      of thickness. Creatures can hit the wall automatically. A section of wall whose
+      hit points drop to 0 is breached. If a creature tries to break through the wall
+      with a single attack, the DC for the Strength check is 15 + caster level. Even
+      when the ice has been broken through, a sheet of frigid air remains. Any creature
+      stepping through it (including the one who broke through the wall) takes 1d6
+      points of cold damage + 1 point per caster level (no save). Hemisphere: The
+      wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot
+      per caster level. The hemisphere is as hard to break through as the ice plane
+      form, but it does not deal damage to those who go through a breach.'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Cloudkill
+    alias_en_ingles: Cloudkill
+    nivel: 5
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo:
+    efecto: cloud spreads in 20-ft. radius, 20 ft. high
+    area:
+    duracion: 1 min./level
+    cancelable: false
+    tirada_de_salvacion: Fortitude partial; see text
+    resistencia_a_conjuros:
+    descripcion: This spell generates a bank of fog, similar to a fog cloud, except
+      that its vapors are yellowish green and poisonous. These vapors automatically
+      kill any living creature with 3 or fewer HD (no save). A living creature with
+      4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it
+      takes 1d4 points of Constitution damage on your turn each round while in the
+      cloud). A living creature with more than 6 HD takes 1d4 points of Constitution
+      damage on your turn each round while in the cloud (a successful Fortitude save
+      halves this damage). Holding one's breath doesn't help, but creatures immune
+      to poison are unaffected by the spell. Unlike a fog cloud, the cloudkill moves
+      away from you at 10 feet per round, rolling along the surface of the ground.
+      Figure out the cloud's new spread each round based on its new point of origin,
+      which is 10 feet farther away from the point of origin where you cast the spell.
+      Because the vapors are heavier than air, they sink to the lowest level of the
+      land, even pouring down den or sinkhole openings. It cannot penetrate liquids,
+      nor can it be cast underwater.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Magic Jar
+    alias_en_ingles: Magic Jar
+    nivel: 5
+    escuela: Nigromancia
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V, S, F (a gem or crystal worth at least 100 gp)
+      materiales: '1'
+    alcance: medium (100 ft. + 10 ft./level)
+    objetivo: one creature
+    efecto:
+    area:
+    duracion: 1 hour/level or until you return to your body
+    cancelable: false
+    tirada_de_salvacion: Will negates; see text
+    resistencia_a_conjuros: sí
+    descripcion: By casting magic jar, you place your soul in a gem or large crystal
+      (known as the magic jar), leaving your body lifeless. Then you can attempt to
+      take control of a nearby body, forcing its soul into the magic jar. You may
+      move back to the jar (thereby returning the trapped soul to its body) and attempt
+      to possess another body. The spell ends when you send your soul back to your
+      own body, leaving the receptacle empty. To cast the spell, the magic jar must
+      be within spell range and you must know where it is, though you do not need
+      line of sight or line of effect to it. When you transfer your soul upon casting,
+      your body is, as near as anyone can tell, dead. While in the magic jar, you
+      can sense and attack any life force within 10 feet per caster level (and on
+      the same plane of existence). You do need line of effect from the jar to the
+      creatures. You cannot determine the exact creature types or positions of these
+      creatures. In a group of life forces, you can sense a difference of 4 or more
+      HD between one creature and another and can determine whether a life force is
+      powered by positive or negative energy. (Undead creatures are powered by negative
+      energy. Only sentient undead creatures have, or are, souls.) You could choose
+      to take over either a stronger or a weaker creature, but which particular stronger
+      or weaker creature you attempt to possess is determined randomly. Attempting
+      to possess a body is a full-round action. It is blocked by protection from evil
+      or a similar ward. You possess the body and force the creature's soul into the
+      magic jar unless the subject succeeds on a Will save. Failure to take over the
+      host leaves your life force in the magic jar, and the target automatically succeeds
+      on further saving throws if you attempt to possess its body again. If you are
+      successful, your life force occupies the host body, and the host's life force
+      is imprisoned in the magic jar. You keep your Intelligence, Wisdom, Charisma,
+      level, class, base attack bonus, base save bonuses, alignment, and mental abilities.
+      The body retains its Strength, Dexterity, Constitution, hit points, natural
+      abilities, and automatic abilities. A body with extra limbs does not allow you
+      to make more attacks (or more advantageous two-weapon attacks) than normal.
+      You can't choose to activate the body's extraordinary or supernatural abilities.
+      The creature's spells and spell-like abilities do not stay with the body. As
+      a standard action, you can shift freely from a host to the magic jar if within
+      range, sending the trapped soul back to its body. The spell ends when you shift
+      from the jar to your own body. If the host body is slain, you return to the
+      magic jar, if within range, and the life force of the host departs (it is dead).
+      If the host body is slain beyond the range of the spell, both you and the host
+      die. Any life force with nowhere to go is treated as slain. If the spell ends
+      while you are in the magic jar, you return to your body (or die if your body
+      is out of range or destroyed). If the spell ends while you are in a host, you
+      return to your body (or die, if it is out of range of your current position),
+      and the soul in the magic jar returns to its body (or dies if it is out of range).
+      Destroying the receptacle ends the spell, and the spell can be dispelled at
+      either the magic jar or the host's location.
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
+  - nombre: Teleport
+    alias_en_ingles: Teleport
+    nivel: 5
+    escuela: Conjuración
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 standard action
+    componentes:
+      abreviatura: V
+      materiales:
+    alcance: personal and touch
+    objetivo: you and touched objects or other touched willing creatures
+    efecto:
+    area:
+    duracion: instantaneous
+    cancelable: false
+    tirada_de_salvacion: none and Will negates (object)
+    resistencia_a_conjuros: and yes (object)
+    descripcion: 'This spell instantly transports you to a designated destination,
+      which may be as distant as 100 miles per caster level. Interplanar travel is
+      not possible. You can bring along objects as long as their weight doesn''t exceed
+      your maximum load. You may also bring one additional willing Medium or smaller
+      creature (carrying gear or objects up to its maximum load) or its equivalent
+      per three caster levels. A Large creature counts as two Medium creatures, a
+      Huge creature counts as four Medium creatures, and so forth. All creatures to
+      be transported must be in contact with one another, and at least one of those
+      creatures must be in contact with you. As with all spells where the range is
+      personal and the target is you, you need not make a saving throw, nor is spell
+      resistance applicable to you. Only objects held or in use (attended) by another
+      person receive saving throws and spell resistance. You must have some clear
+      idea of the location and layout of the destination. The clearer your mental
+      image, the more likely the teleportation works. Areas of strong physical or
+      magical energy may make teleportation more hazardous or even impossible. To
+      see how well the teleportation works, roll d% and consult the table at the end
+      of this spell. Refer to the following information for definitions of the terms
+      on the table. Familiarity: "Very familiar" is a place where you have been very
+      often and where you feel at home. "Studied carefully" is a place you know well,
+      either because you can currently physically see it or you''ve been there often.
+      "Seen casually" is a place that you have seen more than once but with which
+      you are not very familiar. "Viewed once" is a place that you have seen once,
+      possibly using magic such as scrying. "False destination" is a place that does
+      not truly exist or if you are teleporting to an otherwise familiar location
+      that no longer exists as such or has been so completely altered as to no longer
+      be familiar to you. When traveling to a false destination, roll 1d20+80 to obtain
+      results on the table, rather than rolling d%, since there is no real destination
+      for you to hope to arrive at or even be off target from. On Target: You appear
+      where you want to be. Off Target: You appear safely a random distance away from
+      the destination in a random direction. Distance off target is d% of the distance
+      that was to be traveled. The direction off target is determined randomly. Similar
+      Area: You wind up in an area that''s visually or thematically similar to the
+      target area. Generally, you appear in the closest similar place within range.
+      If no such area exists within the spell''s range, the spell simply fails instead.
+      Mishap: You and anyone else teleporting with you have gotten "scrambled." You
+      each take 1d10 points of damage, and you reroll on the chart to see where you
+      wind up. For these rerolls, roll 1d20+80. Each time "Mishap" comes up, the characters
+      take more damage and must reroll. O n O ff Similar Familiarity Target Target
+      Area M ishap Very familiar 01-97 98-99 100 - Studied carefully 01-94 95-97 98-99
+      100 Seen casually 01-88 89-94 95-98 99-100 Viewed once 01-76 77-88 89-96 97-100
+      False destination - - 81-92 93-100'
+    fuente:
+      libro: Reglamento básico
+      pagina:
+    verificacion:
+      estado: pendiente
