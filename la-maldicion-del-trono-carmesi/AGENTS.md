@@ -19,6 +19,12 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - `CHANGELOG.md` recoge el historial significativo de correcciones, migraciones y decisiones sobre fichas, inventario y grimorio.
 - `AGENTS.md` fija las reglas de trabajo específicas de esta campaña.
 
+## Documentación auxiliar de referencia
+
+- `treantmonk_guide_wizards_being_a_god.md` es una copia de trabajo en Markdown generada a partir de HTML aportado por el usuario.
+- `treantmonk_guide_wizards_being_a_god.es.md` es su traducción al castellano para consulta dentro de la campaña.
+- Estos dos ficheros son documentación auxiliar y de apoyo táctico; no sustituyen a las fuentes oficiales permitidas de Pathfinder 1.ª edición.
+
 ## Principios de trabajo
 
 - La ficha operativa actual debe vivir en YAML.
@@ -34,6 +40,7 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - Las claves del YAML, los nombres de secciones, las notas y la documentación auxiliar deben escribirse en castellano.
 - Los nombres propios del juego pueden mantenerse en su forma habitual si eso evita ambigüedad.
 - Si un valor estaba en inglés y existe un equivalente claro en castellano, debe normalizarse al castellano.
+- En documentación traducida, si el original contiene escalas de valoración por color, la traducción debe conservar esa semántica con etiquetas textuales explícitas como `[RED]`, `[ORANGE]`, `[GREEN]` y `[BLUE]`.
 
 ## Convenciones para fichas YAML
 
@@ -118,6 +125,7 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - `RolRoyce` puede usarse únicamente como ayuda de correlación o traducción provisional de nombres de conjuros cuando el libro oficial permitido no esté disponible localmente.
 - `RolRoyce` no puede usarse como fuente de verdad de texto reglado. Si se utiliza como apoyo, el conjuro debe quedar marcado como `correlacionado_rolroyce` o `pendiente` hasta validación oficial.
 - Los PDF locales de libros permitidos pueden usarse para verificación, pero no deben añadirse al repositorio salvo petición explícita del usuario.
+- Guías de terceros como la de Treantmonk pueden usarse como documentación táctica o de estilo de juego, pero no como fuente de verdad para reglas de Pathfinder ni para corregir fichas.
 
 ## Convenciones específicas ya fijadas en esta campaña
 
@@ -126,6 +134,8 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - `inventario_netheros.yaml` usa raíz `inventario`, separa `riqueza`, `consumibles` y `objetos_varios`, y deja el equipo equipado en `ficha_netheros.yaml`.
 - `grimorio_netheros.yaml` es el grimorio canónico de Netheros. Usa solo conjuros conocidos y conserva `alias_en_ingles`, `fuente` y `verificacion`.
 - `grimorio_netheros_indice.yaml` existe para facilitar consultas en ChatGPT Projects y no sustituye al grimorio canónico.
+- `treantmonk_guide_wizards_being_a_god.md` debe preservar la estructura del HTML fuente y expresar las valoraciones cromáticas con etiquetas semánticas explícitas, no con color visual.
+- `treantmonk_guide_wizards_being_a_god.es.md` debe mantenerse alineado estructuralmente con la versión inglesa limpia y preservar las mismas etiquetas semánticas de valoración.
 - En familiares:
   - usar una sección `familiar` para la relación con el amo y las reglas base aplicadas;
   - separar beneficios para el amo de capacidades propias del familiar cuando aporte claridad;
@@ -144,6 +154,7 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - Cuando un cambio modifique de forma relevante una ficha, un inventario, un grimorio o un índice derivado operativo, debe actualizarse `CHANGELOG.md`.
 - Cuando un cambio establezca o altere una convención duradera de la campaña, una política de fuentes, una regla de verificación o el papel de un fichero, debe actualizarse también `AGENTS.md`.
 - Si el grimorio cambia materialmente, el índice derivado `grimorio_netheros_indice.yaml` debe revisarse o regenerarse en el mismo cambio.
+- Si se regenera una guía de referencia en Markdown a partir de HTML o texto fuente, la traducción asociada debe revisarse o regenerarse en el mismo cambio cuando exista.
 
 ## Flujo recomendado al editar
 
@@ -179,3 +190,4 @@ Todo lo que no esté en esos libros queda fuera del canon utilizable para esta c
 - No cambiar el esquema de una ficha de forma arbitraria si rompe la consistencia con el resto de fichas de la campaña.
 - No borrar información sin reubicarla cuando una normalización requiera moverla.
 - No elevar una fuente auxiliar no canónica a fuente de verdad.
+- No depender de color HTML o estilos visuales para expresar valoraciones en Markdown; la semántica debe quedar escrita en el propio texto.

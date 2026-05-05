@@ -2,6 +2,25 @@
 
 ## 2026-05-05
 
+### Documentación de referencia
+
+Se añadieron dos documentos auxiliares de consulta basados en la guía de Treantmonk para magos de Pathfinder:
+
+- `treantmonk_guide_wizards_being_a_god.md`
+- `treantmonk_guide_wizards_being_a_god.es.md`
+
+Proceso aplicado:
+- El Markdown en inglés se regeneró a partir de un HTML aportado por el usuario, en lugar de reutilizar una importación previa menos fiable.
+- La estructura del documento se recompuso desde el HTML para conservar mejor títulos, listas, bloques y enlaces.
+- Las valoraciones cromáticas del documento original se preservaron como etiquetas semánticas explícitas: `[RED]`, `[ORANGE]`, `[GREEN]` y `[BLUE]`.
+- La traducción al castellano se rehizo tomando como base el Markdown inglés limpio.
+- Durante esa regeneración de la traducción se corrigieron varias corrupciones heredadas de una versión castellana anterior que había quedado con bloques concatenados o truncados.
+
+Resultado operativo:
+- La versión inglesa queda como referencia estructural limpia.
+- La versión castellana conserva las mismas etiquetas semánticas de valoración y ya no arrastra los errores de concatenación detectados en bloques como `Sleep`, `Expeditious Retreat`, `Flaming Sphere`, `Veil`, `Incendiary Cloud`, `Circle of Death` y `Maze`.
+- Estos documentos se consideran apoyo táctico y de lectura, no fuente de verdad reglada de Pathfinder 1.ª edición.
+
 ### Netheros
 
 Se desglosaron los espacios diarios de `ficha_netheros.yaml` por fuente dentro de `lanzamiento_de_conjuros.espacios_por_nivel`, manteniendo los mismos totales finales.
