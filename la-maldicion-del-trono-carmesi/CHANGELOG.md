@@ -1,5 +1,24 @@
 # Registro de cambios
 
+## 2026-05-05
+
+### Netheros
+
+Se desglosaron los espacios diarios de `ficha_netheros.yaml` por fuente dentro de `lanzamiento_de_conjuros.espacios_por_nivel`, manteniendo los mismos totales finales.
+
+Desglose aplicado:
+- `base_clase`
+- `bonificacion_atributo_clave`
+- `bonificacion_escuela_especialista`
+- `total`
+
+Aclaraciones regladas añadidas a la ficha:
+- Los trucos de nivel `0` se preparan a diario, pero no se consumen al lanzarlos.
+- El espacio adicional de especialista empieza en nivel de conjuro `1`, no en `0`, y debe usarse con conjuros de `Conjuración`.
+
+Fuente reglada utilizada:
+- `Reglamento básico`, tabla de conjuros diarios del mago y regla de espacio adicional del mago especialista.
+
 ## 2026-05-04
 
 ### Netheros

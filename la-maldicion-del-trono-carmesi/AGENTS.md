@@ -54,6 +54,8 @@ Un agente de IA que trabaje en este directorio debe mantener fichas, notas y doc
 - En atributos, usar `valor` y `modificador`.
 - En secciones numéricas derivadas, usar nombres explícitos como `base`, `bonificadores`, `modificador_atributo`, `subtotal` y `total`.
 - En `clase_de_armadura`, desglosar al menos `base`, `bonificadores`, `total`, `toque` y `desprevenido`.
+- En `lanzamiento_de_conjuros.espacios_por_nivel`, desglosar cada nivel por fuente cuando sea relevante, con al menos `base_clase`, `bonificacion_atributo_clave`, cualquier bonificación específica de clase o especialización aplicable, y `total`.
+- Si los conjuros de nivel `0` no se consumen al lanzarse, dejarlo explícito en `notas` dentro de `lanzamiento_de_conjuros`.
 - En habilidades, mantener un formato consistente por habilidad:
   - `atributo`
   - `rangos` cuando aplique

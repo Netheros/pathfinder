@@ -89,6 +89,9 @@ personaje:
     atributo_clave:
       nombre: inteligencia
       modificador: 7
+    notas:
+      - Los trucos de nivel 0 se preparan a diario, pero no se consumen al lanzarlos.
+      - El espacio adicional de especialista a partir de nivel 1 solo puede prepararse con conjuros de Conjuración.
     dificultad_salvacion:
       base_por_nivel:
         nivel_0: 17
@@ -105,12 +108,36 @@ personaje:
         nivel_4: 22
         nivel_5: 23
     espacios_por_nivel:
-      nivel_0: 4
-      nivel_1: 7
-      nivel_2: 7
-      nivel_3: 6
-      nivel_4: 4
-      nivel_5: 3
+      nivel_0:
+        base_clase: 4
+        bonificacion_atributo_clave: 0
+        bonificacion_escuela_especialista: 0
+        total: 4
+      nivel_1:
+        base_clase: 4
+        bonificacion_atributo_clave: 2
+        bonificacion_escuela_especialista: 1
+        total: 7
+      nivel_2:
+        base_clase: 4
+        bonificacion_atributo_clave: 2
+        bonificacion_escuela_especialista: 1
+        total: 7
+      nivel_3:
+        base_clase: 3
+        bonificacion_atributo_clave: 2
+        bonificacion_escuela_especialista: 1
+        total: 6
+      nivel_4:
+        base_clase: 2
+        bonificacion_atributo_clave: 1
+        bonificacion_escuela_especialista: 1
+        total: 4
+      nivel_5:
+        base_clase: 1
+        bonificacion_atributo_clave: 1
+        bonificacion_escuela_especialista: 1
+        total: 3
 
   dotes_y_capacidades_de_clase:
     - nombre: Escuela de magia (Conjuración)
