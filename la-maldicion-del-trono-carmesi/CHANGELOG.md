@@ -9,6 +9,8 @@ Se añadió la `Baraja de presagio` a `inventario_netheros.yaml` dentro de `obje
 Se dejó además una nota narrativa asociada al objeto:
 - `Paimon ha sido absorbido por la baraja y ahora habla a través de ella como consejero del grupo.`
 
+También se actualizaron las cargas de la `Varita de proyectil mágico`, que pasan de `16/50` a `14/50`.
+
 ## 2026-05-05
 
 ### Documentación de referencia

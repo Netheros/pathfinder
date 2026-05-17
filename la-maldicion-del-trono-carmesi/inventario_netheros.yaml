@@ -35,7 +35,7 @@ inventario:
       ubicacion: tunica
       notas:
         - "Nivel de lanzador 3."
-        - "Cargas 16/50."
+        - "Cargas 14/50."
 
     - nombre: Dosis de escalofrio
       cantidad: 6
