@@ -136,3 +136,9 @@ inventario:
     - nombre: Libro de conjuros de Rolth
       cantidad: 1
       ubicacion: casa
+
+    - nombre: Baraja de presagio
+      cantidad: 1
+      ubicacion: mochila
+      notas:
+        - "Paimon ha sido absorbido por la baraja y ahora habla a través de ella como consejero del grupo."

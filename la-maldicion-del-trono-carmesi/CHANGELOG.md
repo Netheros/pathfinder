@@ -1,5 +1,14 @@
 # Registro de cambios
 
+## 2026-05-17
+
+### Inventario de Netheros
+
+Se añadió la `Baraja de presagio` a `inventario_netheros.yaml` dentro de `objetos_varios`, con ubicación `mochila`.
+
+Se dejó además una nota narrativa asociada al objeto:
+- `Paimon ha sido absorbido por la baraja y ahora habla a través de ella como consejero del grupo.`
+
 ## 2026-05-05
 
 ### Documentación de referencia
