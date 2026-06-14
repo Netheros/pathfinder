@@ -1,5 +1,11 @@
 # Registro de cambios
 
+## 2026-06-14
+
+### Inventario de Netheros
+
+Se añadió una `Poción de restablecimiento menor` al inventario de Netheros, consolidando la entrada existente y dejando la cantidad total en `2`.
+
 ## 2026-05-17
 
 ### Inventario de Netheros

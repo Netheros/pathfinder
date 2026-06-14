@@ -127,7 +127,7 @@ inventario:
         - "Nivel de lanzador 3."
 
     - nombre: Pocion de restablecimiento menor
-      cantidad: 1
+      cantidad: 2
       ubicacion: tunica
       notas:
         - "Nivel de lanzador 3."
