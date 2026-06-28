@@ -11,10 +11,10 @@ personaje:
     amo:
       nombre: Netheros
       clase: Mago
-      nivel_efectivo: 9
-      puntos_de_golpe_totales: 66
+      nivel_efectivo: 10
+      puntos_de_golpe_totales: 74
     reglas_base:
-      hd_efectivos_para_efectos: 9
+      hd_efectivos_para_efectos: 10
       puntos_de_golpe: "La mitad de los PG totales del amo, redondeando hacia abajo."
       ataque_base: "Usa el BBA del amo."
       salvaciones: "Usa la mejor base entre el familiar y el amo."
@@ -50,11 +50,11 @@ personaje:
 
   combate:
     puntos_de_golpe:
-      total: 33
-      fuente: "1/2 de los 66 PG totales de Netheros."
+      total: 37
+      fuente: "1/2 de los 74 PG totales de Netheros."
     iniciativa:
       total: 2
-    ataque_base: 4
+    ataque_base: 5
     clase_de_armadura:
       base: 10
       bonificadores:
@@ -66,7 +66,7 @@ personaje:
       desprevenido: 17
     ataques_naturales:
       - nombre: Mordisco
-        bonificador_ataque: 8
+        bonificador_ataque: 9
         dano: "1d3-4"
         bonificadores:
           destreza: 2
@@ -80,8 +80,8 @@ personaje:
       espacio: "2,5 pies"
       alcance: "0 pies"
     maniobras:
-      bmc: 4
-      dmc: 10
+      bmc: -1
+      dmc: 11
 
   salvaciones:
     fortaleza:
@@ -99,12 +99,12 @@ personaje:
       bonificadores: {}
       total: 5
     voluntad:
-      base: 6
+      base: 7
       atributo:
         nombre: sabiduria
         modificador: 2
       bonificadores: {}
-      total: 8
+      total: 9
 
   dotes_y_capacidades_de_familiar:
     - nombre: Soltura con habilidad (Percepción)

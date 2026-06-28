@@ -6,8 +6,8 @@ personaje:
 
   clase:
     nombre: Mago
-    nivel: 9
-    nivel_lanzador: 9
+    nivel: 10
+    nivel_lanzador: 10
     especializacion:
       escuela: Conjuración
       subescuela: Teletransporte
@@ -37,10 +37,10 @@ personaje:
 
   combate:
     puntos_de_golpe:
-      total: 66
+      total: 74
     iniciativa:
       total: 6
-    ataque_base: 4
+    ataque_base: 5
     clase_de_armadura:
       base: 10
       bonificadores:
@@ -51,8 +51,8 @@ personaje:
       toque: 13
       desprevenido: 12
     maniobras:
-      bmc: 2
-      dmc: 14
+      bmc: 3
+      dmc: 15
 
   salvaciones:
     bonificadores_comunes:
@@ -77,13 +77,13 @@ personaje:
         objetos: 2
       total: 7
     voluntad:
-      base: 6
+      base: 7
       atributo:
         nombre: sabiduria
         modificador: 0
       bonificadores:
         objetos: 2
-      total: 8
+      total: 9
 
   lanzamiento_de_conjuros:
     atributo_clave:
@@ -92,6 +92,7 @@ personaje:
     notas:
       - Los trucos de nivel 0 se preparan a diario, pero no se consumen al lanzarlos.
       - El espacio adicional de especialista a partir de nivel 1 solo puede prepararse con conjuros de Conjuración.
+      - Encantamiento sigue siendo escuela opuesta, pero sus conjuros ya no requieren 2 espacios gracias a Estudios opuestos.
     dificultad_salvacion:
       base_por_nivel:
         nivel_0: 17
@@ -124,26 +125,26 @@ personaje:
         bonificacion_escuela_especialista: 1
         total: 7
       nivel_3:
-        base_clase: 3
+        base_clase: 4
         bonificacion_atributo_clave: 2
         bonificacion_escuela_especialista: 1
-        total: 6
+        total: 7
       nivel_4:
+        base_clase: 3
+        bonificacion_atributo_clave: 1
+        bonificacion_escuela_especialista: 1
+        total: 5
+      nivel_5:
         base_clase: 2
         bonificacion_atributo_clave: 1
         bonificacion_escuela_especialista: 1
         total: 4
-      nivel_5:
-        base_clase: 1
-        bonificacion_atributo_clave: 1
-        bonificacion_escuela_especialista: 1
-        total: 3
 
   dotes_y_capacidades_de_clase:
     - nombre: Escuela de magia (Conjuración)
       descripcion: "Conjuro adicional preparado por nivel de conjuro de conjuración."
     - nombre: Escuelas opuestas
-      descripcion: "Adivinación y Encantamiento cuestan 2 espacios."
+      descripcion: "Adivinación cuesta 2 espacios; Encantamiento queda reducido a coste normal por Estudios opuestos."
     - nombre: Inscribir pergamino
       descripcion: "Crear pergaminos de conjuros conocidos."
     - nombre: Dureza
@@ -164,6 +165,8 @@ personaje:
       descripcion: "+4 concentración defensiva."
     - nombre: Soltura con escuela (Conjuración)
       descripcion: "+1 CD conjuros de conjuración."
+    - nombre: Estudios opuestos (Encantamiento)
+      descripcion: "Los conjuros de Encantamiento dejan de costar 2 espacios y desaparece el penalizador de -4 a Fabricar objetos mágicos de esa escuela."
 
   aptitudes:
     encantamiento_del_convocador:
@@ -173,7 +176,7 @@ personaje:
         una duración aumentada. Añades 1/2 de tu nivel de mago en asaltos
         adicionales a la duración base del conjuro.
       valores_actuales:
-        duracion_adicional: "+4 asaltos"
+        duracion_adicional: "+5 asaltos"
 
     desplazamiento:
       tipo: poder de escuela (Teletransporte)
@@ -182,7 +185,7 @@ personaje:
         usos_por_dia: 10
       alcance:
         formula: "5 pies por cada 2 niveles"
-        actual: "20 pies"
+        actual: "25 pies"
       descripcion: >
         Puedes teletransportarte instantáneamente a un punto visible dentro del
         alcance. Este movimiento no provoca ataques de oportunidad. Debes tener
@@ -195,7 +198,7 @@ personaje:
         usos_por_dia: 1
       alcance:
         formula: "30 pies por nivel"
-        actual: "270 pies"
+        actual: "300 pies"
       descripcion: >
         Puedes teletransportarte como si lanzaras dimension door. Este
         desplazamiento no provoca ataques de oportunidad. Tras usar esta
@@ -231,12 +234,12 @@ personaje:
   habilidades:
     artesania_escultura:
       atributo: inteligencia
-      rangos: 5
-      subtotal: 8
+      rangos: 6
+      subtotal: 9
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 15
+      total: 16
 
     averiguar_intenciones:
       atributo: sabiduria
@@ -248,12 +251,12 @@ personaje:
 
     conocimiento_de_conjuros:
       atributo: inteligencia
-      rangos: 9
-      subtotal: 12
+      rangos: 10
+      subtotal: 13
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 19
+      total: 20
 
     linguistica:
       atributo: inteligencia
@@ -282,12 +285,12 @@ personaje:
 
     saber_arcano:
       atributo: inteligencia
-      rangos: 9
-      subtotal: 12
+      rangos: 10
+      subtotal: 13
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 19
+      total: 20
 
     saber_dungeons:
       atributo: inteligencia
@@ -309,12 +312,12 @@ personaje:
 
     saber_historia:
       atributo: inteligencia
-      rangos: 6
-      subtotal: 9
+      rangos: 7
+      subtotal: 10
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 16
+      total: 17
 
     saber_ingenieria:
       atributo: inteligencia
@@ -329,58 +332,58 @@ personaje:
 
     saber_local:
       atributo: inteligencia
-      rangos: 1
-      subtotal: 4
+      rangos: 2
+      subtotal: 5
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 11
+      total: 12
 
     saber_los_planos:
       atributo: inteligencia
-      rangos: 8
-      subtotal: 11
+      rangos: 9
+      subtotal: 12
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 18
+      total: 19
 
     saber_naturaleza:
       atributo: inteligencia
-      rangos: 8
-      subtotal: 11
+      rangos: 9
+      subtotal: 12
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 18
+      total: 19
 
     saber_nobleza:
       atributo: inteligencia
-      rangos: 8
-      subtotal: 11
+      rangos: 9
+      subtotal: 12
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 18
+      total: 19
 
     saber_religion:
       atributo: inteligencia
-      rangos: 8
-      subtotal: 11
+      rangos: 9
+      subtotal: 12
       bonificadores:
         clase: 3
       modificador_atributo: 7
-      total: 18
+      total: 19
 
     tasacion:
       atributo: inteligencia
-      rangos: 3
-      subtotal: 9
+      rangos: 4
+      subtotal: 10
       bonificadores:
         clase: 3
         familiar_cuervo: 3
       modificador_atributo: 7
-      total: 16
+      total: 17
 
     volar:
       atributo: destreza

@@ -4,14 +4,14 @@ indice_grimorio:
   fuente_canonica: grimorio_netheros.yaml
   uso: Indice compacto para recuperacion rapida en ChatGPT Projects.
   resumen:
-    total_conjuros: 127
+    total_conjuros: 131
     conjuros_por_nivel:
       nivel_0: 22
       nivel_1: 31
       nivel_2: 34
       nivel_3: 21
       nivel_4: 16
-      nivel_5: 3
+      nivel_5: 7
   niveles:
     nivel_0:
     - nombre: Abrir/cerrar
@@ -515,8 +515,24 @@ indice_grimorio:
       fuente: Reglamento básico
       verificacion: verificado_pdf_local
     nivel_5:
+    - nombre: Dominar persona
+      alias_en_ingles: Dominate Person
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Muro de piedra
+      alias_en_ingles: Wall Of Stone
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
     - nombre: Nube aniquiladora
       alias_en_ingles: Cloudkill
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Permanencia
+      alias_en_ingles: Permanency
+      fuente: Reglamento básico
+      verificacion: verificado_pdf_local
+    - nombre: Telecinesis
+      alias_en_ingles: Telekinesis
       fuente: Reglamento básico
       verificacion: verificado_pdf_local
     - nombre: Teletransportar

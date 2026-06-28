@@ -3565,6 +3565,68 @@ grimorio:
       pagina: 361
     verificacion:
       estado: verificado_pdf_local
+  - nombre: Dominar persona
+    alias_en_ingles: Dominate Person
+    nivel: 5
+    escuela: Encantamiento
+    subescuela: compulsión
+    descriptores:
+    - enajenador
+    tiempo_de_lanzamiento: 1 asalto
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: corto (25 pies + 5 pies/2 niveles)
+    objetivo: un humanoide
+    efecto:
+    area:
+    duracion: 1 día/nivel
+    cancelable: false
+    tirada_de_salvacion: Voluntad niega
+    resistencia_a_conjuros: sí
+    descripcion: |-
+      Puedes controlar las acciones de cualquier criatura humanoide mediante un vínculo telepático con la mente del receptor.
+      Si compartís algún idioma, normalmente puedes obligarlo a hacer algo que desees, siempre dentro de los límites de sus posibilidades. Si no tenéis ningún idioma en común, sólo puedes darle órdenes básicas, como “ven”, “ve allí”, “lucha” y “quieto”. El efecto no te permite recibir las sensaciones directas de la persona y ésta no puede comunicarse telepáticamente contigo, pero eres consciente de lo que le sucede.
+      Una vez que das una orden a una criatura dominada, ésta continúa intentando llevarla a cabo, dejando de lado todas las demás actividades, salvo las necesarias para su supervivencia diaria (como dormir, comer, etc.). Debido a su limitado ámbito de actividades, una prueba de Averiguar intenciones contra CD 15 (en lugar de CD 25) puede determinar que su comportamiento está influenciado por un efecto de encantamiento.
+      Cambiar tus órdenes, o dar a la criatura dominada una nueva orden es equivalente a redirigir un conjuro, lo que se trata como una acción de movimiento.
+      Concentrándote completamente en el conjuro (una acción estándar) puedes recibir la información sensorial completa que está interpretando la mente del receptor, aunque éste sigue sin poder comunicarse contigo.
+      Los receptores se resisten a este control, y cualquier objetivo obligado a llevar a cabo acciones en contra de su naturaleza tiene derecho a una nueva tirada de salvación con un bonificador +2. Las órdenes claramente autodestructivas no son llevadas a cabo. Una vez que el control se ha establecido, el alcance en el que puede ejercerse es ilimitado, siempre que el receptor y tú estéis en el mismo plano. No necesitas ver al objetivo para controlarlo.
+      Si no dedicas al menos 1 asalto por día a concentrarte en el conjuro, el receptor tiene derecho a una nueva salvación para liberarse.
+      Protección contra el mal u otro conjuro semejante puede impedirte ejercer tu control, o usar el vínculo telepático mientras el receptor está protegido, pero no lo disipa automáticamente.
+    fuente:
+      libro: Reglamento básico
+      pagina: 284
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Muro de piedra
+    alias_en_ingles: Wall Of Stone
+    nivel: 5
+    escuela: Conjuración
+    subescuela: creación
+    descriptores:
+    - tierra
+    tiempo_de_lanzamiento: 1 acción estándar
+    componentes:
+      abreviatura: V, S, M/FD
+      materiales: un pequeño bloque de granito
+    alcance: intermedio (100 pies + 10 pies/nivel)
+    objetivo:
+    efecto: muro de piedra con un área máxima de 1 cuadrado de 5 pies de lado/nivel (Mo)
+    area:
+    duracion: instantáneo
+    cancelable: false
+    tirada_de_salvacion: ver texto
+    resistencia_a_conjuros: 'no'
+    descripcion: |-
+      Este conjuro crea un muro de roca que se une a las superficies de roca adyacentes. Un muro de piedra tiene 1 pulgada de espesor por cada 4 niveles de lanzador y está compuesto como máximo de 1 cuadrado de 5 pies de lado por nivel, aunque puedes duplicar el área del muro dividiendo por dos su espesor. El muro no puede conjurarse en un espacio ocupado por otro objeto o criatura.
+      Al contrario de lo que sucede con muro de hierro, puedes crear un muro de piedra prácticamente de cualquier forma que desees. No necesita ser vertical, ni descansar sobre ninguna base firme, aunque para ello debe estar unido y firmemente sujeto a piedra ya existente. Puede utilizarse, por ejemplo, para crear un puente que cruce un abismo, o bien como rampa. En este caso, si la extensión es superior a 20 pies, el muro debe tener forma de arco y estar apuntalado, lo cual reduce a la mitad el área del conjuro. El muro puede ser modelado toscamente para dotarlo de almenas y demás añadidos, reduciendo su área de forma proporcional.
+      Al igual que cualquier otra pared de piedra, ésta puede ser destruida por un conjuro de desintegrar, o empleando medios normales, como rompiéndolo o picándolo. Cada cuadrado de 5 pies de lado del muro tiene 15 pg por pulgada de espesor y dureza 8. Toda sección del muro cuyos pg quedan reducidos a 0 se rompe. Si una criatura intenta atravesar el muro de un solo ataque, la CD de la prueba de Fuerza es 20 + 2 por pulgada de espesor.
+      Es posible, si bien difícil, atrapar debajo de un muro de piedra a oponentes con capacidad de movimiento, siempre y cuando la pared posea una forma que permita retenerlos. Las víctimas pueden evitar el encierro teniendo éxito en una salvación de Reflejos.
+    fuente:
+      libro: Reglamento básico
+      pagina: 324
+    verificacion:
+      estado: verificado_pdf_local
   - nombre: Nube aniquiladora
     alias_en_ingles: Cloudkill
     nivel: 5
@@ -3593,6 +3655,66 @@ grimorio:
     fuente:
       libro: Reglamento básico
       pagina: 327
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Permanencia
+    alias_en_ingles: Permanency
+    nivel: 5
+    escuela: Universal
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 2 asaltos
+    componentes:
+      abreviatura: V, S, M
+      materiales: ver las tablas del conjuro
+    alcance: ver texto
+    objetivo: ver texto
+    efecto:
+    area:
+    duracion: permanente; ver texto
+    cancelable: false
+    tirada_de_salvacion: ninguno
+    resistencia_a_conjuros: 'no'
+    descripcion: |-
+      Este conjuro hace que otros conjuros se vuelvan permanentes. Primero lanzas el conjuro deseado y luego lanzas permanencia.
+      Dependiendo del conjuro, debes tener un nivel de lanzador mínimo e invertir una cantidad de po en polvo de diamante como componente material.
+      Puedes hacer permanentes los siguientes conjuros respecto a ti: Comprensión idiomática (nivel de lanzador mínimo 9º, coste 2.500 po), Detectar magia (9º, 2.500 po), Don de lenguas (11º, 7.500 po), Leer magia (9º, 2.500 po), Ver lo invisible (10º, 5.000 po), Visión en la oscuridad (10º, 5.000 po) y Vista arcana (11º, 7.500 po). No puedes lanzar tales conjuros sobre otras criaturas y esta aplicación de permanencia sólo puede ser disipada por un lanzador de nivel superior al que tienes en el momento de lanzar el conjuro.
+      Además de los de uso personal, este conjuro puede emplearse para hacer permanentes los siguientes conjuros sobre ti, sobre otra criatura o sobre un objeto, según corresponda: Agrandar persona (9º, 2.500 po), Colmillo mágico (9º, 2.500 po), Colmillo mágico mayor (11º, 7.500 po), Reducir persona (9º, 2.500 po), Resistencia (9º, 2.500 po) y Vínculo telepático (13º, 12.500 po; solo une a dos criaturas por lanzamiento de permanencia).
+      Los siguientes conjuros también pueden ser lanzados solamente sobre objetos o áreas y dotados de permanencia: Alarma (9º, 2.500 po), Animar los objetos (14º, 15.000 po), Boca mágica (10º, 5.000 po), Bruma sólida (12º, 10.000 po), Círculo de teletransporte (17º, 22.500 po), Encoger objeto (11º, 7.500 po), Esfera prismática (17º, 22.500 po), Invisibilidad (10º, 5.000 po), Luces danzantes (9º, 2.500 po), Muro de fuego (12º, 10.000 po), Muro de fuerza (13º, 12.500 po), Muro prismático (16º, 20.000 po), Nube apestosa (11º, 7.500 po), Puerta en fase (15º, 17.500 po), Ráfaga de viento (11º, 7.500 po), Sanctasanctórum priv. del mago (13º, 12.500 po), Símbolo de aturdimiento (15º, 17.500 po), Símbolo de debilidad (15º, 17.500 po), Símbolo de dolor (13º, 12.500 po), Símbolo de locura (16º, 20.000 po), Símbolo de miedo (14º, 15.000 po), Símbolo de muerte (16º, 20.000 po), Símbolo de persuasión (14º, 15.000 po), Símbolo de sueño (16º, 20.000 po), Sonido fantasma (9º, 2.500 po) y Telaraña (10º, 5.000 po).
+      Los conjuros lanzados sobre otros objetivos poseen una vulnerabilidad normal a disipar magia. El DM puede permitir que otros conjuros sean dotados de permanencia.
+    fuente:
+      libro: Reglamento básico
+      pagina: 332
+    verificacion:
+      estado: verificado_pdf_local
+  - nombre: Telecinesis
+    alias_en_ingles: Telekinesis
+    nivel: 5
+    escuela: Transmutación
+    subescuela:
+    descriptores: []
+    tiempo_de_lanzamiento: 1 acción estándar
+    componentes:
+      abreviatura: V, S
+      materiales:
+    alcance: largo (400 pies + 40 pies/nivel)
+    objetivo: objeto u objetos; ver texto
+    efecto:
+    area:
+    duracion: concentración (hasta 1 asalto/nivel) o instantánea; ver texto
+    cancelable: false
+    tirada_de_salvacion: Voluntad niega (objeto) o ninguno; ver texto
+    resistencia_a_conjuros: sí (objeto), ver texto
+    descripcion: |-
+      Te permite mover criaturas u objetos concentrándote en ellos. Dependiendo de la versión elegida, el conjuro permite generar una fuerza suave y continua, llevar a cabo una serie de maniobras de combate, o ejercer un solo golpe, corto y violento.
+      Fuerza continua: una fuerza continua desplaza 20 pies por asalto a una criatura u objeto que pese, como mucho, 25 libras por nivel de lanzador (máximo 375 libras a nivel 15). Una criatura puede negar este efecto en un objeto atendido por ella teniendo éxito en una salvación de Voluntad o empleando su resistencia a conjuros. Esta versión del conjuro dura, como máximo, 1 asalto por nivel, pero termina en cuanto dejas de concentrarte. El peso puede moverse verticalmente, horizontalmente o en ambas direcciones. Ningún objeto puede superar tu alcance, y el conjuro termina si intentas llevar dicho objeto más allá. Si dejas de concentrarte por cualquier razón, el objeto cae o se detiene. Un objeto puede manipularse mediante telecinesis igual que con una mano. Por ejemplo, puedes tirar de una cuerda o una palanca, girar una llave, hacer rotar un objeto, etc., siempre y cuando la fuerza requerida se encuentre dentro del límite de peso establecido. Incluso puedes desatar nudos sencillos, aunque las actividades delicadas de este tipo requieren una prueba de Inteligencia CD 15.
+      Maniobra de combate: como alternativa a lo dicho, una vez por asalto puedes utilizar telecinesis para llevar a cabo una embestida, un desarme, una presa (incluyendo sujetar), o un derribo. Resuelve estos intentos de forma normal, salvo que no provocan ataques de oportunidad, utilizas tu nivel de lanzador en lugar de tu bonificador a las maniobras de combate, y sumas tu modificador por Inteligencia en lugar de tu modificador por Fuerza o por Destreza. No se permite salvar contra estos intentos, pero la resistencia a conjuros sigue aplicándose del modo normal. Esta versión del conjuro dura 1 asalto por nivel de lanzador, pero termina si dejas de concentrarte.
+      Empujón violento: la energía del conjuro puede utilizarse en un solo asalto. El efecto te permite empujar a 1 criatura u objeto por nivel de lanzador (máximo 15) que se encuentren dentro del alcance y a 10 pies como máximo unos de otros, arrojándolos contra cualquier objetivo que se encuentre a 10 pies por nivel de todos los objetos movidos. Puedes lanzar de este modo un máximo de 25 libras por nivel de conjuro (máximo 375 libras a nivel 15).
+      Para alcanzar a tu objetivo con los objetos movidos, debes tener éxito en tiradas de ataque (una por cada criatura u objeto lanzado) usando tu ataque base + tu modificador por Inteligencia. Las armas lanzadas infligen daño normal (sin bonificador por Fuerza; las flechas y los virotes causan el mismo daño que una daga de su tamaño cuando se utilizan de este modo). Otros objetos infligen desde 1 pg de daño por cada 25 libras de peso en el caso de objetos poco peligrosos, hasta 1d6 pg por cada 25 libras en el caso de objetos densos y peligrosos. Los objetos y criaturas que fallan su objetivo caen en una casilla adyacente al mismo.
+      Las criaturas que no exceden la capacidad de peso del conjuro también pueden ser lanzadas, pero tienen derecho a una salvación de Voluntad (y a emplear su resistencia a conjuros) para negar el efecto, igual que las criaturas cuyas posesiones intentas lanzar de este modo. Una criatura afectada que es arrojada contra una superficie sólida sufre daño igual que si hubiera caído desde 10 pies de altura (1d6 pg de daño).
+    fuente:
+      libro: Reglamento básico
+      pagina: 359
     verificacion:
       estado: verificado_pdf_local
   - nombre: Teletransportar

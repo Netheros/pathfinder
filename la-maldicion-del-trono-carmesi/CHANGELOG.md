@@ -182,3 +182,47 @@ Clasificación reglada final:
 - Dotes base del cuervo: `Soltura con habilidad (Percepción)`, `Sutileza con las armas`.
 - Beneficios al amo: `Alerta`, `Cuervo familiar (+3 a Tasación)`.
 - Capacidades del familiar: `Evasión mejorada`, `Compartir conjuros`, `Vínculo de empatía`, `Transmitir conjuros de toque`, `Hablar con el amo`, `Hablar con aves`, `Hablar Aurano`.
+
+## 2026-06-28
+
+### Netheros
+
+Se actualizó `ficha_netheros.yaml` para reflejar la subida de Netheros a `mago 10`.
+
+Cambios aplicados:
+- Nivel de clase y nivel de lanzador a `10`.
+- Puntos de golpe totales a `74`.
+- Ataque base a `+5`, `BMC 3` y `DMC 15`.
+- Voluntad total a `+9`.
+- Espacios diarios ajustados a `nivel 3: 7`, `nivel 4: 5` y `nivel 5: 4`.
+- Bonificador actual de `Encantamiento del convocador` ajustado a `+5 asaltos`.
+- `Desplazamiento` actualizado a `25 pies`.
+- `Paso dimensional` actualizado a `300 pies`.
+- Rangos añadidos en `Artesanía (escultura)`, `Conocimiento de conjuros`, `Saber arcano`, `Saber historia`, `Saber local`, `Saber los planos`, `Saber naturaleza`, `Saber nobleza`, `Saber religión` y `Tasación`.
+- Se añadió el descubrimiento arcano `Estudios opuestos (Encantamiento)` y se dejó reflejado que Encantamiento ya no consume dos espacios de conjuro.
+
+### Grimorio
+
+Se ampliaron `grimorio_netheros.yaml` y `grimorio_netheros_indice.yaml` con los conjuros aprendidos al subir de nivel.
+
+Conjuros añadidos y verificados contra el `Reglamento básico`:
+- `Dominar persona`
+- `Muro de piedra`
+- `Permanencia`
+- `Telecinesis`
+
+Estado del índice tras la actualización:
+- `131` conjuros totales.
+- `7` conjuros de nivel `5`.
+
+### Jocorax
+
+Se actualizó `ficha_jocorax.yaml` como familiar de un amo `mago 10`.
+
+Cambios aplicados:
+- Nivel efectivo del amo a `10`.
+- Puntos de golpe del amo a `74` y del familiar a `37`.
+- Ataque base del familiar a `+5`.
+- Mordisco a `+9`.
+- Voluntad total a `+9`.
+- Maniobras corregidas a `BMC -1` y `DMC 11` según las reglas generales de tamaño y características del cuervo.
