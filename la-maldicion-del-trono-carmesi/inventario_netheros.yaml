@@ -108,6 +108,20 @@ inventario:
         - "Nivel de lanzador 3."
         - "Cargas 11/50."
 
+    - nombre: Varita de acelerar
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 8."
+        - "Cargas 15/50."
+
+    - nombre: Varita de escudo
+      cantidad: 1
+      ubicacion: tunica
+      notas:
+        - "Nivel de lanzador 8."
+        - "Cargas 20/50."
+
     - nombre: Pergamino de reanimar muertos
       cantidad: 4
       ubicacion: tunica

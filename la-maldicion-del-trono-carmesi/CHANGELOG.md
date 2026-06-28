@@ -1,5 +1,14 @@
 # Registro de cambios
 
+## 2026-06-28
+
+### Inventario de Netheros
+
+Se añadieron dos varitas nuevas a `inventario_netheros.yaml`, ambas con ubicación `tunica`:
+
+- `Varita de acelerar`, nivel de lanzador `8`, con `15/50` cargas.
+- `Varita de escudo`, nivel de lanzador `8`, con `20/50` cargas.
+
 ## 2026-06-14
 
 ### Inventario de Netheros
