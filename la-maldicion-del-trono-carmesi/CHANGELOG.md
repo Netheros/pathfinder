@@ -9,6 +9,8 @@ Se añadieron dos varitas nuevas a `inventario_netheros.yaml`, ambas con ubicaci
 - `Varita de acelerar`, nivel de lanzador `8`, con `15/50` cargas.
 - `Varita de escudo`, nivel de lanzador `8`, con `20/50` cargas.
 
+También se sumaron `1375` monedas de oro a la riqueza de Netheros, dejando el total en `10275 po`.
+
 ## 2026-06-14
 
 ### Inventario de Netheros
