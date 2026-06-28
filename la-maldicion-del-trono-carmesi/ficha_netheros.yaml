@@ -231,6 +231,16 @@ personaje:
     - nombre: Tomo de pensamiento claro +1
       efecto: "+1 INT permanente"
 
+  efectos_permanentes:
+    - nombre: Ver lo invisible
+      origen: Permanencia
+      objetivo: Netheros
+      nivel_de_lanzador_minimo_requerido: 10
+      coste_en_po: 5000
+      efecto: "Netheros ve criaturas y objetos invisibles de forma continua, como el conjuro ver lo invisible."
+      notas:
+        - "Registrado como efecto permanente activo sobre el propio Netheros."
+
   habilidades:
     artesania_escultura:
       atributo: inteligencia

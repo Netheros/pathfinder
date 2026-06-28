@@ -226,3 +226,10 @@ Cambios aplicados:
 - Mordisco a `+9`.
 - Voluntad total a `+9`.
 - Maniobras corregidas a `BMC -1` y `DMC 11` según las reglas generales de tamaño y características del cuervo.
+
+### Gasto y efecto permanente
+
+Se registró un nuevo gasto y un nuevo efecto permanente operativo:
+- `5.000 po` gastadas en `Permanencia` para lanzar `Ver lo invisible` sobre Netheros.
+- `inventario_netheros.yaml` actualizado de `10.275 po` a `5.275 po`.
+- `ficha_netheros.yaml` actualizada con `Ver lo invisible` como efecto permanente activo sobre el personaje.
